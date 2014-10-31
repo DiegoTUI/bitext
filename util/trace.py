@@ -3,7 +3,7 @@ import sys
 class Trace(object):
   "A tracing class"
 
-  debugmode = False
+  debugmode = True
   quietmode = False
   showlinesmode = False
 
