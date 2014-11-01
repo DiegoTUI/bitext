@@ -70,7 +70,7 @@ class Iterator(object):
 
 	def next(self):
 		"Returns the next batch of hits"
-		return json.loads(requests.get(elasticsearch.url + "/_search/scroll?scroll=1m", data=self.scroll_id).text)
+		return json.loads(requests.get(self.elasticsearch.url + "/_search/scroll?scroll=1m", data=self.scroll_id).text)
 
 ###############################################
 ################ UNIT TESTS ###################
