@@ -47,9 +47,9 @@ class Elasticsearch(object):
 		"Returns the document specified for the idex/type/id provided"
 		return json.loads(requests.get(self.url + "/" + _index + "/" + _type + "/" + _id).text)
 
-	def iterate(self, index, pagesize=100):
+	def iterate(self, _index, pagesize=100):
 		"Returns an iterator for the specified index and page size"
-		return Iterator(self, index, pagesize)
+		return Iterator(self, _index, pagesize)
 
 
 class Iterator(object):
@@ -67,10 +67,12 @@ class Iterator(object):
 			"size":1
 		}
 		self.elasticsearch = elasticsearch
+		print("calling: " + self.elasticsearch.url + "/" + index + "/_search?search_type=scan&scroll=1m")
 		self.scroll_id = json.loads(requests.get(self.elasticsearch.url + "/" + index + "/_search?search_type=scan&scroll=1m", data=json.dumps(query)).text)["_scroll_id"]
 
 	def next(self):
 		"Returns the next batch of hits"
+		print("next: " + self.elasticsearch.url + "/_search/scroll?scroll=1m")
 		return json.loads(requests.get(self.elasticsearch.url + "/_search/scroll?scroll=1m", data=self.scroll_id).text)
 
 ###############################################
@@ -126,13 +128,13 @@ class ElasticsearchTests(unittest.TestCase):
 
 	@unittest.skipIf(not(elasticsearch.is_up()), "irrelevant test if there is no elasticsearch instance")
 	def test04_iterator(self):
-		query={"query":{"match_all":{}}, "size":1}
-		scroll_id = json.loads(requests.get("http://localhost:9200/" + self._index + "/_search?search_type=scan&scroll=1m", data=json.dumps(query)).text)["_scroll_id"]
+		#query={"query":{"match_all":{}}, "size":1}
+		#scroll_id = json.loads(requests.get("http://localhost:9200/" + self._index + "/_search?search_type=scan&scroll=1m", data=json.dumps(query)).text)["_scroll_id"]
 		print(json.loads(requests.get("http://localhost:9200/_search/scroll?scroll=1m", data=scroll_id).text))
-		#iterator = self.elasticsearch.iterate(self._index, 1)
-		#print(iterator.next())
-		#print(iterator.next())
-		#print(iterator.next())
+		iterator = self.elasticsearch.iterate(self._index, 1)
+		print(iterator.next())
+		print(iterator.next())
+		print(iterator.next())
 
 	@unittest.skipIf(not(elasticsearch.is_up()), "irrelevant test if there is no elasticsearch instance")
 	def test05_remove_index(self):
