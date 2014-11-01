@@ -43,6 +43,10 @@ class Elasticsearch(object):
         }
 		return json.loads(requests.post(self.url + "/" + _index + "/" + _type + "/" + _id + "/_update", data=json.dumps(query)).text)
 
+	def get_document(self, _index, _type, _id):
+		"Returns the document specified for the idex/type/id provided"
+		return json.loads(requests.get(self.url + "/" + _index + "/" + _type + "/" + _id))
+
 	def iterate(self, index):
 		"Returns an iterator for the specified index"
 		return Iterator(index)
@@ -86,6 +90,18 @@ class ElasticsearchTests(unittest.TestCase):
 		self.assertEquals(create_index["acknowledged"], True)
 		index_list = self.elasticsearch.list_indexes()
 		self.assertTrue(self.index in index_list)
+
+	@unittest.skipIf(not(elasticsearch.is_up()), "irrelevant test if there is no elasticsearch instance")
+	def test_upsert_documents(self):
+		pass
+
+	@unittest.skipIf(not(elasticsearch.is_up()), "irrelevant test if there is no elasticsearch instance")
+	def test_remove_index(self):
+		remove_index = self.elasticsearch.remove_index(self.index)
+		self.assertTrue("acknowledged" in create_index)
+		self.assertEquals(create_index["acknowledged"], True)
+		index_list = self.elasticsearch.list_indexes()
+		self.assertTrue(not (self.index in index_list))
 
 
 if __name__ == '__main__':
