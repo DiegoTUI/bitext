@@ -116,10 +116,7 @@ class ElasticsearchTests(unittest.TestCase):
 
 	@unittest.skipIf(not(elasticsearch.is_up()), "irrelevant test if there is no elasticsearch instance")
 	def test03_read_document(self):
-		return
-		print(self.elasticsearch.list_indexes())
 		doc = self.elasticsearch.read_document(self._index, self._type, "1")
-		print(json.dumps(doc))
 		self.assertEquals(doc["_index"], self._index)
 		self.assertEquals(doc["_type"], self._type)
 		self.assertEquals(doc["_id"], "1")
