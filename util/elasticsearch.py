@@ -35,7 +35,7 @@ class Elasticsearch(object):
 		"Lists the available indexes in elasticsearch. Returns elasticsearch response"
 		return requests.get(self.url + "/_cat/indices?v").text
 
-	def upsert(self, _index, _type, _id, document):
+	def upsert_document(self, _index, _type, _id, document):
 		"Updates a document in a certain index/type/id and returns elasticsearch response"
 		query = {
             "doc":document,
@@ -43,13 +43,13 @@ class Elasticsearch(object):
         }
 		return json.loads(requests.post(self.url + "/" + _index + "/" + _type + "/" + _id + "/_update", data=json.dumps(query)).text)
 
-	def get_document(self, _index, _type, _id):
+	def read_document(self, _index, _type, _id):
 		"Returns the document specified for the idex/type/id provided"
 		return json.loads(requests.get(self.url + "/" + _index + "/" + _type + "/" + _id))
 
-	def iterate(self, index):
-		"Returns an iterator for the specified index"
-		return Iterator(index)
+	def iterate(self, index, pagesize=100):
+		"Returns an iterator for the specified index and page size"
+		return Iterator(self,index, pagesize)
 
 
 class Iterator(object):
@@ -58,7 +58,7 @@ class Iterator(object):
 	scroll_id = None
 	elasticsearch = None
 
-	def __init__(self, elasticsearch, index, pagesize=100):
+	def __init__(self, elasticsearch, index, pagesize):
 		"Initializes the iterator"
 		query = {
 			"query":{
@@ -80,28 +80,59 @@ class ElasticsearchTests(unittest.TestCase):
 
 	host = "localhost"
 	port = 9200
-	index = "test_index_" + str(time.time())
+	_index = "test_index_" + str(time.time())
+	_type = "test_type"
+	doc1 = {"hotelId":"id1", "score": 2.5}
+	doc2 = {"hotelId":"id2", "score": 3.7}
+
 	elasticsearch = Elasticsearch(host=host, port=port)
 
 	@unittest.skipIf(not(elasticsearch.is_up()), "irrelevant test if there is no elasticsearch instance")
 	def test_create_index(self):
-		create_index = self.elasticsearch.create_index(self.index)
+		create_index = self.elasticsearch.create_index(self._index)
 		self.assertTrue("acknowledged" in create_index)
 		self.assertEquals(create_index["acknowledged"], True)
 		index_list = self.elasticsearch.list_indexes()
-		self.assertTrue(self.index in index_list)
+		self.assertTrue(self._index in index_list)
 
 	@unittest.skipIf(not(elasticsearch.is_up()), "irrelevant test if there is no elasticsearch instance")
 	def test_upsert_documents(self):
+		upsert = elasticsearch.upsert_document(self._index, self._type, "1", self.doc1)
+		self.assertEquals(upsert["_index"], self._index)
+		self.assertEquals(upsert["_type"], self._type)
+		self.assertEquals(upsert["_id"], "1")
+		self.assertEquals(upsert["_version"], 1)
+		upsert = elasticsearch.upsert_document(self._index, self._type, "2", self.doc2)
+		self.assertEquals(upsert["_index"], self._index)
+		self.assertEquals(upsert["_type"], self._type)
+		self.assertEquals(upsert["_id"], "2")
+		self.assertEquals(upsert["_version"], 1)
+		self.doc1["score"] = 7.54
+		upsert = elasticsearch.upsert_document(self._index, self._type, "1", self.doc1)
+		self.assertEquals(upsert["_index"], self._index)
+		self.assertEquals(upsert["_type"], self._type)
+		self.assertEquals(upsert["_id"], "1")
+		self.assertEquals(upsert["_version"], 2)
+
+	@unittest.skipIf(not(elasticsearch.is_up()), "irrelevant test if there is no elasticsearch instance")
+	def test_read_document(self):
+		doc = elasticsearch.read_document(self._index, self._type, "1")
+		self.assertEquals(doc["_index"], self._index)
+		self.assertEquals(doc["_type"], self._type)
+		self.assertEquals(doc["_id"], "1")
+		self.assertEquals(doc["_source"], self.doc1)
+
+	@unittest.skipIf(not(elasticsearch.is_up()), "irrelevant test if there is no elasticsearch instance")
+	def test_iterator(self):
 		pass
 
 	@unittest.skipIf(not(elasticsearch.is_up()), "irrelevant test if there is no elasticsearch instance")
 	def test_remove_index(self):
-		remove_index = self.elasticsearch.remove_index(self.index)
+		remove_index = self.elasticsearch.remove_index(self._index)
 		self.assertTrue("acknowledged" in remove_index)
 		self.assertEquals(remove_index["acknowledged"], True)
 		index_list = self.elasticsearch.list_indexes()
-		self.assertTrue(not (self.index in index_list))
+		self.assertTrue(not (self._index in index_list))
 
 
 if __name__ == '__main__':
