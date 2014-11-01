@@ -125,7 +125,10 @@ class ElasticsearchTests(unittest.TestCase):
 
 	@unittest.skipIf(not(elasticsearch.is_up()), "irrelevant test if there is no elasticsearch instance")
 	def test04_iterator(self):
-		pass
+		iterator = self.elasticsearch.iterate(self._index, 1)
+		print(iterator.netx())
+		print(iterator.netx())
+		print(iterator.netx())
 
 	@unittest.skipIf(not(elasticsearch.is_up()), "irrelevant test if there is no elasticsearch instance")
 	def test05_remove_index(self):
