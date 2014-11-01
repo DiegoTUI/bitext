@@ -89,6 +89,7 @@ class ElasticsearchTests(unittest.TestCase):
 
 	@unittest.skipIf(not(elasticsearch.is_up()), "irrelevant test if there is no elasticsearch instance")
 	def test_create_index(self):
+		print(self._index)
 		create_index = self.elasticsearch.create_index(self._index)
 		self.assertTrue("acknowledged" in create_index)
 		self.assertEquals(create_index["acknowledged"], True)
@@ -97,6 +98,7 @@ class ElasticsearchTests(unittest.TestCase):
 
 	@unittest.skipIf(not(elasticsearch.is_up()), "irrelevant test if there is no elasticsearch instance")
 	def test_upsert_documents(self):
+		print(self._index)
 		upsert = self.elasticsearch.upsert_document(self._index, self._type, "1", self.doc1)
 		self.assertEquals(upsert["_index"], self._index)
 		self.assertEquals(upsert["_type"], self._type)
@@ -131,6 +133,7 @@ class ElasticsearchTests(unittest.TestCase):
 
 	@unittest.skipIf(not(elasticsearch.is_up()), "irrelevant test if there is no elasticsearch instance")
 	def test_remove_index(self):
+		print(self._index)
 		remove_index = self.elasticsearch.remove_index(self._index)
 		self.assertTrue("acknowledged" in remove_index)
 		self.assertEquals(remove_index["acknowledged"], True)
