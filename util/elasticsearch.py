@@ -49,7 +49,7 @@ class Elasticsearch(object):
 
 	def iterate(self, index, pagesize=100):
 		"Returns an iterator for the specified index and page size"
-		return Iterator(self,index, pagesize)
+		return Iterator(self, index, pagesize)
 
 
 class Iterator(object):
@@ -64,7 +64,7 @@ class Iterator(object):
 			"query":{
 				"match_all":{}
 			},
-			"size":pagesize
+			"size":1
 		}
 		self.elasticsearch = elasticsearch
 		self.scroll_id = json.loads(requests.get(self.elasticsearch.url + "/" + index + "/_search?search_type=scan&scroll=1m", data=json.dumps(query)).text)["_scroll_id"]
@@ -126,6 +126,7 @@ class ElasticsearchTests(unittest.TestCase):
 
 	@unittest.skipIf(not(elasticsearch.is_up()), "irrelevant test if there is no elasticsearch instance")
 	def test04_iterator(self):
+		print(self.elasticsearch.read_document(self._index, self._type, "1"))
 		iterator = self.elasticsearch.iterate(self._index, 1)
 		print(iterator.next())
 		print(iterator.next())
