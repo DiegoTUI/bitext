@@ -130,6 +130,7 @@ class ElasticsearchTests(unittest.TestCase):
 	def test04_iterator(self):
 		query={"query":{"match_all":{}}, "size":1}
 		print("requests.get: " + "http://localhost:9200/" + self._index + "/_search?search_type=scan&scroll=1m")
+		print("query: " + json.dumps(query))
 		scroll_id = json.loads(requests.get("http://localhost:9200/" + self._index + "/_search?search_type=scan&scroll=1m", data=json.dumps(query)).text)["_scroll_id"]
 		print(json.loads(requests.get("http://localhost:9200/_search/scroll?scroll=1m", data=scroll_id).text))
 		#iterator = self.elasticsearch.iterate(self._index, 1)
