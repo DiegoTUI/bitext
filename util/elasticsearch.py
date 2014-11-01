@@ -120,6 +120,7 @@ class ElasticsearchTests(unittest.TestCase):
 		self.assertEquals(doc["_index"], self._index)
 		self.assertEquals(doc["_type"], self._type)
 		self.assertEquals(doc["_id"], "1")
+		self.assertTrue(doc["_found"])
 		self.assertEquals(doc["_source"], self.doc1)
 
 	@unittest.skipIf(not(elasticsearch.is_up()), "irrelevant test if there is no elasticsearch instance")
