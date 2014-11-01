@@ -66,7 +66,7 @@ class Iterator(object):
 			}
 		}
 		self.elasticsearch = elasticsearch
-		scroll_id = json.loads(requests.get(self.elasticsearch.url + "/" + index + "/_search?search_type=scan&scroll=1m&size=" + str(pagesize), data=json.dumps(query)).text)["_scroll_id"]
+		self.scroll_id = json.loads(requests.get(self.elasticsearch.url + "/" + index + "/_search?search_type=scan&scroll=1m&size=" + str(pagesize), data=json.dumps(query)).text)["_scroll_id"]
 
 	def next(self):
 		"Returns the next batch of hits"
