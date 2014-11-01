@@ -25,15 +25,15 @@ class Elasticsearch(object):
 
 	def create_index(self, _index):
 		"Creates a new index. Returns elasticsearch response"
-		return json.loads(requests.put(url + "/" + _index).text)
+		return json.loads(requests.put(self.url + "/" + _index).text)
 
 	def remove_index(self, _index):
 		"Removes an index. Returns elasticsearch response"
-		return json.loads(requests.delete(url + "/" + _index).text)
+		return json.loads(requests.delete(self.url + "/" + _index).text)
 
 	def list_indexes(self):
 		"Lists the available indexes in elasticsearch. Returns elasticsearch response"
-		return requests.get(url + "/_cat/indices?v").text
+		return requests.get(self.url + "/_cat/indices?v").text
 
 	def upsert(self, _index, _type, _id, document):
 		"Updates a document in a certain index/type/id and returns elasticsearch response"
@@ -41,7 +41,7 @@ class Elasticsearch(object):
             "doc":document,
             "doc_as_upsert":True
         }
-		return json.loads(requests.post(url + "/" + _index + "/" + _type + "/" + _id + "/_update", data=json.dumps(query)).text)
+		return json.loads(requests.post(self.url + "/" + _index + "/" + _type + "/" + _id + "/_update", data=json.dumps(query)).text)
 
 	def iterate(self, index):
 		"Returns an iterator for the specified index"
