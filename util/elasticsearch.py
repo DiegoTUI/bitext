@@ -99,7 +99,7 @@ class ElasticsearchTests(unittest.TestCase):
 	def test_remove_index(self):
 		remove_index = self.elasticsearch.remove_index(self.index)
 		self.assertTrue("acknowledged" in create_index)
-		self.assertEquals(create_index["acknowledged"], True)
+		self.assertEquals(remove_index["acknowledged"], True)
 		index_list = self.elasticsearch.list_indexes()
 		self.assertTrue(not (self.index in index_list))
 
