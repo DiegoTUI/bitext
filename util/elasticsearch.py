@@ -88,7 +88,7 @@ class ElasticsearchTests(unittest.TestCase):
 	elasticsearch = Elasticsearch(host=host, port=port)
 
 	@unittest.skipIf(not(elasticsearch.is_up()), "irrelevant test if there is no elasticsearch instance")
-	def test_create_index(self):
+	def test01_create_index(self):
 		print("1-create_index: " + self._index)
 		create_index = self.elasticsearch.create_index(self._index)
 		self.assertTrue("acknowledged" in create_index)
@@ -97,7 +97,7 @@ class ElasticsearchTests(unittest.TestCase):
 		self.assertTrue(self._index in index_list)
 
 	@unittest.skipIf(not(elasticsearch.is_up()), "irrelevant test if there is no elasticsearch instance")
-	def test_upsert_documents(self):
+	def test02_upsert_documents(self):
 		print("2-upsert_documents: " + self._index)
 		upsert = self.elasticsearch.upsert_document(self._index, self._type, "1", self.doc1)
 		self.assertEquals(upsert["_index"], self._index)
@@ -117,7 +117,7 @@ class ElasticsearchTests(unittest.TestCase):
 		self.assertEquals(upsert["_version"], 2)
 
 	@unittest.skipIf(not(elasticsearch.is_up()), "irrelevant test if there is no elasticsearch instance")
-	def test_read_document(self):
+	def test03_read_document(self):
 		print("3-read_document")
 		return
 		print(self.elasticsearch.list_indexes())
@@ -129,12 +129,12 @@ class ElasticsearchTests(unittest.TestCase):
 		self.assertEquals(doc["_source"], self.doc1)
 
 	@unittest.skipIf(not(elasticsearch.is_up()), "irrelevant test if there is no elasticsearch instance")
-	def test_iterator(self):
+	def test04_iterator(self):
 		print("4-iterator")
 		pass
 
 	@unittest.skipIf(not(elasticsearch.is_up()), "irrelevant test if there is no elasticsearch instance")
-	def test_remove_index(self):
+	def test05_remove_index(self):
 		print("5-remove_index: " + self._index)
 		remove_index = self.elasticsearch.remove_index(self._index)
 		self.assertTrue("acknowledged" in remove_index)
