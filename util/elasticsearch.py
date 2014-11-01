@@ -97,18 +97,18 @@ class ElasticsearchTests(unittest.TestCase):
 
 	@unittest.skipIf(not(elasticsearch.is_up()), "irrelevant test if there is no elasticsearch instance")
 	def test_upsert_documents(self):
-		upsert = elasticsearch.upsert_document(self._index, self._type, "1", self.doc1)
+		upsert = self.elasticsearch.upsert_document(self._index, self._type, "1", self.doc1)
 		self.assertEquals(upsert["_index"], self._index)
 		self.assertEquals(upsert["_type"], self._type)
 		self.assertEquals(upsert["_id"], "1")
 		self.assertEquals(upsert["_version"], 1)
-		upsert = elasticsearch.upsert_document(self._index, self._type, "2", self.doc2)
+		upsert = self.elasticsearch.upsert_document(self._index, self._type, "2", self.doc2)
 		self.assertEquals(upsert["_index"], self._index)
 		self.assertEquals(upsert["_type"], self._type)
 		self.assertEquals(upsert["_id"], "2")
 		self.assertEquals(upsert["_version"], 1)
 		self.doc1["score"] = 7.54
-		upsert = elasticsearch.upsert_document(self._index, self._type, "1", self.doc1)
+		upsert = self.elasticsearch.upsert_document(self._index, self._type, "1", self.doc1)
 		self.assertEquals(upsert["_index"], self._index)
 		self.assertEquals(upsert["_type"], self._type)
 		self.assertEquals(upsert["_id"], "1")
@@ -116,7 +116,7 @@ class ElasticsearchTests(unittest.TestCase):
 
 	@unittest.skipIf(not(elasticsearch.is_up()), "irrelevant test if there is no elasticsearch instance")
 	def test_read_document(self):
-		doc = elasticsearch.read_document(self._index, self._type, "1")
+		doc = self.elasticsearch.read_document(self._index, self._type, "1")
 		self.assertEquals(doc["_index"], self._index)
 		self.assertEquals(doc["_type"], self._type)
 		self.assertEquals(doc["_id"], "1")
