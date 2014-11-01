@@ -137,12 +137,6 @@ class ElasticsearchTests(unittest.TestCase):
 		index_list = self.elasticsearch.list_indexes()
 		self.assertTrue(not (self._index in index_list))
 
-	@unittest.skipIf(not(elasticsearch.is_up()), "irrelevant test if there is no elasticsearch instance")
-	def tearDown(self):
-		index_list = self.elasticsearch.list_indexes()
-		self.assertTrue(not (self._index in index_list))
-
-
 
 if __name__ == '__main__':
     unittest.main()
