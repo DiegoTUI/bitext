@@ -64,15 +64,13 @@ class Iterator(object):
 			"query":{
 				"match_all":{}
 			},
-			"size":1
+			"size":pagesize
 		}
 		self.elasticsearch = elasticsearch
-		print("calling: " + self.elasticsearch.url + "/" + index + "/_search?search_type=scan&scroll=1m")
 		self.scroll_id = json.loads(requests.get(self.elasticsearch.url + "/" + index + "/_search?search_type=scan&scroll=1m", data=json.dumps(query)).text)["_scroll_id"]
 
 	def next(self):
 		"Returns the next batch of hits"
-		print("next: " + self.elasticsearch.url + "/_search/scroll?scroll=1m")
 		return json.loads(requests.get(self.elasticsearch.url + "/_search/scroll?scroll=1m", data=self.scroll_id).text)
 
 ###############################################
@@ -127,26 +125,12 @@ class ElasticsearchTests(unittest.TestCase):
 		self.assertEquals(doc["_source"], self.doc1)
 
 	@unittest.skipIf(not(elasticsearch.is_up()), "irrelevant test if there is no elasticsearch instance")
-	def test04_iterator(self):
-		query={"query":{"match_all":{}}, "size":1}
-		print("requests.get: " + "http://localhost:9200/" + self._index + "/_search?search_type=scan&scroll=1m")
-		print("query: " + json.dumps(query))
-		scroll_id = json.loads(requests.get("http://localhost:9200/" + self._index + "/_search?search_type=scan&scroll=1m", data=json.dumps(query)).text)["_scroll_id"]
-		print(json.loads(requests.get("http://localhost:9200/_search/scroll?scroll=1m", data=scroll_id).text))
-		#iterator = self.elasticsearch.iterate(self._index, 1)
-		#print(iterator.next())
-		#print(iterator.next())
-		#print(iterator.next())
-
-	@unittest.skipIf(not(elasticsearch.is_up()), "irrelevant test if there is no elasticsearch instance")
-	def test05_remove_index(self):
-		return
+	def test04_remove_index(self):
 		remove_index = self.elasticsearch.remove_index(self._index)
 		self.assertTrue("acknowledged" in remove_index)
 		self.assertEquals(remove_index["acknowledged"], True)
 		index_list = self.elasticsearch.list_indexes()
 		self.assertTrue(not (self._index in index_list))
-
 
 if __name__ == '__main__':
     unittest.main()
