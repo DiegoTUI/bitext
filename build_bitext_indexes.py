@@ -177,7 +177,7 @@ class MainScriptTests(unittest.TestCase):
     	elasticsearch = Elasticsearch("localhost", 9200)
     	elasticsearch.remove_index("test_hotels")
     	elasticsearch.remove_index("test_comments")
-    	elasticsearch.remove_index("test_bitext")
+    	#elasticsearch.remove_index("test_bitext")
     	elasticsearch.remove_index("test_bitext_unique_posneg")
     	elasticsearch.remove_index("test_bitext_unique")
 
