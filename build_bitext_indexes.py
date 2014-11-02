@@ -51,7 +51,7 @@ class MainScript(object):
 	def build_hotels_index(self):
 		Trace.info("Building hotels index...")
 		# build the typemap
-		hotels_keys = CsvManager.read_keys(hotels_file)
+		hotels_keys = CsvManager.read_keys(self.hotels_file)
 		hotels_typemap = dict(zip(hotels_keys[3:], [int]*len(hotels_keys[3:])))
 		# get the bulk of documents
 		hotels = CsvManager.read(self.hotels_file, typemap=hotels_typemap)
