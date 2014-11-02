@@ -151,7 +151,12 @@ class ElasticsearchTests(unittest.TestCase):
 		self.assertEquals(doc["_source"], self.doc1)
 
 	@unittest.skipIf(not(elasticsearch.is_up()), "irrelevant test if there is no elasticsearch instance")
-	def test05_remove_index(self):
+	def test05_iterator(self):
+		i = self.elasticsearch.iterate(self._index, 1)
+		print(i.next())
+
+	@unittest.skipIf(not(elasticsearch.is_up()), "irrelevant test if there is no elasticsearch instance")
+	def test06_remove_index(self):
 		remove_index = self.elasticsearch.remove_index(self._index)
 		self.assertTrue("acknowledged" in remove_index)
 		self.assertEquals(remove_index["acknowledged"], True)
