@@ -10,9 +10,9 @@ class MainScript(object):
 
 	# path of the files
 	filedir = os.path.dirname(os.path.realpath(__file__))
-	hotels_file = os.path.join(self.filedir,"./data/hotels.csv")
-	comments_file = os.path.join(self.filedir,"./data/comments.csv")
-	bitext_file = os.path.join(self.filedir,"./data/bitext_tuipilot.csv")
+	hotels_file = os.path.join(filedir,"./data/hotels.csv")
+	comments_file = os.path.join(filedir,"./data/comments.csv")
+	bitext_file = os.path.join(filedir,"./data/bitext_tuipilot.csv")
 	# indexes
 	hotels_index = "hotels"
 	comments_index = "comments"
