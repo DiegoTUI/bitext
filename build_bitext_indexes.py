@@ -159,6 +159,7 @@ class MainScriptTests(unittest.TestCase):
     	self.assertEquals(comment330952["_source"]["averageWebScore"], 4)
     	# test bitext index
     	last_bitext = elasticsearch.read_document("test_bitext", "POS", "9")
+    	Trace.info(last_bitext)
     	self.assertEquals(last_bitext["_source"]["score"], 2.0)
     	self.assertEquals(last_bitext["_source"]["mailsEnviados"], 37)
     	# test bitext_unique_posneg index
