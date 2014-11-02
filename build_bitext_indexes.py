@@ -82,14 +82,14 @@ class MainScript(object):
 		# iterate the bulk of bitexts and insert the element in each of the indexes
 		for _id,bitext_item in enumerate(bitexts):
 			# add info from hotels
-			hotel = self.elasticsearch.read_document(hotels_index, "_all", bitext_item["hotelSequence"])
+			hotel = self.elasticsearch.read_document(self.hotels_index, "_all", bitext_item["hotelSequence"])
 			if "found" in hotel and hotel["found"]:
 				# add found hotel fields to bitext item
 				bitext_item = dict(bitext_item.items() + hotel["_source"].items())
 			# upsert element
 			bitext_type = bitext_item["section"]
 			del bitext_item["section"]
-			self.elasticsearch.upsert_document(bitext_index, bitext_type, _id)
+			self.elasticsearch.upsert_document(self.bitext_index, bitext_type, _id)
 			# update bitext_unique_posneg index
 			previous_average_score = 0
 			previous_count = 0
@@ -128,7 +128,7 @@ class MainScript(object):
 				"category": previous_categories + separator + bitext_item["category"]
 			}
 			# look for the comment in the comment index
-			comment = self.elasticsearch.read_document(comments_index, "_all", bitext_unique_id)
+			comment = self.elasticsearch.read_document(self.comments_index, "_all", bitext_unique_id)
 			if "found" in comment and comment["found"]:
 				# add found comment averageWebScore to bitext unique item
 				bitext_unique_upsert_doc["averageWebScore"] = comment["_source"]["averageWebScore"]
