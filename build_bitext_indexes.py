@@ -1,6 +1,6 @@
 from util.trace import Trace
 from util.elasticsearch import Elasticsearch
-from util.csv_reader import CsvManager
+from util.csv_manager import CsvManager
 import os.path
 import sys
 import unittest
@@ -51,7 +51,7 @@ class MainScript(object):
 	def build_hotels_index(self):
 		Trace.info("Building hotels index...")
 		# build the typemap
-		hotels_keys = CsvManager.read_keys()
+		hotels_keys = CsvManager.read_keys(hotels_file)
 		hotels_typemap = dict(zip(hotels_keys[3:], [int]*len(hotels_keys[3:])))
 		# get the bulk of documents
 		hotels = CsvManager.read(self.hotels_file, typemap=hotels_typemap)
