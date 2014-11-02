@@ -96,7 +96,7 @@ class MainScript(object):
 			previous_categories = ""
 			separator = ""
 			bitext_unique_posneg_id = bitext_item["commentId"] + bitext_type
-			bitext_unique_posneg_item = self.elasticsearch.read_document(bitext_unique_posneg_index, "_all", bitext_unique_posneg_id)
+			bitext_unique_posneg_item = self.elasticsearch.read_document(self.bitext_unique_posneg_index, "_all", bitext_unique_posneg_id)
 			if "found" in bitext_unique_posneg_item and bitext_unique_posneg_item["found"]:
 				previous_count = bitext_unique_posneg_item["_source"]["count"]
 				previous_average_score = bitext_unique_posneg_item["_source"]["averageScore"]
@@ -116,7 +116,7 @@ class MainScript(object):
 			previous_categories = ""
 			separator = ""
 			bitext_unique_id = bitext_item["commentId"]
-			bitext_unique_item = self.elasticsearch.read_document(bitext_unique_index, "_all", bitext_unique_id)
+			bitext_unique_item = self.elasticsearch.read_document(self.bitext_unique_index, "_all", bitext_unique_id)
 			if "found" in bitext_unique_item and bitext_unique_item["found"]:
 				previous_count = bitext_unique_item["_source"]["count"]
 				previous_average_score = bitext_unique_item["_source"]["averageScore"]
