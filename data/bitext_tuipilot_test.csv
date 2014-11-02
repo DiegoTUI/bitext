@@ -1,0 +1,10 @@
+commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText;categoryMatch;category;score
+330950;50123;;01/06/2013 5:08:55;POS;"Great location";location;Great;Great;quality;4,00
+330950;50123;;01/06/2013 5:08:55;POS;"Great location";location;Great;location;location;4,00
+330952;148611;;01/06/2013 8:28:32;POS;"house keeping staff were very good.";house,keeping,staff;very,good;staff;staff;4,00
+330952;148611;;01/06/2013 8:28:32;POS;"rooms were nice and clean.";rooms;nice,clean;clean;condition;4,00
+330952;148611;;01/06/2013 8:28:32;POS;"rooms were nice and clean.";rooms;nice,clean;rooms;room;4,00
+330952;148611;;01/06/2013 8:28:32;POS;"the gardeners did a wonderful job with the gardens keeping them well maintained.";gardens,keeping;well,maintained;gardens;hotel;2,00
+330956;69559;OldFella;01/06/2013 10:05:18;POS;"The courteous friendliness of the staff, quality of the food and the Arabic architecture all help to make this complex very special.";friendliness,staff;courteous;courteous;staff;2,00
+330956;69559;OldFella;01/06/2013 10:05:18;POS;"The courteous friendliness of the staff, quality of the food and the Arabic architecture all help to make this complex very special.";friendliness,staff;courteous;friendliness;staff;2,00
+330956;69559;OldFella;01/06/2013 10:05:18;POS;"The courteous friendliness of the staff, quality of the food and the Arabic architecture all help to make this complex very special.";friendliness,staff;courteous;staff;staff;2,00
