@@ -61,7 +61,7 @@ class Elasticsearch(object):
 		return docs_upserted
 
 	def read_document(self, _index, _type, _id):
-		"Returns the document specified for the idex/type/id provided"
+		"Returns the document specified for the index/type/id provided"
 		return json.loads(requests.get(self.url + "/" + _index + "/" + _type + "/" + _id).text)
 
 	def count_documents(self, _index):

@@ -40,6 +40,8 @@ class _Main(object):
 		
 		# hotels first
 		self.build_hotels_index()
+		# then comments
+		self.build_comments_index()
 
 	def build_hotels_index(self):
 		Trace.info("Building hotels index...")
@@ -52,6 +54,83 @@ class _Main(object):
 		# bulk_upsert
 		hotels_upserted = elasticsearch.upsert_bulk(self.hotels_index, "destinationCode", "hotelSequence")
 		Trace.info(str(hotels_upserted) + " hotels upserted")
+
+	def build_comments_index(self):
+		Trace.info("Building comments index...")
+		# build the typemap
+		comments_typemap = {"averageWebScore": int}
+		# get the bulk of documents
+		comments = CsvReader.read(self.comments_file, typemap=comments_typemap)
+		Trace.info(str(len(comments)) + " comments read")
+		# bulk_upsert
+		comments_upserted = elasticsearch.upsert_bulk(self.comments_index, "commentId", "hotelSequence")
+		Trace.info(str(comments_upserted) + " comments upserted")
+	
+	def build_bitext_indexes(self):
+		"Builds bitext, bitext_unique and bitext_unique_posneg indexes"
+		Trace.info("Building bitext, bitext_unique and bitext_unique_posneg indexes...")
+		# typemap and replace
+		bitext_replace = [{"pos":10, "find":",", "replace":"."}]
+		bitext_typemap = {"score": float}
+		# get the bulk of bitexts
+		bitexts = CsvReader.read(self.bitext_file, typemap=bitext_typemap, replace=bitext_replace)
+		# iterate the bulk of bitexts and insert the element in each of the indexes
+		for _id,bitext_item in enumerate(bitexts):
+			# add info from hotels
+			hotel = self.elasticsearch.read_document(hotels_index, "_all", bitext_item["hotelSequence"])
+			if "found" in hotel and hotel["found"]:
+				# add found hotel fields to bitext item
+				bitext_item = dict(bitext_item.items() + hotel["_source"].items())
+			# upsert element
+			bitext_type = bitext_item["section"]
+			del bitext_item["section"]
+			self.elasticsearch.upsert_document(bitext_index, bitext_type, _id)
+			# update bitext_unique_posneg index
+			previous_average_score = 0
+			previous_count = 0
+			previous_categories = ""
+			separator = ""
+			bitext_unique_posneg_id = bitext_item["commentId"] + bitext_type
+			bitext_unique_posneg_item = self.elasticsearch.read_document(bitext_unique_posneg_index, "_all", bitext_unique_posneg_id)
+			if "found" in bitext_unique_posneg_item and bitext_unique_posneg_item["found"]:
+				previous_count = bitext_unique_posneg_item["_source"]["count"]
+				previous_average_score = bitext_unique_posneg_item["_source"]["averageScore"]
+				previous_categories = bitext_unique_posneg_item["_source"]["category"]
+				separator = ", "
+			bitext_unique_posneg_upsert_doc = {
+				"section": bitext_type,
+				"averageScore": 1.0*(previous_average_score*previous_count + bitext_item["score"])/(previous_count + 1),
+				"count": previous_count + 1,
+				"category": previous_categories + separator + bitext_item["category"]
+			}
+			# upsert
+			self.elasticsearch.upsert_document(bitext_unique_posneg_index, bitext_item["hotelSequence"], bitext_unique_posneg_id)
+			# update bitext_unique index
+			previous_average_score = 0
+			previous_count = 0
+			previous_categories = ""
+			separator = ""
+			bitext_unique_id = bitext_item["commentId"]
+			bitext_unique_item = self.elasticsearch.read_document(bitext_unique_index, "_all", bitext_unique_id)
+			if "found" in bitext_unique_item and bitext_unique_item["found"]:
+				previous_count = bitext_unique_item["_source"]["count"]
+				previous_average_score = bitext_unique_item["_source"]["averageScore"]
+				previous_categories = bitext_unique_item["_source"]["category"]
+				separator = ", "
+			bitext_unique_upsert_doc = {
+				"averageScore": 1.0*(previous_average_score*previous_count + bitext_item["score"])/(previous_count + 1),
+				"count": previous_count + 1,
+				"category": previous_categories + separator + bitext_item["category"]
+			}
+			# look for the comment in the comment index
+			comment = self.elasticsearch.read_document(comments_index, "_all", bitext_unique_id)
+			if "found" in comment and comment["found"]:
+				# add found comment averageWebScore to bitext unique item
+				bitext_unique_upsert_doc["averageWebScore"] = comment["_source"]["averageWebScore"]
+			# upsert
+			self.elasticsearch.upsert_document(bitext_unique_index, bitext_item["hotelSequence"], bitext_unique_id)
+
+
 
 
 ###############################################
