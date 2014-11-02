@@ -89,7 +89,7 @@ class MainScript(object):
 			# upsert element
 			bitext_type = bitext_item["section"]
 			del bitext_item["section"]
-			self.elasticsearch.upsert_document(self.bitext_index, bitext_type, _id, bitext_item)
+			self.elasticsearch.upsert_document(self.bitext_index, bitext_type, str(_id), bitext_item)
 			# update bitext_unique_posneg index
 			previous_average_score = 0
 			previous_count = 0
