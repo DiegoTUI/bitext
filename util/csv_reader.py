@@ -86,7 +86,7 @@ class CsvManagerTests(unittest.TestCase):
         self.assertEqual(result[1]["score"], 5.56)
 
     def test_read_keys(self):
-        result = CsvManager.read(os.path.join(self.filedir, "../test/test.csv"))
+        result = CsvManager.read_keys(os.path.join(self.filedir, "../test/test.csv"))
         self.assertEqual(result, ["hotelId", "hotelName", "date", "score"])
 
 if __name__ == '__main__':
