@@ -3,6 +3,7 @@ from util.elasticsearch import Elasticsearch
 from util.csv_manager import CsvManager
 import os.path
 import sys
+import json
 import unittest
 
 class MainScript(object):
