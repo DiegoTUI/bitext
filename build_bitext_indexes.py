@@ -145,7 +145,7 @@ class MainScriptTests(unittest.TestCase):
     "Main script unit tests"
 
     def test_script(self):
-    	_Main(test = True)
+    	MainScript(test = True)
     	elasticsearch = Elasticsearch("localhost", 9200)
     	# test hotels index
     	hotel148611 = elasticsearch.read_document("test_hotels", "BAI", "148611")
