@@ -5,7 +5,7 @@ import os.path
 import sys
 import unittest
 
-class _Main(object):
+class MainScript(object):
 	"Builds the three elasticsearch indexes of the bitext prototype and the relations among them"
 
 	# path of the files
@@ -141,7 +141,7 @@ class _Main(object):
 ###############################################
 ################ UNIT TESTS ###################
 ###############################################
-class _MainTests(unittest.TestCase):
+class MainScriptTests(unittest.TestCase):
     "Main script unit tests"
 
     def test_script(self):
@@ -185,4 +185,4 @@ if __name__ == '__main__':
 		unittest.main()
 	else:
 		Trace.info("main")
-    	_Main()
+    	MainScript()
