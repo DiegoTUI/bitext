@@ -70,7 +70,7 @@ class MainScript(object):
 		comments = CsvManager.read(self.comments_file, typemap=comments_typemap, replace=comments_replace)
 		Trace.info(str(len(comments)) + " comments read")
 		# bulk_upsert
-		comments_upserted = self.elasticsearch.upsert_bulk(self.comments_index, "commentId", "hotelSequence", comments)
+		comments_upserted = self.elasticsearch.upsert_bulk(self.comments_index, "hotelSequence", "commentId", comments)
 		Trace.info(str(comments_upserted) + " comments upserted in " + self.comments_index)
 	
 	def build_bitext_indexes(self):
