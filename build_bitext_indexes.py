@@ -109,7 +109,7 @@ class MainScript(object):
 				"category": previous_categories + separator + bitext_item["category"]
 			}
 			# upsert
-			self.elasticsearch.upsert_document(bitext_unique_posneg_index, bitext_item["hotelSequence"], bitext_unique_posneg_id, bitext_unique_posneg_upsert_doc)
+			self.elasticsearch.upsert_document(self.bitext_unique_posneg_index, bitext_item["hotelSequence"], bitext_unique_posneg_id, bitext_unique_posneg_upsert_doc)
 			# update bitext_unique index
 			previous_average_score = 0
 			previous_count = 0
@@ -133,7 +133,7 @@ class MainScript(object):
 				# add found comment averageWebScore to bitext unique item
 				bitext_unique_upsert_doc["averageWebScore"] = comment["_source"]["averageWebScore"]
 			# upsert
-			self.elasticsearch.upsert_document(bitext_unique_index, bitext_item["hotelSequence"], bitext_unique_id, bitext_unique_upsert_doc)
+			self.elasticsearch.upsert_document(self.bitext_unique_index, bitext_item["hotelSequence"], bitext_unique_id, bitext_unique_upsert_doc)
 
 
 
