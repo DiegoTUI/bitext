@@ -57,7 +57,7 @@ class Elasticsearch(object):
 			del document[id_key]
 			upserted = self.upsert_document(_index, _type, _id, document)
 			if (upserted["_id"] == _id):
-				docs_upserted++
+				docs_upserted += 1
 		return docs_upserted
 
 	def read_document(self, _index, _type, _id):
