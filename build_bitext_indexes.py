@@ -58,7 +58,7 @@ class MainScript(object):
 		Trace.info(str(len(hotels)) + " hotels read")
 		# bulk_upsert
 		hotels_upserted = self.elasticsearch.upsert_bulk(self.hotels_index, "destinationCode", "hotelSequence", hotels)
-		Trace.info(str(hotels_upserted) + " hotels upserted")
+		Trace.info(str(hotels_upserted) + " hotels upserted in " + self.hotels_index)
 
 	def build_comments_index(self):
 		Trace.info("Building comments index...")
@@ -68,8 +68,8 @@ class MainScript(object):
 		comments = CsvManager.read(self.comments_file, typemap=comments_typemap)
 		Trace.info(str(len(comments)) + " comments read")
 		# bulk_upsert
-		comments_upserted = elasticsearch.upsert_bulk(self.comments_index, "commentId", "hotelSequence", comments)
-		Trace.info(str(comments_upserted) + " comments upserted")
+		comments_upserted = self.elasticsearch.upsert_bulk(self.comments_index, "commentId", "hotelSequence", comments)
+		Trace.info(str(comments_upserted) + " comments upserted in " + self.comments_index)
 	
 	def build_bitext_indexes(self):
 		"Builds bitext, bitext_unique and bitext_unique_posneg indexes"
