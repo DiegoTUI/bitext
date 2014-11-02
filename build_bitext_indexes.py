@@ -1,7 +1,8 @@
 from util.trace import Trace
 from util.elasticsearch import Elasticsearch
-from util.csv_reader import CsvReader
+from util.csv_reader import CsvManager
 import os.path
+import sys
 import unittest
 
 class _Main(object):
@@ -42,14 +43,18 @@ class _Main(object):
 		self.build_hotels_index()
 		# then comments
 		self.build_comments_index()
+		# then the rest
+		self.build_bitext_indexes()
+
+		Trace.info(("S", "Test s")[test] + "cript finished.")
 
 	def build_hotels_index(self):
 		Trace.info("Building hotels index...")
 		# build the typemap
-		hotels_keys = CsvReader.read_keys()
+		hotels_keys = CsvManager.read_keys()
 		hotels_typemap = dict(zip(hotels_keys[3:], [int]*len(hotels_keys[3:])))
 		# get the bulk of documents
-		hotels = CsvReader.read(self.hotels_file, typemap=hotels_typemap)
+		hotels = CsvManager.read(self.hotels_file, typemap=hotels_typemap)
 		Trace.info(str(len(hotels)) + " hotels read")
 		# bulk_upsert
 		hotels_upserted = elasticsearch.upsert_bulk(self.hotels_index, "destinationCode", "hotelSequence")
@@ -60,7 +65,7 @@ class _Main(object):
 		# build the typemap
 		comments_typemap = {"averageWebScore": int}
 		# get the bulk of documents
-		comments = CsvReader.read(self.comments_file, typemap=comments_typemap)
+		comments = CsvManager.read(self.comments_file, typemap=comments_typemap)
 		Trace.info(str(len(comments)) + " comments read")
 		# bulk_upsert
 		comments_upserted = elasticsearch.upsert_bulk(self.comments_index, "commentId", "hotelSequence")
@@ -73,7 +78,7 @@ class _Main(object):
 		bitext_replace = [{"pos":10, "find":",", "replace":"."}]
 		bitext_typemap = {"score": float}
 		# get the bulk of bitexts
-		bitexts = CsvReader.read(self.bitext_file, typemap=bitext_typemap, replace=bitext_replace)
+		bitexts = CsvManager.read(self.bitext_file, typemap=bitext_typemap, replace=bitext_replace)
 		# iterate the bulk of bitexts and insert the element in each of the indexes
 		for _id,bitext_item in enumerate(bitexts):
 			# add info from hotels
@@ -175,7 +180,9 @@ class _MainTests(unittest.TestCase):
     	elasticsearch.remove_index("test_bitext_unique")
 
 if __name__ == '__main__':
-	if (sys.argv[1] == "test"):
+	if len(sys.argv)>1 and sys.argv[1] == "test":
+		Trace.info("test")
 		unittest.main()
 	else:
+		Trace.info("main")
     	_Main()
