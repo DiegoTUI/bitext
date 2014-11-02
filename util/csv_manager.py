@@ -19,7 +19,7 @@ class CsvManager(object):
         
         if not os.path.isfile(filename): return None
 
-        with open(filename) as csv_file:
+        with open(filename, "rU") as csv_file:
             reader = csv.reader(csv_file, delimiter=delimiter)
             #read keys
             keys = reader.next()
@@ -52,7 +52,7 @@ class CsvManager(object):
 
         if not os.path.isfile(filename): return None
 
-        with open(filename) as csv_file:
+        with open(filename, "rU") as csv_file:
             reader = csv.reader(csv_file, delimiter=delimiter)
             return reader.next()
 
