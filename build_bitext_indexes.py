@@ -92,6 +92,7 @@ class MainScript(object):
 			# upsert element
 			bitext_type = bitext_item["section"]
 			del bitext_item["section"]
+			Trace.info("Upserting in " + self.bitext_index + " - type: " + bitext_type + " - id: " + str(_id))
 			self.elasticsearch.upsert_document(self.bitext_index, bitext_type, str(_id), bitext_item)
 			# update bitext_unique_posneg index
 			previous_average_score = 0
@@ -160,7 +161,7 @@ class MainScriptTests(unittest.TestCase):
     	self.assertEquals(comment330952["_source"]["averageWebScore"], 4)
     	# test bitext index
     	last_bitext = elasticsearch.read_document("test_bitext", "POS", "9")
-    	Trace.info(json.dumps(last_bitext))
+    	self.assertTrue(last_bitext["found"])
     	self.assertEquals(last_bitext["_source"]["score"], 2.0)
     	self.assertEquals(last_bitext["_source"]["mailsEnviados"], 37)
     	# test bitext_unique_posneg index
