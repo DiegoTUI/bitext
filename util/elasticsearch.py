@@ -154,8 +154,8 @@ class ElasticsearchTests(unittest.TestCase):
 
 	@unittest.skipIf(not(elasticsearch.is_up()), "irrelevant test if there is no elasticsearch instance")
 	def test04_count_documents(self):
-		count = self.elasticsearch.count_documents(self._index)
-		self.assertEquals(count,13)
+		count = self.elasticsearch.count_documents("test_index")
+		self.assertEquals(count,1)
 
 	@unittest.skipIf(not(elasticsearch.is_up()), "irrelevant test if there is no elasticsearch instance")
 	def test05_read_document(self):
@@ -168,7 +168,6 @@ class ElasticsearchTests(unittest.TestCase):
 
 	@unittest.skipIf(not(elasticsearch.is_up()), "irrelevant test if there is no elasticsearch instance")
 	def test06_remove_index(self):
-		return
 		remove_index = self.elasticsearch.remove_index(self._index)
 		self.assertTrue("acknowledged" in remove_index)
 		self.assertEquals(remove_index["acknowledged"], True)
