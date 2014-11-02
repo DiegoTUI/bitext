@@ -92,7 +92,6 @@ class MainScript(object):
 			# upsert element
 			bitext_type = bitext_item["section"]
 			del bitext_item["section"]
-			Trace.info("Upserting in " + self.bitext_index + " - type: " + bitext_type + " - id: " + str(_id))
 			self.elasticsearch.upsert_document(self.bitext_index, bitext_type, str(_id), bitext_item)
 			# update bitext_unique_posneg index
 			previous_average_score = 0
@@ -137,6 +136,7 @@ class MainScript(object):
 				# add found comment averageWebScore to bitext unique item
 				bitext_unique_upsert_doc["averageWebScore"] = comment["_source"]["averageWebScore"]
 			# upsert
+			Trace.info("Upserting in " + self.bitext_unique_index + " - type: " + bitext_item["hotelSequence"] + " - id: " + bitext_unique_id)
 			self.elasticsearch.upsert_document(self.bitext_unique_index, bitext_item["hotelSequence"], bitext_unique_id, bitext_unique_upsert_doc)
 
 
