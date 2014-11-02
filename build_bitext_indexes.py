@@ -180,9 +180,10 @@ class MainScriptTests(unittest.TestCase):
     	elasticsearch.remove_index("test_bitext_unique")
 
 if __name__ == '__main__':
-	if len(sys.argv)>1 and sys.argv[1] == "test":
-		Trace.info("test")
-		unittest.main()
-	else:
-		Trace.info("main")
-    	MainScript()
+	unittest.main()
+	#if len(sys.argv)>1 and sys.argv[1] == "test":
+	#	Trace.info("test")
+	#	unittest.main()
+	#else:
+	#	Trace.info("main")
+    #	MainScript()
