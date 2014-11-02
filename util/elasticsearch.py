@@ -1,6 +1,7 @@
 import requests
 import json
 import time
+import os.path
 import unittest
 
 class Elasticsearch(object):
@@ -42,6 +43,22 @@ class Elasticsearch(object):
             "doc_as_upsert":True
         }
 		return json.loads(requests.post(self.url + "/" + _index + "/" + _type + "/" + _id + "/_update", data=json.dumps(query)).text)
+
+	def upsert_bulk(self, _index, type_key, id_key, bulk):
+		"Updates a bulk of documents in the same index."
+		"The type and id of each document are encoded in the document. Keys are provided to retrieve them"
+		"The type and id fields are removed in the document after inserted as _type and _id"
+		"Returns the number of documents upserted."
+		docs_upserted = 0
+		for document in bulk:
+			_type = document[type_key]
+			_id = document[id_key]
+			del document[type_key]
+			del document[id_key]
+			upserted = self.upsert_document(_index, _type, _id, document)
+			if (upserted["_id"] == _id):
+				docs_upserted++
+		return docs_upserted
 
 	def read_document(self, _index, _type, _id):
 		"Returns the document specified for the idex/type/id provided"
@@ -85,6 +102,7 @@ class ElasticsearchTests(unittest.TestCase):
 	_type = "test_type"
 	doc1 = {"hotelId":"id1", "score": 2.5}
 	doc2 = {"hotelId":"id2", "score": 3.7}
+	filedir = os.path.dirname(os.path.realpath(__file__))
 
 	elasticsearch = Elasticsearch(host=host, port=port)
 
@@ -116,7 +134,15 @@ class ElasticsearchTests(unittest.TestCase):
 		self.assertEquals(upsert["_version"], 2)
 
 	@unittest.skipIf(not(elasticsearch.is_up()), "irrelevant test if there is no elasticsearch instance")
-	def test03_read_document(self):
+	def test03_upsert_bulk(self):
+		bulk = json.loads(open(os.path.join(self.filedir, "../test/bulk.json")).read())
+		add_type_array = [{"_type":self._type}] * len(bulk)
+		bulk = dict(bulk.items() + add_type_array.items())
+		upserted = self.elasticsearch.upsert_bulk(self._index, "_type", "hotelId", bulk)
+		self.assertEquals(upserted, len(bulk))
+
+	@unittest.skipIf(not(elasticsearch.is_up()), "irrelevant test if there is no elasticsearch instance")
+	def test04_read_document(self):
 		doc = self.elasticsearch.read_document(self._index, self._type, "1")
 		self.assertEquals(doc["_index"], self._index)
 		self.assertEquals(doc["_type"], self._type)
@@ -125,7 +151,7 @@ class ElasticsearchTests(unittest.TestCase):
 		self.assertEquals(doc["_source"], self.doc1)
 
 	@unittest.skipIf(not(elasticsearch.is_up()), "irrelevant test if there is no elasticsearch instance")
-	def test04_remove_index(self):
+	def test05_remove_index(self):
 		remove_index = self.elasticsearch.remove_index(self._index)
 		self.assertTrue("acknowledged" in remove_index)
 		self.assertEquals(remove_index["acknowledged"], True)

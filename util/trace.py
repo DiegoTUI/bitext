@@ -17,7 +17,7 @@ class Trace(object):
     Trace.show(message, sys.stdout)
 
   @classmethod
-  def message(cls, message):
+  def info(cls, message):
     "Show a trace message"
     if Trace.quietmode:
       return
