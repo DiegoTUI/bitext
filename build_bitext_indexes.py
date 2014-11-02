@@ -53,8 +53,9 @@ class MainScript(object):
 		# build the typemap
 		hotels_keys = CsvManager.read_keys(self.hotels_file)
 		hotels_typemap = dict(zip(hotels_keys[3:], [int]*len(hotels_keys[3:])))
+		hotels_replace = [{"pos":0, "find":".", "replace":""}]
 		# get the bulk of documents
-		hotels = CsvManager.read(self.hotels_file, typemap=hotels_typemap)
+		hotels = CsvManager.read(self.hotels_file, typemap=hotels_typemap, replace=hotels_replace)
 		Trace.info(str(len(hotels)) + " hotels read")
 		# bulk_upsert
 		hotels_upserted = self.elasticsearch.upsert_bulk(self.hotels_index, "destinationCode", "hotelSequence", hotels)
@@ -64,8 +65,9 @@ class MainScript(object):
 		Trace.info("Building comments index...")
 		# build the typemap
 		comments_typemap = {"averageWebScore": int}
+		comments_replace = [{"pos":0, "find":".", "replace":""}, {"pos":1, "find":".", "replace":""}]
 		# get the bulk of documents
-		comments = CsvManager.read(self.comments_file, typemap=comments_typemap)
+		comments = CsvManager.read(self.comments_file, typemap=comments_typemap, replace=comments_replace)
 		Trace.info(str(len(comments)) + " comments read")
 		# bulk_upsert
 		comments_upserted = self.elasticsearch.upsert_bulk(self.comments_index, "commentId", "hotelSequence", comments)
