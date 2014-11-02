@@ -140,6 +140,13 @@ class ElasticsearchTests(unittest.TestCase):
 		bulk = [dict(x.items() + y.items()) for x,y in zip(bulk, add_type_array)]
 		upserted = self.elasticsearch.upsert_bulk(self._index, "_type", "hotelId", bulk)
 		self.assertEquals(upserted, len(bulk))
+		doc = self.elasticsearch.read_document(self._index, self._type, "id10")
+		self.assertEquals(doc["_index"], self._index)
+		self.assertEquals(doc["_type"], self._type)
+		self.assertEquals(doc["_id"], "1")
+		self.assertTrue(doc["found"])
+		self.assertFalse("_type" in doc["_source"])
+		self.assertFalse("hotelId" in doc["_source"])
 
 	@unittest.skipIf(not(elasticsearch.is_up()), "irrelevant test if there is no elasticsearch instance")
 	def test04_read_document(self):
