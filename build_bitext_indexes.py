@@ -169,7 +169,7 @@ class MainScriptTests(unittest.TestCase):
     	self.assertTrue(bitext330956POS["found"])
     	self.assertEquals(bitext330956POS["_source"]["averageScore"], 2.0)
     	# test bitext_unique index
-    	bitext330956 = elasticsearch.read_document("test_bitext_unique_posneg", "69559", "330956")
+    	bitext330956 = elasticsearch.read_document("test_bitext_unique", "69559", "330956")
     	self.assertTrue(bitext330956["found"])
     	self.assertEquals(bitext330956["_source"]["averageScore"], 2.0)
 
