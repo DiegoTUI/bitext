@@ -57,7 +57,7 @@ class MainScript(object):
 		hotels = CsvManager.read(self.hotels_file, typemap=hotels_typemap)
 		Trace.info(str(len(hotels)) + " hotels read")
 		# bulk_upsert
-		hotels_upserted = elasticsearch.upsert_bulk(self.hotels_index, "destinationCode", "hotelSequence")
+		hotels_upserted = self.elasticsearch.upsert_bulk(self.hotels_index, "destinationCode", "hotelSequence")
 		Trace.info(str(hotels_upserted) + " hotels upserted")
 
 	def build_comments_index(self):
