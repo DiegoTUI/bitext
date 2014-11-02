@@ -143,7 +143,7 @@ class ElasticsearchTests(unittest.TestCase):
 		doc = self.elasticsearch.read_document(self._index, self._type, "id10")
 		self.assertEquals(doc["_index"], self._index)
 		self.assertEquals(doc["_type"], self._type)
-		self.assertEquals(doc["_id"], "1")
+		self.assertEquals(doc["_id"], "id10")
 		self.assertTrue(doc["found"])
 		self.assertFalse("_type" in doc["_source"])
 		self.assertFalse("hotelId" in doc["_source"])
