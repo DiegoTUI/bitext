@@ -39,6 +39,16 @@ class CsvManager(object):
                 result.append(dict(zip(keys,typed_line)))
             return result
 
+    @classmethod
+    def read_keys(cls, filename, delimiter=";"):
+        "Read the keys of a given csv file"
+
+        if not os.path.isfile(filename): return None
+
+        with open(filename) as csv_file:
+            reader = csv.reader(csv_file, delimiter=delimiter)
+            return reader.next()
+
 ###############################################
 ################ UNIT TESTS ###################
 ###############################################
@@ -74,6 +84,10 @@ class CsvManagerTests(unittest.TestCase):
         self.assertEqual(result[1]["hotelName"], "name2")
         self.assertEqual(result[1]["date"], "03/03/75")
         self.assertEqual(result[1]["score"], 5.56)
+
+    def test_read_keys(self):
+        result = CsvManager.read(os.path.join(self.filedir, "../test/test.csv"))
+        self.assertEqual(result, ["hotelId", "hotelName", "date", "score"])
 
 if __name__ == '__main__':
     unittest.main()
