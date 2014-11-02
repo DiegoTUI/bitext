@@ -137,7 +137,7 @@ class ElasticsearchTests(unittest.TestCase):
 	def test03_upsert_bulk(self):
 		bulk = json.loads(open(os.path.join(self.filedir, "../test/bulk.json")).read())
 		add_type_array = [{"_type":self._type}] * len(bulk)
-		bulk = dict(bulk.items() + add_type_array.items())
+		bulk = [dict(x.items() + y.items()) for x,y in zip(bulk, add_type_array)]
 		upserted = self.elasticsearch.upsert_bulk(self._index, "_type", "hotelId", bulk)
 		self.assertEquals(upserted, len(bulk))
 
