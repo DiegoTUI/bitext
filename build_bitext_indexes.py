@@ -158,8 +158,6 @@ class MainScriptTests(unittest.TestCase):
     	self.assertTrue(comment330952["found"])
     	self.assertEquals(comment330952["_source"]["averageWebScore"], 4)
     	# test bitext index
-    	count_bitext = elasticsearch.count_documents("test_bitext")
-    	self.assertEquals(count_bitext, 9)
     	last_bitext = elasticsearch.read_document("test_bitext", "POS", "9")
     	self.assertEquals(last_bitext["_source"]["score"], 2.0)
     	self.assertEquals(last_bitext["_source"]["mailsEnviados"], 37)
@@ -177,7 +175,7 @@ class MainScriptTests(unittest.TestCase):
     	elasticsearch = Elasticsearch("localhost", 9200)
     	elasticsearch.remove_index("test_hotels")
     	elasticsearch.remove_index("test_comments")
-    	#elasticsearch.remove_index("test_bitext")
+    	elasticsearch.remove_index("test_bitext")
     	elasticsearch.remove_index("test_bitext_unique_posneg")
     	elasticsearch.remove_index("test_bitext_unique")
 
