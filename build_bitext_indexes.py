@@ -160,7 +160,7 @@ class MainScriptTests(unittest.TestCase):
     	self.assertTrue(comment330952["found"])
     	self.assertEquals(comment330952["_source"]["averageWebScore"], 4)
     	# test bitext index
-    	last_bitext = elasticsearch.read_document("test_bitext", "POS", "9")
+    	last_bitext = elasticsearch.read_document("test_bitext", "POS", "8")
     	self.assertTrue(last_bitext["found"])
     	self.assertEquals(last_bitext["_source"]["score"], 2.0)
     	self.assertEquals(last_bitext["_source"]["mailsEnviados"], 37)
