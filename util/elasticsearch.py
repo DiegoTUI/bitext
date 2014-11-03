@@ -52,6 +52,7 @@ class Elasticsearch(object):
 		"Returns the number of documents upserted."
 		docs_upserted = 0
 		for document in bulk:
+			Trace.info("about to upsert: " + json.dumps(document))
 			_type = document[type_key]
 			_id = document[id_key]
 			del document[type_key]
