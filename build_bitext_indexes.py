@@ -54,7 +54,7 @@ class _Main(object):
 		# build the typemap
 		hotels_keys = CsvManager.read_keys(self.hotels_file)
 		hotels_typemap = dict(zip(hotels_keys[3:], [int]*len(hotels_keys[3:])))
-		hotels_replace = [{"key":"hotelSequence", "find":".", "replace":""}]#, {"key":"mailsEnviados", "find":".", "replace":""}]
+		hotels_replace = [{"key":"hotelSequence", "find":".", "replace":""}, {"key":"mailsEnviados", "find":".", "replace":""}]
 		# get the bulk of documents
 		hotels = CsvManager.read(self.hotels_file, typemap=hotels_typemap, replace=hotels_replace)
 		Trace.info(str(len(hotels)) + " hotels read")
