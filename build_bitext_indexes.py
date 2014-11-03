@@ -6,7 +6,7 @@ import sys
 import json
 import unittest
 
-class MainScript(object):
+class _Main(object):
 	"Builds the three elasticsearch indexes of the bitext prototype and the relations among them"
 
 	# path of the files
@@ -144,11 +144,11 @@ class MainScript(object):
 ###############################################
 ################ UNIT TESTS ###################
 ###############################################
-class MainScriptTests(unittest.TestCase):
+class _MainTests(unittest.TestCase):
     "Main script unit tests"
 
     def test_script(self):
-    	MainScript(test = True)
+    	_Main(test = True)
     	elasticsearch = Elasticsearch("localhost", 9200)
     	# test hotels index
     	hotel148611 = elasticsearch.read_document("test_hotels", "BAI", "148611")
@@ -188,4 +188,4 @@ if __name__ == '__main__':
 		unittest.main(argv=sys.argv[:1], exit=True)
 	else:
 		Trace.info("main")
-    	MainScript()
+    	_Main()
