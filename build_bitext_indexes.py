@@ -185,7 +185,7 @@ if __name__ == '__main__':
 	#unittest.main()
 	if len(sys.argv)>1 and sys.argv[1] == "test":
 		Trace.info("test")
-		unittest.main(argv=sys.argv[:1], exit=False)
+		unittest.main(argv=sys.argv[:1], exit=True)
 	else:
 		Trace.info("main")
     	MainScript()
