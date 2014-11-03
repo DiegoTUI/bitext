@@ -14,7 +14,7 @@ class CsvManager(object):
         "The first line of the file is always the list of keys."
         "It receives a delimiter and a type casting dictionary to convert values to types."
         "If no type casting dictionary is passed, all the values are assumed to be strings."
-        "The replace array passes objects like {'pos':6, 'find':',', replace:'.'} to be applied before the typecasting"
+        "The replace array passes objects like {'key':'hotelId', 'find':',', replace:'.'} to be applied before the typecasting"
         "Returns an array of documents (key, value) with typed values."
         
         if not os.path.isfile(filename): return None
@@ -36,7 +36,8 @@ class CsvManager(object):
                 # replace before typecasting
                 for replace_item in replace:
                     try:
-                        line[replace_item["pos"]] = line[replace_item["pos"]].replace(replace_item["find"], replace_item["replace"])
+                        pos = keys.index(replace_item["key"])
+                        line[pos] = line[pos].replace(replace_item["find"], replace_item["replace"])
                     except:
                         pass
                 try:
@@ -93,7 +94,7 @@ class CsvManagerTests(unittest.TestCase):
         self.assertEqual(result[1]["score"], 5.56)
 
     def test_typemap_replace(self):
-        result = CsvManager.read(os.path.join(self.filedir, "../test/test.csv"), typemap={"score":float}, replace=[{"pos":3, "find":",", "replace":"."}])
+        result = CsvManager.read(os.path.join(self.filedir, "../test/test.csv"), typemap={"score":float}, replace=[{"key":"score", "find":",", "replace":"."}])
         self.assertEqual(len(result),2)
         self.assertEqual(result[0]["hotelId"], "11234")
         self.assertEqual(result[0]["hotelName"], "name1")

@@ -54,7 +54,7 @@ class _Main(object):
 		# build the typemap
 		hotels_keys = CsvManager.read_keys(self.hotels_file)
 		hotels_typemap = dict(zip(hotels_keys[3:], [int]*len(hotels_keys[3:])))
-		hotels_replace = [{"pos":0, "find":".", "replace":""}]
+		hotels_replace = [{"key":"hotelSequence", "find":".", "replace":""}]#, {"key":"mailsEnviados", "find":".", "replace":""}]
 		# get the bulk of documents
 		hotels = CsvManager.read(self.hotels_file, typemap=hotels_typemap, replace=hotels_replace)
 		Trace.info(str(len(hotels)) + " hotels read")
@@ -66,7 +66,7 @@ class _Main(object):
 		Trace.info("Building comments index...")
 		# build the typemap
 		comments_typemap = {"averageWebScore": int}
-		comments_replace = [{"pos":0, "find":".", "replace":""}, {"pos":1, "find":".", "replace":""}]
+		comments_replace = [{"key":"commentId", "find":".", "replace":""}, {"key":"hotelSequence", "find":".", "replace":""}]
 		# get the bulk of documents
 		comments = CsvManager.read(self.comments_file, typemap=comments_typemap, replace=comments_replace)
 		Trace.info(str(len(comments)) + " comments read")
@@ -78,7 +78,7 @@ class _Main(object):
 		"Builds bitext, bitext_unique and bitext_unique_posneg indexes"
 		Trace.info("Building bitext, bitext_unique and bitext_unique_posneg indexes...")
 		# typemap and replace
-		bitext_replace = [{"pos":10, "find":",", "replace":"."}]
+		bitext_replace = [{"key":"score", "find":",", "replace":"."}]
 		bitext_typemap = {"score": float}
 		# get the bulk of bitexts
 		bitexts = CsvManager.read(self.bitext_file, typemap=bitext_typemap, replace=bitext_replace)
@@ -153,7 +153,7 @@ class _MainTests(unittest.TestCase):
     	# test hotels index
     	hotel148611 = elasticsearch.read_document("test_hotels", "BAI", "148611")
     	self.assertTrue(hotel148611["found"])
-    	self.assertEquals(hotel148611["_source"]["mailsEnviados"], 11)
+    	self.assertEquals(hotel148611["_source"]["mailsEnviados"], 1102)
     	# test comments index
     	comment330952 = elasticsearch.read_document("test_comments", "148611", "330952")
     	self.assertTrue(comment330952["found"])
