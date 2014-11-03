@@ -41,7 +41,7 @@ class _Main(object):
 			self.bitext_unique_posneg_index = "test_bitext_unique_posneg"
 		
 		# hotels first
-		self.build_hotels_index()
+		# self.build_hotels_index()
 		# then comments
 		self.build_comments_index()
 		# then the rest
