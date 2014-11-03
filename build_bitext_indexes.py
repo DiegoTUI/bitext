@@ -93,7 +93,7 @@ class _Main(object):
 			bitext_type = bitext_item["section"]
 			del bitext_item["section"]
             Trace.info("upserting bitext " + str(_id))
-			self.elasticsearch.upsert_document(self.bitext_index, bitext_type, str(_id), bitext_item)
+            self.elasticsearch.upsert_document(self.bitext_index, bitext_type, str(_id), bitext_item)
 			# update bitext_unique_posneg index
 			previous_average_score = 0
 			previous_count = 0
