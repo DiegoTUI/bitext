@@ -43,7 +43,8 @@ class Elasticsearch(object):
             "doc":document,
             "doc_as_upsert":True
         }
-		print("about to upsert: " + document)
+		if "commentId" in document:
+			Trace.info("about to upsert: " + document["commentId"])
 		return json.loads(requests.post(self.url + "/" + _index + "/" + _type + "/" + _id + "/_update", data=json.dumps(query)).text)
 
 	def upsert_bulk(self, _index, type_key, id_key, bulk):
