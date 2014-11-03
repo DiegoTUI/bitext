@@ -1122,7 +1122,7 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 332022;156249;SteepleChaser;11/06/2013 11:15:21;NEG;"The large front facing windows  the car park immediately raised the issue of lack of privacy.";car park,issue,privacy;lack;car park;hotel;-2,00
 332022;156249;SteepleChaser;11/06/2013 11:15:21;NEG;"The large front facing windows  the car park immediately raised the issue of lack of privacy.";windows;large;large;size;1,00
 332022;156249;SteepleChaser;11/06/2013 11:15:21;NEG;"The large front facing windows  the car park immediately raised the issue of lack of privacy.";windows;large;windows;room;1,00
-332022;156249;SteepleChaser;11/06/2013 11:15:21;NEG;"The place is brilliantly located, and lovely in terms of dÈcor.";place;located;located;location;1,00
+332022;156249;SteepleChaser;11/06/2013 11:15:21;NEG;"The place is brilliantly located, and lovely in terms of d√©cor.";place;located;located;location;1,00
 332022;156249;SteepleChaser;11/06/2013 11:15:21;NEG;"The worst thing was the pillows.";thing,pillows;worst;pillows;room;-4,00
 332022;156249;SteepleChaser;11/06/2013 11:15:21;NEG;"Upon locating Reception, of the two staff on duty, One was busy assisting a customer with a lost( !)";staff;busy;staff;staff;-2,00
 332022;156249;SteepleChaser;11/06/2013 11:15:21;POS;"Bathroom: good.";Bathroom,,;good;Bathroom;bathroom;2,00
@@ -1476,14 +1476,14 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 332310;1374;Tjittie;13/06/2013 4:26:32;NEG;"Cleaning from room not excellent.";Cleaning,room;not,excellent;room;room;-3,00
 332322;71398;Sue;13/06/2013 8:24:30;NEG;"Noise from air conditioning unit kept me awake nearly all night.";air conditioning,unit;kept;air conditioning;temperature;1,00
 332322;71398;Sue;13/06/2013 8:24:30;NEG;"Noise from air conditioning unit kept me awake nearly all night.";;Noise;Noise;noise;-3,00
-332327;17832;nÌchn·imhsÌ;13/06/2013 10:21:34;NEG;"Great stay.";stay;Great;Great;quality;4,00
-332327;17832;nÌchn·imhsÌ;13/06/2013 10:21:34;POS;"Comfortable, lovely and clean and a great breakfast to start us off on our days of exploring Rome.";breakfast,days,Rome;great;breakfast;food and drinks;4,00
-332327;17832;nÌchn·imhsÌ;13/06/2013 10:21:34;POS;"Comfortable, lovely and clean and a great breakfast to start us off on our days of exploring Rome.";breakfast,days,Rome;lovely,clean;breakfast;food and drinks;5,00
-332327;17832;nÌchn·imhsÌ;13/06/2013 10:21:34;POS;"Comfortable, lovely and clean and a great breakfast to start us off on our days of exploring Rome.";breakfast,days,Rome;lovely,clean;clean;condition;5,00
-332327;17832;nÌchn·imhsÌ;13/06/2013 10:21:34;POS;"Comfortable, lovely and clean and a great breakfast to start us off on our days of exploring Rome.";;Comfortable;Comfortable;comfort;2,00
-332327;17832;nÌchn·imhsÌ;13/06/2013 10:21:34;POS;"Comfortable, lovely and clean and a great breakfast to start us off on our days of exploring Rome.";breakfast,days,Rome;great;great;quality;4,00
-332327;17832;nÌchn·imhsÌ;13/06/2013 10:21:34;POS;"Great, great staff at Hotel Fiume.";staff;Great;Great;quality;4,00
-332327;17832;nÌchn·imhsÌ;13/06/2013 10:21:34;POS;"Great, great staff at Hotel Fiume.";staff;Great;staff;staff;4,00
+332327;17832;n√≠chn√°imhs√≠;13/06/2013 10:21:34;NEG;"Great stay.";stay;Great;Great;quality;4,00
+332327;17832;n√≠chn√°imhs√≠;13/06/2013 10:21:34;POS;"Comfortable, lovely and clean and a great breakfast to start us off on our days of exploring Rome.";breakfast,days,Rome;great;breakfast;food and drinks;4,00
+332327;17832;n√≠chn√°imhs√≠;13/06/2013 10:21:34;POS;"Comfortable, lovely and clean and a great breakfast to start us off on our days of exploring Rome.";breakfast,days,Rome;lovely,clean;breakfast;food and drinks;5,00
+332327;17832;n√≠chn√°imhs√≠;13/06/2013 10:21:34;POS;"Comfortable, lovely and clean and a great breakfast to start us off on our days of exploring Rome.";breakfast,days,Rome;lovely,clean;clean;condition;5,00
+332327;17832;n√≠chn√°imhs√≠;13/06/2013 10:21:34;POS;"Comfortable, lovely and clean and a great breakfast to start us off on our days of exploring Rome.";;Comfortable;Comfortable;comfort;2,00
+332327;17832;n√≠chn√°imhs√≠;13/06/2013 10:21:34;POS;"Comfortable, lovely and clean and a great breakfast to start us off on our days of exploring Rome.";breakfast,days,Rome;great;great;quality;4,00
+332327;17832;n√≠chn√°imhs√≠;13/06/2013 10:21:34;POS;"Great, great staff at Hotel Fiume.";staff;Great;Great;quality;4,00
+332327;17832;n√≠chn√°imhs√≠;13/06/2013 10:21:34;POS;"Great, great staff at Hotel Fiume.";staff;Great;staff;staff;4,00
 332330;128173;Tika;13/06/2013 11:26:45;POS;"Kind staff at reception";staff;Kind;staff;staff;2,00
 332332;50534;netact;13/06/2013 11:36:08;POS;"The staff are friendly, the rooms are small but very clean.";rooms;very,clean;clean;condition;4,00
 332332;50534;netact;13/06/2013 11:36:08;POS;"The staff are friendly, the rooms are small but very clean.";staff;friendly;friendly;staff;2,00
@@ -1561,9 +1561,9 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 332380;139335;PJBF;14/06/2013 1:08:02;POS;"Central location.";location;Central;location;location;1,00
 332380;139335;PJBF;14/06/2013 1:08:02;POS;"Very helpful proprioters .";proprioters;Very,helpful;helpful;staff;4,00
 332384;130065;Paris2uk;14/06/2013 2:35:50;POS;"Lovely hotel with a fab location";location;fab;location;location;4,00
-332393;15178;Carol;14/06/2013 4:25:52;POS;"Nice big room, well located, has a car park, though £15 a night and on a first come/first served basis.";room;Nice,big;big;size;3,00
-332393;15178;Carol;14/06/2013 4:25:52;POS;"Nice big room, well located, has a car park, though £15 a night and on a first come/first served basis.";room;Nice,big;room;room;3,00
-332393;15178;Carol;14/06/2013 4:25:52;POS;"Nice big room, well located, has a car park, though £15 a night and on a first come/first served basis.";room;well;room;room;1,00
+332393;15178;Carol;14/06/2013 4:25:52;POS;"Nice big room, well located, has a car park, though ¬£15 a night and on a first come/first served basis.";room;Nice,big;big;size;3,00
+332393;15178;Carol;14/06/2013 4:25:52;POS;"Nice big room, well located, has a car park, though ¬£15 a night and on a first come/first served basis.";room;Nice,big;room;room;3,00
+332393;15178;Carol;14/06/2013 4:25:52;POS;"Nice big room, well located, has a car park, though ¬£15 a night and on a first come/first served basis.";room;well;room;room;1,00
 332398;61484;;14/06/2013 6:59:23;POS;"Great landscape, nice lobby, friendly staff!";staff;friendly;friendly;staff;2,00
 332398;61484;;14/06/2013 6:59:23;POS;"Great landscape, nice lobby, friendly staff!";landscape;Great;Great;quality;4,00
 332398;61484;;14/06/2013 6:59:23;POS;"Great landscape, nice lobby, friendly staff!";landscape;Great;landscape;location;4,00
@@ -1614,8 +1614,8 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 332433;120892;;15/06/2013 10:29:38;POS;"Free wifi in rooms a big plus.";wifi;Free;wifi;features;1,00
 332438;118055;alagross;15/06/2013 10:52:55;POS;"delicious food so many sorts,nice animation,fantastics shows at night.";sorts,animation;nice;animation;animation;2,00
 332438;118055;alagross;15/06/2013 10:52:55;POS;"delicious food so many sorts,nice animation,fantastics shows at night.";food;delicious;food;food and drinks;3,00
-332443;106955;Lone Tind;15/06/2013 0:46:44;NEG;"The neighbor offers sunbeds for 6Ä ;)) - the hotel is a beach hotel, so beach towels would be nice.";beach,towels;nice;beach;location;2,00
-332443;106955;Lone Tind;15/06/2013 0:46:44;NEG;"The neighbor offers sunbeds for 6Ä ;)) - the hotel is a beach hotel, so beach towels would be nice.";beach,towels;nice;towels;bathroom;2,00
+332443;106955;Lone Tind;15/06/2013 0:46:44;NEG;"The neighbor offers sunbeds for 6‚Ç¨ ;)) - the hotel is a beach hotel, so beach towels would be nice.";beach,towels;nice;beach;location;2,00
+332443;106955;Lone Tind;15/06/2013 0:46:44;NEG;"The neighbor offers sunbeds for 6‚Ç¨ ;)) - the hotel is a beach hotel, so beach towels would be nice.";beach,towels;nice;towels;bathroom;2,00
 332443;106955;Lone Tind;15/06/2013 0:46:44;POS;"Free wi-fi - very nice.";wi;Free;Free;features;1,00
 332443;106955;Lone Tind;15/06/2013 0:46:44;POS;"Very good position at the beach.";position;Very,good;position;location;4,00
 332445;15312;Alyafee;15/06/2013 1:01:07;NEG;"During the night neighboring doors close and open a lot because there was a nightclub in hotel.";doors;close;close;location;1,00
@@ -2036,12 +2036,12 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 332843;161540;;18/06/2013 2:27:30;NEG;"Have to pay extra to have coffee in the room, did not expect that from a 5 star category hotel.";room,star,category,hotel;not;room;room;-1,00
 332843;161540;;18/06/2013 2:27:30;POS;"The staff was very pleasant";staff;very,pleasant;staff;staff;6,00
 332857;172875;Sazzersmithy;18/06/2013 3:58:29;NEG;"Our room was definitely not at 4 star standards!";room,star,standards;not;room;room;-1,00
-332857;172875;Sazzersmithy;18/06/2013 3:58:29;NEG;"Parking price at £7 at day for their own car park, was a little unfair.";Parking,price,£7,day,car park;a little;car park;hotel;0,50
-332857;172875;Sazzersmithy;18/06/2013 3:58:29;NEG;"Parking price at £7 at day for their own car park, was a little unfair.";Parking,price,£7,day,car park;own;car park;hotel;1,00
-332857;172875;Sazzersmithy;18/06/2013 3:58:29;NEG;"Parking price at £7 at day for their own car park, was a little unfair.";Parking,price,£7,day,car park;a little;Parking;features;0,50
-332857;172875;Sazzersmithy;18/06/2013 3:58:29;NEG;"Parking price at £7 at day for their own car park, was a little unfair.";Parking,price,£7,day,car park;own;Parking;features;1,00
-332857;172875;Sazzersmithy;18/06/2013 3:58:29;NEG;"Parking price at £7 at day for their own car park, was a little unfair.";Parking,price,£7,day,car park;a little;price;pricing;0,50
-332857;172875;Sazzersmithy;18/06/2013 3:58:29;NEG;"Parking price at £7 at day for their own car park, was a little unfair.";Parking,price,£7,day,car park;own;price;pricing;1,00
+332857;172875;Sazzersmithy;18/06/2013 3:58:29;NEG;"Parking price at ¬£7 at day for their own car park, was a little unfair.";Parking,price,¬£7,day,car park;a little;car park;hotel;0,50
+332857;172875;Sazzersmithy;18/06/2013 3:58:29;NEG;"Parking price at ¬£7 at day for their own car park, was a little unfair.";Parking,price,¬£7,day,car park;own;car park;hotel;1,00
+332857;172875;Sazzersmithy;18/06/2013 3:58:29;NEG;"Parking price at ¬£7 at day for their own car park, was a little unfair.";Parking,price,¬£7,day,car park;a little;Parking;features;0,50
+332857;172875;Sazzersmithy;18/06/2013 3:58:29;NEG;"Parking price at ¬£7 at day for their own car park, was a little unfair.";Parking,price,¬£7,day,car park;own;Parking;features;1,00
+332857;172875;Sazzersmithy;18/06/2013 3:58:29;NEG;"Parking price at ¬£7 at day for their own car park, was a little unfair.";Parking,price,¬£7,day,car park;a little;price;pricing;0,50
+332857;172875;Sazzersmithy;18/06/2013 3:58:29;NEG;"Parking price at ¬£7 at day for their own car park, was a little unfair.";Parking,price,¬£7,day,car park;own;price;pricing;1,00
 332857;172875;Sazzersmithy;18/06/2013 3:58:29;POS;"Beautiful lobby upon entering, staff very polite and helpful.";staff;very,polite,helpful;helpful;staff;8,00
 332857;172875;Sazzersmithy;18/06/2013 3:58:29;POS;"Beautiful lobby upon entering, staff very polite and helpful.";lobby;Beautiful;lobby;hotel;3,00
 332857;172875;Sazzersmithy;18/06/2013 3:58:29;POS;"Beautiful lobby upon entering, staff very polite and helpful.";staff;very,polite,helpful;polite;staff;8,00
@@ -2170,8 +2170,8 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 332989;92107;Frenchies from London;19/06/2013 1:04:55;POS;"Both were simply good and very good value.";value;good,very,good;value;pricing;6,00
 332989;92107;Frenchies from London;19/06/2013 1:04:55;POS;"Free wifi.";wifi;Free;Free;features;1,00
 332989;92107;Frenchies from London;19/06/2013 1:04:55;POS;"Free wifi.";wifi;Free;wifi;features;1,00
-332989;92107;Frenchies from London;19/06/2013 1:04:55;POS;"Our room (N∞12) had a gorgeous view on Dalmatian Sea and was under the shade of a splendid palm tree.";room,(,N∫12,),view;gorgeous;room;room;4,00
-332989;92107;Frenchies from London;19/06/2013 1:04:55;POS;"Our room (N∞12) had a gorgeous view on Dalmatian Sea and was under the shade of a splendid palm tree.";room,(,N∫12,),view;gorgeous;view;location;4,00
+332989;92107;Frenchies from London;19/06/2013 1:04:55;POS;"Our room (N¬∞12) had a gorgeous view on Dalmatian Sea and was under the shade of a splendid palm tree.";room,(,N¬∫12,),view;gorgeous;room;room;4,00
+332989;92107;Frenchies from London;19/06/2013 1:04:55;POS;"Our room (N¬∞12) had a gorgeous view on Dalmatian Sea and was under the shade of a splendid palm tree.";room,(,N¬∫12,),view;gorgeous;view;location;4,00
 332989;92107;Frenchies from London;19/06/2013 1:04:55;POS;"Sunbeds are provided by the Villa for free and a big barbecue is also available.";barbecue;big,available;big;size;3,00
 332989;92107;Frenchies from London;19/06/2013 1:04:55;POS;"Sunbeds are provided by the Villa for free and a big barbecue is also available.";Sunbeds,Villa;for free;for free;features;1,00
 332989;92107;Frenchies from London;19/06/2013 1:04:55;POS;"The Villa car park is not located on site but is just over 400m along the main road.";Villa,car park;not,located;car park;hotel;-1,00
@@ -2338,10 +2338,10 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 333186;71398;matthewB;21/06/2013 11:59:40;NEG;"Very tired old Georgian building.";building;Very,tired,old;building;hotel;-6,00
 333186;71398;matthewB;21/06/2013 11:59:40;NEG;"Very tired old Georgian building.";building;Very,tired,old;old;location;-6,00
 333193;15107;;21/06/2013 1:45:59;POS;"This was my second visit, and the experience was as positive as the first.";experience;positive;experience;comfort;1,00
-333196;96974;Ingebj¯rg Tonne;21/06/2013 2:24:58;POS;"Nice and friendly staff.";staff;Nice,friendly;friendly;staff;4,00
-333196;96974;Ingebj¯rg Tonne;21/06/2013 2:24:58;POS;"Nice and friendly staff.";staff;Nice,friendly;staff;staff;4,00
-333196;96974;Ingebj¯rg Tonne;21/06/2013 2:24:58;POS;"Very good location, nice to have access to a swim in the sea.";access;nice;access;features;2,00
-333196;96974;Ingebj¯rg Tonne;21/06/2013 2:24:58;POS;"Very good location, nice to have access to a swim in the sea.";location;Very,good;location;location;4,00
+333196;96974;Ingebj√∏rg Tonne;21/06/2013 2:24:58;POS;"Nice and friendly staff.";staff;Nice,friendly;friendly;staff;4,00
+333196;96974;Ingebj√∏rg Tonne;21/06/2013 2:24:58;POS;"Nice and friendly staff.";staff;Nice,friendly;staff;staff;4,00
+333196;96974;Ingebj√∏rg Tonne;21/06/2013 2:24:58;POS;"Very good location, nice to have access to a swim in the sea.";access;nice;access;features;2,00
+333196;96974;Ingebj√∏rg Tonne;21/06/2013 2:24:58;POS;"Very good location, nice to have access to a swim in the sea.";location;Very,good;location;location;4,00
 333202;120832;BF88;21/06/2013 4:35:44;NEG;"Cooked breakfast ran out very quickly.";breakfast;very,quickly;breakfast;food and drinks;2,00
 333202;120832;BF88;21/06/2013 4:35:44;POS;"Lovely room.";room;Lovely;room;room;3,00
 333202;120832;BF88;21/06/2013 4:35:44;POS;"Polite and professional staff.";staff;Polite,professional;Polite;staff;5,00
@@ -2663,11 +2663,11 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 333488;63162;;24/06/2013 5:50:08;POS;"Lovely building in a very central location.";building;Lovely;building;hotel;3,00
 333488;63162;;24/06/2013 5:50:08;POS;"Lovely building in a very central location.";location;very,central;central;location;2,00
 333488;63162;;24/06/2013 5:50:08;POS;"Lovely building in a very central location.";location;very,central;location;location;2,00
-333505;102406;KAY33;24/06/2013 8:23:05;POS;"clean, spacious, comfy room and bed - saubere, ger‰umige, komfortable R‰ume und Betten  TV/radio/pool...";;clean;clean;condition;2,00
-333505;102406;KAY33;24/06/2013 8:23:05;POS;"clean, spacious, comfy room and bed - saubere, ger‰umige, komfortable R‰ume und Betten  TV/radio/pool...";room;comfy;comfy;comfort;2,00
-333505;102406;KAY33;24/06/2013 8:23:05;POS;"clean, spacious, comfy room and bed - saubere, ger‰umige, komfortable R‰ume und Betten  TV/radio/pool...";room;comfy;room;room;2,00
-333505;102406;KAY33;24/06/2013 8:23:05;POS;"clean, spacious, comfy room and bed - saubere, ger‰umige, komfortable R‰ume und Betten  TV/radio/pool...";room;spacious;room;room;2,00
-333505;102406;KAY33;24/06/2013 8:23:05;POS;"clean, spacious, comfy room and bed - saubere, ger‰umige, komfortable R‰ume und Betten  TV/radio/pool...";room;spacious;spacious;size;2,00
+333505;102406;KAY33;24/06/2013 8:23:05;POS;"clean, spacious, comfy room and bed - saubere, ger√§umige, komfortable R√§ume und Betten  TV/radio/pool...";;clean;clean;condition;2,00
+333505;102406;KAY33;24/06/2013 8:23:05;POS;"clean, spacious, comfy room and bed - saubere, ger√§umige, komfortable R√§ume und Betten  TV/radio/pool...";room;comfy;comfy;comfort;2,00
+333505;102406;KAY33;24/06/2013 8:23:05;POS;"clean, spacious, comfy room and bed - saubere, ger√§umige, komfortable R√§ume und Betten  TV/radio/pool...";room;comfy;room;room;2,00
+333505;102406;KAY33;24/06/2013 8:23:05;POS;"clean, spacious, comfy room and bed - saubere, ger√§umige, komfortable R√§ume und Betten  TV/radio/pool...";room;spacious;room;room;2,00
+333505;102406;KAY33;24/06/2013 8:23:05;POS;"clean, spacious, comfy room and bed - saubere, ger√§umige, komfortable R√§ume und Betten  TV/radio/pool...";room;spacious;spacious;size;2,00
 333516;7637;Delta;24/06/2013 10:43:40;POS;"Great SPA and Aurveda section particularly!";SPA;Great;Great;quality;4,00
 333516;7637;Delta;24/06/2013 10:43:40;POS;"Great SPA and Aurveda section particularly!";SPA;Great;SPA;features;4,00
 333522;6545;;24/06/2013 11:54:37;POS;"able to check in early-parking nearby at reasonable rate.";rate;reasonable;reasonable;quality;2,00
@@ -2893,7 +2893,7 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 333800;133762;;26/06/2013 3:39:11;POS;"Very good location, close to the public transportation";location;close;location;location;1,00
 333800;133762;;26/06/2013 3:39:11;POS;"Very good location, close to the public transportation";location;Very,good;location;location;4,00
 333807;139335;;26/06/2013 4:55:14;POS;"A basic clean hotel.";hotel;basic,clean;clean;condition;1,50
-333813;53651;CerGuru;26/06/2013 5:59:47;NEG;"Would be nice to close ‡ 10:00pm instead of 8:00pm.";‡,10:00pm;close;close;location;1,00
+333813;53651;CerGuru;26/06/2013 5:59:47;NEG;"Would be nice to close √† 10:00pm instead of 8:00pm.";√†,10:00pm;close;close;location;1,00
 333813;53651;CerGuru;26/06/2013 5:59:47;POS;"Comfortable bed.";bed;Comfortable;bed;room;2,00
 333813;53651;CerGuru;26/06/2013 5:59:47;POS;"Comfortable bed.";bed;Comfortable;Comfortable;comfort;2,00
 333813;53651;CerGuru;26/06/2013 5:59:47;POS;"Outstanding breakfast.";breakfast;Outstanding;breakfast;food and drinks;4,00
@@ -3326,9 +3326,9 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 334197;16415;;30/06/2013 8:31:55;POS;"friendly an helpful service";service;friendly,helpful;service;staff;4,00
 334201;146380;;30/06/2013 9:18:05;POS;"Good facilities.";facilities;Good;facilities;features;2,00
 334201;146380;;30/06/2013 9:18:05;POS;"Nice staff.";staff;Nice;staff;staff;2,00
-334202;161869;RenÈ;30/06/2013 9:33:04;POS;"very authentic; friendly personnel; good food; good location for fish river canyon.";food,,;good;food;food and drinks;2,00
-334202;161869;RenÈ;30/06/2013 9:33:04;POS;"very authentic; friendly personnel; good food; good location for fish river canyon.";personnel,,;friendly;friendly;staff;2,00
-334202;161869;RenÈ;30/06/2013 9:33:04;POS;"very authentic; friendly personnel; good food; good location for fish river canyon.";location;good;location;location;2,00
+334202;161869;Ren√©;30/06/2013 9:33:04;POS;"very authentic; friendly personnel; good food; good location for fish river canyon.";food,,;good;food;food and drinks;2,00
+334202;161869;Ren√©;30/06/2013 9:33:04;POS;"very authentic; friendly personnel; good food; good location for fish river canyon.";personnel,,;friendly;friendly;staff;2,00
+334202;161869;Ren√©;30/06/2013 9:33:04;POS;"very authentic; friendly personnel; good food; good location for fish river canyon.";location;good;location;location;2,00
 334205;2167;;30/06/2013 9:59:47;POS;"Location was excellent although the narrow roads did concern us slightly with the car.";Location;excellent;excellent;quality;3,00
 334205;2167;;30/06/2013 9:59:47;POS;"Location was excellent although the narrow roads did concern us slightly with the car.";Location;excellent;Location;location;3,00
 334205;2167;;30/06/2013 9:59:47;POS;"Location was excellent although the narrow roads did concern us slightly with the car.";roads,car;narrow;narrow;size;-0,50
@@ -3392,7 +3392,7 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 334285;87200;Ruth;01/07/2013 11:40:30;POS;"Very helpful, professional staff.";staff;Very,helpful;staff;staff;4,00
 334291;123731;bobjunaid;01/07/2013 0:02:26;POS;"Carefree atmosphere for children-Very lively evenings-Exellent food-Great service-Unmatchable Guest Care.";service;Great;Great;quality;4,00
 334291;123731;bobjunaid;01/07/2013 0:02:26;POS;"Carefree atmosphere for children-Very lively evenings-Exellent food-Great service-Unmatchable Guest Care.";service;Great;service;staff;4,00
-334295;129949;JTORT;01/07/2013 0:35:12;NEG;"HabitaciÛn y cuarto de baÒo demasiado pequeÒos para un hotel de 4estrellas superior";HabitaciÛn,y,cuarto,baÒo,demasiado,pequeÒos,para,un,hotel,4estrellas,ENG;superior;superior;quality;2,00
+334295;129949;JTORT;01/07/2013 0:35:12;NEG;"Habitaci√≥n y cuarto de ba√±o demasiado peque√±os para un hotel de 4estrellas superior";Habitaci√≥n,y,cuarto,ba√±o,demasiado,peque√±os,para,un,hotel,4estrellas,ENG;superior;superior;quality;2,00
 334312;17254;Tezza;01/07/2013 2:30:29;NEG;"No air conditioning and en suite facilities can be cramped but perfectly adequate.";air conditioning;No;air conditioning;temperature;-1,00
 334312;17254;Tezza;01/07/2013 2:30:29;NEG;"No air conditioning and en suite facilities can be cramped but perfectly adequate.";en,suite,facilities;cramped;facilities;features;-3,00
 334312;17254;Tezza;01/07/2013 2:30:29;NEG;"No air conditioning and en suite facilities can be cramped but perfectly adequate.";en,suite,facilities;perfectly,adequate;facilities;features;2,00
@@ -4012,8 +4012,8 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 335043;1201;;06/07/2013 5:39:47;POS;"The hotel is centrally located, easy to walk into the Old Town, plus on the promenade.";hotel;located;located;location;1,00
 335047;109171;Robbie fan;06/07/2013 6:32:16;POS;"ideal location to get into London as well as Wembley too.";location,London,Wembley;ideal;location;location;4,00
 335047;109171;Robbie fan;06/07/2013 6:32:16;POS;"Transport links are great.";Transport,links;great;great;quality;4,00
-335048;90740;WiTaTerneuzen;06/07/2013 6:40:15;POS;"Nice terrace, with view on the surroundings, where at dark with ‡ lamp game is attracted.";terrace;Nice;terrace;room;2,00
-335048;90740;WiTaTerneuzen;06/07/2013 6:40:15;POS;"Nice terrace, with view on the surroundings, where at dark with ‡ lamp game is attracted.";view,surroundings;dark;view;location;-1,00
+335048;90740;WiTaTerneuzen;06/07/2013 6:40:15;POS;"Nice terrace, with view on the surroundings, where at dark with √† lamp game is attracted.";terrace;Nice;terrace;room;2,00
+335048;90740;WiTaTerneuzen;06/07/2013 6:40:15;POS;"Nice terrace, with view on the surroundings, where at dark with √† lamp game is attracted.";view,surroundings;dark;view;location;-1,00
 335052;28;;06/07/2013 7:43:37;POS;"Nice big pool.";pool;Nice,big;big;size;3,00
 335052;28;;06/07/2013 7:43:37;POS;"Nice big pool.";pool;Nice,big;pool;hotel;3,00
 335052;28;;06/07/2013 7:43:37;POS;"On the whole friendly staff.";staff;friendly;friendly;staff;2,00
@@ -4040,9 +4040,9 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 335088;131686;pimpa;07/07/2013 11:15:11;POS;"Breakfast was very good.";Breakfast;very,good;Breakfast;food and drinks;4,00
 335093;195964;DrCraig;07/07/2013 11:27:33;NEG;"have stayed in much more expensive hotels than this in Paris and never yet set a front desk employee smile!";hotels;much,more,expensive;expensive;pricing;-6,00
 335093;195964;DrCraig;07/07/2013 11:27:33;NEG;"have stayed in much more expensive hotels than this in Paris and never yet set a front desk employee smile!";hotels;much,more,expensive;expensive;pricing;6,00
-335093;195964;DrCraig;07/07/2013 11:27:33;POS;"The dÈcor is stylish and modern, very comfortable beds and the bathrooms are exceptional.";bathrooms;exceptional;bathrooms;bathroom;4,00
-335093;195964;DrCraig;07/07/2013 11:27:33;POS;"The dÈcor is stylish and modern, very comfortable beds and the bathrooms are exceptional.";beds;very,comfortable;beds;room;4,00
-335093;195964;DrCraig;07/07/2013 11:27:33;POS;"The dÈcor is stylish and modern, very comfortable beds and the bathrooms are exceptional.";beds;very,comfortable;comfortable;comfort;4,00
+335093;195964;DrCraig;07/07/2013 11:27:33;POS;"The d√©cor is stylish and modern, very comfortable beds and the bathrooms are exceptional.";bathrooms;exceptional;bathrooms;bathroom;4,00
+335093;195964;DrCraig;07/07/2013 11:27:33;POS;"The d√©cor is stylish and modern, very comfortable beds and the bathrooms are exceptional.";beds;very,comfortable;beds;room;4,00
+335093;195964;DrCraig;07/07/2013 11:27:33;POS;"The d√©cor is stylish and modern, very comfortable beds and the bathrooms are exceptional.";beds;very,comfortable;comfortable;comfort;4,00
 335094;3859;Dolley;07/07/2013 11:31:18;NEG;"Sometimes a bit noisy early hours with doors slamming.";hours;a bit,noisy;noisy;noise;-1,50
 335094;3859;Dolley;07/07/2013 11:31:18;POS;"The hotel is in a great location, close by to restaurants, bars";hotel,location;great;great;quality;4,00
 335094;3859;Dolley;07/07/2013 11:31:18;POS;"The hotel is in a great location, close by to restaurants, bars";hotel,location;close by;location;location;0,50
@@ -4322,7 +4322,7 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 335422;66528;Martin_LDN;09/07/2013 10:57:45;POS;"Room was clean (spotless) and spacious plus had a lovely balcony (sea view ).";plus,balcony,(,sea,view;spacious,lovely;view;location;5,00
 335422;66528;Martin_LDN;09/07/2013 10:57:45;POS;"Very friendly staff across the board.";staff;Very,friendly;friendly;staff;4,00
 335422;66528;Martin_LDN;09/07/2013 10:57:45;POS;"Very friendly staff across the board.";staff;Very,friendly;staff;staff;4,00
-335424;172871;;09/07/2013 10:59:15;NEG;"rooms very dated despite advertising £4m refurb.";rooms;very,dated;rooms;room;-4,00
+335424;172871;;09/07/2013 10:59:15;NEG;"rooms very dated despite advertising ¬£4m refurb.";rooms;very,dated;rooms;room;-4,00
 335428;7536;;09/07/2013 11:13:12;POS;"Hotel is in a prime position, shops easy walking distance.";shops;easy;easy;comfort;2,00
 335436;92425;David;09/07/2013 11:28:58;NEG;"The air-conditioner did not work.";conditioner;did,not,work;work;condition;-1,00
 335436;92425;David;09/07/2013 11:28:58;NEG;"The people at the front desk did not know English.";people,front desk,English;not;front desk;staff;-1,00
@@ -4368,17 +4368,17 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 335489;21434;;09/07/2013 3:08:53;POS;"A family hotel, great poolarea, great, big rooms.";rooms;big;big;size;1,00
 335489;21434;;09/07/2013 3:08:53;POS;"A family hotel, great poolarea, great, big rooms.";family,hotel,poolarea;great;great;quality;4,00
 335489;21434;;09/07/2013 3:08:53;POS;"A family hotel, great poolarea, great, big rooms.";rooms;big;rooms;room;1,00
-335493;178208;Grzegorz, Agnieszka, Maks, TropiszÛw, Poland;09/07/2013 3:30:57;POS;"All the staff was so helpful.";staff;so,helpful;helpful;staff;5,00
-335493;178208;Grzegorz, Agnieszka, Maks, TropiszÛw, Poland;09/07/2013 3:30:57;POS;"All the staff was so helpful.";staff;so,helpful;staff;staff;5,00
-335493;178208;Grzegorz, Agnieszka, Maks, TropiszÛw, Poland;09/07/2013 3:30:57;POS;"Fantastic service, excellent rooms, highly recommend.";rooms;excellent;excellent;quality;3,00
-335493;178208;Grzegorz, Agnieszka, Maks, TropiszÛw, Poland;09/07/2013 3:30:57;POS;"Fantastic service, excellent rooms, highly recommend.";rooms;excellent;rooms;room;3,00
-335493;178208;Grzegorz, Agnieszka, Maks, TropiszÛw, Poland;09/07/2013 3:30:57;POS;"Fantastic service, excellent rooms, highly recommend.";rooms;highly,recommend;rooms;room;6,00
-335493;178208;Grzegorz, Agnieszka, Maks, TropiszÛw, Poland;09/07/2013 3:30:57;POS;"Fantastic service, excellent rooms, highly recommend.";service;Fantastic;service;staff;4,00
-335493;178208;Grzegorz, Agnieszka, Maks, TropiszÛw, Poland;09/07/2013 3:30:57;POS;"Hotel is very close to the Mall of Emirates.";Hotel;very,close;close;location;2,00
-335493;178208;Grzegorz, Agnieszka, Maks, TropiszÛw, Poland;09/07/2013 3:30:57;POS;"The room was amazing, clean and had everything going for it.";room;amazing;amazing;quality;4,00
-335493;178208;Grzegorz, Agnieszka, Maks, TropiszÛw, Poland;09/07/2013 3:30:57;POS;"The room was amazing, clean and had everything going for it.";room;clean;clean;condition;2,00
-335493;178208;Grzegorz, Agnieszka, Maks, TropiszÛw, Poland;09/07/2013 3:30:57;POS;"The room was amazing, clean and had everything going for it.";room;amazing;room;room;4,00
-335493;178208;Grzegorz, Agnieszka, Maks, TropiszÛw, Poland;09/07/2013 3:30:57;POS;"The room was amazing, clean and had everything going for it.";room;clean;room;room;2,00
+335493;178208;Grzegorz, Agnieszka, Maks, Tropisz√≥w, Poland;09/07/2013 3:30:57;POS;"All the staff was so helpful.";staff;so,helpful;helpful;staff;5,00
+335493;178208;Grzegorz, Agnieszka, Maks, Tropisz√≥w, Poland;09/07/2013 3:30:57;POS;"All the staff was so helpful.";staff;so,helpful;staff;staff;5,00
+335493;178208;Grzegorz, Agnieszka, Maks, Tropisz√≥w, Poland;09/07/2013 3:30:57;POS;"Fantastic service, excellent rooms, highly recommend.";rooms;excellent;excellent;quality;3,00
+335493;178208;Grzegorz, Agnieszka, Maks, Tropisz√≥w, Poland;09/07/2013 3:30:57;POS;"Fantastic service, excellent rooms, highly recommend.";rooms;excellent;rooms;room;3,00
+335493;178208;Grzegorz, Agnieszka, Maks, Tropisz√≥w, Poland;09/07/2013 3:30:57;POS;"Fantastic service, excellent rooms, highly recommend.";rooms;highly,recommend;rooms;room;6,00
+335493;178208;Grzegorz, Agnieszka, Maks, Tropisz√≥w, Poland;09/07/2013 3:30:57;POS;"Fantastic service, excellent rooms, highly recommend.";service;Fantastic;service;staff;4,00
+335493;178208;Grzegorz, Agnieszka, Maks, Tropisz√≥w, Poland;09/07/2013 3:30:57;POS;"Hotel is very close to the Mall of Emirates.";Hotel;very,close;close;location;2,00
+335493;178208;Grzegorz, Agnieszka, Maks, Tropisz√≥w, Poland;09/07/2013 3:30:57;POS;"The room was amazing, clean and had everything going for it.";room;amazing;amazing;quality;4,00
+335493;178208;Grzegorz, Agnieszka, Maks, Tropisz√≥w, Poland;09/07/2013 3:30:57;POS;"The room was amazing, clean and had everything going for it.";room;clean;clean;condition;2,00
+335493;178208;Grzegorz, Agnieszka, Maks, Tropisz√≥w, Poland;09/07/2013 3:30:57;POS;"The room was amazing, clean and had everything going for it.";room;amazing;room;room;4,00
+335493;178208;Grzegorz, Agnieszka, Maks, Tropisz√≥w, Poland;09/07/2013 3:30:57;POS;"The room was amazing, clean and had everything going for it.";room;clean;room;room;2,00
 335504;59038;MS;09/07/2013 5:21:54;NEG;"Wifi connection wad poor...";Wifi,connection,wad;poor;Wifi;features;-2,00
 335514;9396;;09/07/2013 6:01:46;NEG;"Their standard answer was to get a taxi, which wasn't necessary as trains were running with replacement buses and worked very well.";trains,replacement,buses;worked;worked;condition;1,00
 335518;78312;Elaine Cheng;09/07/2013 6:35:06;POS;"Best location for traffic, food, shopping, and old culture.";location;Best;location;location;4,00
@@ -4455,7 +4455,7 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 335599;120389;bella;10/07/2013 10:16:28;NEG;"And some staff could have been more friendly.";staff;more,friendly;staff;staff;4,00
 335599;120389;bella;10/07/2013 10:16:28;NEG;"The room was small, and there is a sliding glass door into the bathroom.";room;small;room;room;-0,50
 335599;120389;bella;10/07/2013 10:16:28;NEG;"The room was small, and there is a sliding glass door into the bathroom.";room;small;small;size;-0,50
-335599;120389;bella;10/07/2013 10:16:28;POS;"The location is perfect, in RÂdhusplassen.";location;perfect;location;location;4,00
+335599;120389;bella;10/07/2013 10:16:28;POS;"The location is perfect, in R√•dhusplassen.";location;perfect;location;location;4,00
 335611;179707;Wattie;10/07/2013 11:10:57;POS;"very helpful and friendly staff";staff;very,helpful,friendly;friendly;staff;6,00
 335611;179707;Wattie;10/07/2013 11:10:57;POS;"very helpful and friendly staff";staff;very,helpful,friendly;helpful;staff;6,00
 335611;179707;Wattie;10/07/2013 11:10:57;POS;"very helpful and friendly staff";staff;very,helpful,friendly;staff;staff;6,00
@@ -4488,13 +4488,13 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 335636;298;sweens;10/07/2013 1:29:15;POS;"Room Very clean.";Room;Very,clean;Room;room;4,00
 335637;165040;Farisya;10/07/2013 1:31:47;NEG;"No children pool,";children,pool;No;pool;hotel;-1,00
 335637;165040;Farisya;10/07/2013 1:31:47;POS;"Fast check in.";check in;Fast;check in;staff;3,00
-335640;103835;Bj¯rn;10/07/2013 1:45:25;NEG;"No aircondition   No hot water in the shower  Small window  Too hot in the room  No elevator  To early check out";elevator;No;elevator;hotel;-1,00
-335640;103835;Bj¯rn;10/07/2013 1:45:25;NEG;"No aircondition   No hot water in the shower  Small window  Too hot in the room  No elevator  To early check out";water;No,hot;hot;temperature;-0,50
-335640;103835;Bj¯rn;10/07/2013 1:45:25;NEG;"No aircondition   No hot water in the shower  Small window  Too hot in the room  No elevator  To early check out";window;Too,hot;hot;temperature;0,90
-335640;103835;Bj¯rn;10/07/2013 1:45:25;NEG;"No aircondition   No hot water in the shower  Small window  Too hot in the room  No elevator  To early check out";shower;Small;shower;bathroom;-0,50
-335640;103835;Bj¯rn;10/07/2013 1:45:25;NEG;"No aircondition   No hot water in the shower  Small window  Too hot in the room  No elevator  To early check out";shower;Small;Small;size;-0,50
-335640;103835;Bj¯rn;10/07/2013 1:45:25;NEG;"No aircondition   No hot water in the shower  Small window  Too hot in the room  No elevator  To early check out";window;Too,hot;window;room;0,90
-335640;103835;Bj¯rn;10/07/2013 1:45:25;POS;"Nice location";location;Nice;location;location;2,00
+335640;103835;Bj√∏rn;10/07/2013 1:45:25;NEG;"No aircondition   No hot water in the shower  Small window  Too hot in the room  No elevator  To early check out";elevator;No;elevator;hotel;-1,00
+335640;103835;Bj√∏rn;10/07/2013 1:45:25;NEG;"No aircondition   No hot water in the shower  Small window  Too hot in the room  No elevator  To early check out";water;No,hot;hot;temperature;-0,50
+335640;103835;Bj√∏rn;10/07/2013 1:45:25;NEG;"No aircondition   No hot water in the shower  Small window  Too hot in the room  No elevator  To early check out";window;Too,hot;hot;temperature;0,90
+335640;103835;Bj√∏rn;10/07/2013 1:45:25;NEG;"No aircondition   No hot water in the shower  Small window  Too hot in the room  No elevator  To early check out";shower;Small;shower;bathroom;-0,50
+335640;103835;Bj√∏rn;10/07/2013 1:45:25;NEG;"No aircondition   No hot water in the shower  Small window  Too hot in the room  No elevator  To early check out";shower;Small;Small;size;-0,50
+335640;103835;Bj√∏rn;10/07/2013 1:45:25;NEG;"No aircondition   No hot water in the shower  Small window  Too hot in the room  No elevator  To early check out";window;Too,hot;window;room;0,90
+335640;103835;Bj√∏rn;10/07/2013 1:45:25;POS;"Nice location";location;Nice;location;location;2,00
 335643;193314;Claudine;10/07/2013 2:00:50;NEG;"Lack of daylight in the room, lighting insufficient, no separate shower though other some rooms do.";shower;no;shower;bathroom;-1,00
 335643;193314;Claudine;10/07/2013 2:00:50;NEG;"Lovely pool but curved upward at one end making it impractical for swimming, though totally fine as a leisure pool.";end;fine;fine;quality;2,00
 335643;193314;Claudine;10/07/2013 2:00:50;NEG;"Lovely pool but curved upward at one end making it impractical for swimming, though totally fine as a leisure pool.";pool;Lovely;pool;hotel;3,00
@@ -5148,9 +5148,9 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 336434;23596;;16/07/2013 6:23:43;POS;"Location is perfect - 10mins from the old town and 10mins from Linda Line to Helsinki Terminal.";Location;perfect;Location;location;4,00
 336434;23596;;16/07/2013 6:23:43;POS;"Location is perfect - 10mins from the old town and 10mins from Linda Line to Helsinki Terminal.";10mins,town;old;old;location;1,00
 336440;89379;Butbro;16/07/2013 7:36:21;NEG;"Not even the receptionstaff could speak english propely.";receptionstaff,english,propely;could,speak;speak;staff;1,00
-336440;89379;Butbro;16/07/2013 7:36:21;NEG;"Some of the staff looked a bit sad and didn¥t smiled to the guests.";staff;a bit;staff;staff;0,50
-336440;89379;Butbro;16/07/2013 7:36:21;NEG;"The barstaff couldn¥t do the most common drinks.";barstaff,drinks;not;drinks;food and drinks;-1,00
-336440;89379;Butbro;16/07/2013 7:36:21;NEG;"The staff didn¥t spoke any english.";staff,english;not;staff;staff;-1,00
+336440;89379;Butbro;16/07/2013 7:36:21;NEG;"Some of the staff looked a bit sad and didn¬¥t smiled to the guests.";staff;a bit;staff;staff;0,50
+336440;89379;Butbro;16/07/2013 7:36:21;NEG;"The barstaff couldn¬¥t do the most common drinks.";barstaff,drinks;not;drinks;food and drinks;-1,00
+336440;89379;Butbro;16/07/2013 7:36:21;NEG;"The staff didn¬¥t spoke any english.";staff,english;not;staff;staff;-1,00
 336440;89379;Butbro;16/07/2013 7:36:21;POS;"The transfer worked perfect.";transfer;worked;worked;condition;1,00
 336450;5948;Kate;16/07/2013 8:56:19;NEG;"No free Internet.";Internet;No,free;free;features;-1,00
 336450;5948;Kate;16/07/2013 8:56:19;NEG;"No free Internet.";Internet;No,free;Internet;features;-1,00
@@ -5448,9 +5448,9 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 336791;101971;;19/07/2013 11:33:26;NEG;"no drinks included with the half board option.";drinks;no;drinks;food and drinks;-1,00
 336795;165404;edouard;19/07/2013 11:49:08;NEG;"Small shower -";shower;Small;shower;bathroom;-0,50
 336795;165404;edouard;19/07/2013 11:49:08;NEG;"Small shower -";shower;Small;Small;size;-0,50
-336795;165404;edouard;19/07/2013 11:49:08;POS;"Large rooms with small separÈ.";rooms;Large;Large;size;1,00
-336795;165404;edouard;19/07/2013 11:49:08;POS;"Large rooms with small separÈ.";rooms;Large;rooms;room;1,00
-336795;165404;edouard;19/07/2013 11:49:08;POS;"Large rooms with small separÈ.";separÈ;small;small;size;-0,50
+336795;165404;edouard;19/07/2013 11:49:08;POS;"Large rooms with small separ√©.";rooms;Large;Large;size;1,00
+336795;165404;edouard;19/07/2013 11:49:08;POS;"Large rooms with small separ√©.";rooms;Large;rooms;room;1,00
+336795;165404;edouard;19/07/2013 11:49:08;POS;"Large rooms with small separ√©.";separ√©;small;small;size;-0,50
 336795;165404;edouard;19/07/2013 11:49:08;POS;"Only breakfast, but of good quality.";breakfast,quality;good;breakfast;food and drinks;2,00
 336795;165404;edouard;19/07/2013 11:49:08;POS;"Only breakfast, but of good quality.";breakfast,quality;good;quality;quality;2,00
 336806;50594;LukeB;19/07/2013 1:03:55;POS;"Every night, the concierge desk would offer free Mai Tais to get guests started on Happy Hour.";Mai Tais;free;free;features;1,00
@@ -5488,8 +5488,8 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 336842;197404;Pancake;19/07/2013 9:59:23;POS;"No noise, calm and relaxing";noise;No;noise;noise;3,00
 336844;137250;;19/07/2013 10:15:47;NEG;"Poor choice of food for breakfast, stop bringing out fresh food at 9:30.";choice,food;Poor;food;food and drinks;-2,00
 336844;137250;;19/07/2013 10:15:47;NEG;"Poor choice of food for breakfast, stop bringing out fresh food at 9:30.";food;fresh;food;food and drinks;2,00
-336844;137250;;19/07/2013 10:15:47;NEG;"Would not recommend staying for the price advertised, far too expensive, £20 a night max for a double.";price;far too,expensive;expensive;pricing;-6,00
-336844;137250;;19/07/2013 10:15:47;NEG;"Would not recommend staying for the price advertised, far too expensive, £20 a night max for a double.";price;far too,expensive;price;pricing;-6,00
+336844;137250;;19/07/2013 10:15:47;NEG;"Would not recommend staying for the price advertised, far too expensive, ¬£20 a night max for a double.";price;far too,expensive;expensive;pricing;-6,00
+336844;137250;;19/07/2013 10:15:47;NEG;"Would not recommend staying for the price advertised, far too expensive, ¬£20 a night max for a double.";price;far too,expensive;price;pricing;-6,00
 336844;137250;;19/07/2013 10:15:47;POS;"Central location, near supermarket, not far from airport.";location;Central;Central;location;1,00
 336844;137250;;19/07/2013 10:15:47;POS;"Central location, near supermarket, not far from airport.";supermarket;not,far;far;location;0,50
 336844;137250;;19/07/2013 10:15:47;POS;"Central location, near supermarket, not far from airport.";location;Central;location;location;1,00
@@ -5513,10 +5513,10 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 336867;5899;;20/07/2013 10:22:25;POS;"Good location, rooms clean and breakfast was good overall";rooms;clean;rooms;room;2,00
 336868;98834;GJB;20/07/2013 10:29:19;NEG;"No Parking.";Parking;No;Parking;features;-1,00
 336868;98834;GJB;20/07/2013 10:29:19;POS;"Naer the Metro, Airco, Clean";Naer,Metro,Airco;Clean;Clean;condition;2,00
-336872;109425;Synn¯ve;20/07/2013 10:44:07;POS;"Clean.";;Clean;Clean;condition;2,00
-336872;109425;Synn¯ve;20/07/2013 10:44:07;POS;"Easy to find the hotel by car.";hotel;Easy;Easy;comfort;2,00
-336872;109425;Synn¯ve;20/07/2013 10:44:07;POS;"Large rooms.";rooms;Large;Large;size;1,00
-336872;109425;Synn¯ve;20/07/2013 10:44:07;POS;"Large rooms.";rooms;Large;rooms;room;1,00
+336872;109425;Synn√∏ve;20/07/2013 10:44:07;POS;"Clean.";;Clean;Clean;condition;2,00
+336872;109425;Synn√∏ve;20/07/2013 10:44:07;POS;"Easy to find the hotel by car.";hotel;Easy;Easy;comfort;2,00
+336872;109425;Synn√∏ve;20/07/2013 10:44:07;POS;"Large rooms.";rooms;Large;Large;size;1,00
+336872;109425;Synn√∏ve;20/07/2013 10:44:07;POS;"Large rooms.";rooms;Large;rooms;room;1,00
 336881;188092;;20/07/2013 11:27:12;POS;"Great leisure facilities.";leisure,facilities;Great;facilities;features;4,00
 336881;188092;;20/07/2013 11:27:12;POS;"Great leisure facilities.";leisure,facilities;Great;Great;quality;4,00
 336881;188092;;20/07/2013 11:27:12;POS;"Lovely food.";food;Lovely;food;food and drinks;3,00
@@ -5863,7 +5863,7 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 337301;186871;;23/07/2013 10:47:13;POS;"Good location";location;Good;location;location;2,00
 337303;124113;Whitey;23/07/2013 10:52:21;NEG;"Fortunately each "blast" of music only lasted 30-45mins and ear plugs were enough to dampen out the noise.";;noise;noise;noise;-3,00
 337303;124113;Whitey;23/07/2013 10:52:21;POS;"The food available in the all inclusive package was fantastic.";food;available;food;food and drinks;2,00
-337304;175387;Andy Villa;23/07/2013 10:52:29;NEG;"Rang reception and was initially told there would be a £10 charge for the "extra" bed.";bed;extra;bed;room;-1,00
+337304;175387;Andy Villa;23/07/2013 10:52:29;NEG;"Rang reception and was initially told there would be a ¬£10 charge for the "extra" bed.";bed;extra;bed;room;-1,00
 337304;175387;Andy Villa;23/07/2013 10:52:29;NEG;"There was no bed for the child.";bed;no;bed;room;-1,00
 337304;175387;Andy Villa;23/07/2013 10:52:29;POS;"Very clean.";;Very,clean;clean;condition;4,00
 337305;67002;;23/07/2013 10:58:27;POS;"Excellent location, clean, good value for money.";location;clean;clean;condition;2,00
@@ -6298,8 +6298,8 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 337807;14102;;27/07/2013 9:35:25;POS;"The staff were very friendly and efficient.";staff;very,friendly,efficient;staff;staff;7,00
 337810;9240;suffolkgal;27/07/2013 9:47:29;NEG;"Check in receptionist was  and didn't smile once...";Check in,receptionist;not;Check in;staff;-1,00
 337810;9240;suffolkgal;27/07/2013 9:47:29;NEG;"Check in receptionist was  and didn't smile once...";Check in,receptionist;not;receptionist;staff;-1,00
-337810;9240;suffolkgal;27/07/2013 9:47:29;POS;"got a great deal with hotelopia for £44 for family room which was superb";deal;great;great;quality;4,00
-337810;9240;suffolkgal;27/07/2013 9:47:29;POS;"got a great deal with hotelopia for £44 for family room which was superb";family,room;superb;room;room;4,00
+337810;9240;suffolkgal;27/07/2013 9:47:29;POS;"got a great deal with hotelopia for ¬£44 for family room which was superb";deal;great;great;quality;4,00
+337810;9240;suffolkgal;27/07/2013 9:47:29;POS;"got a great deal with hotelopia for ¬£44 for family room which was superb";family,room;superb;room;room;4,00
 337810;9240;suffolkgal;27/07/2013 9:47:29;POS;"Great location for over night stay near the airport.";location;Great;Great;quality;4,00
 337810;9240;suffolkgal;27/07/2013 9:47:29;POS;"Great location for over night stay near the airport.";location;Great;location;location;4,00
 337814;140936;labrador;27/07/2013 10:07:57;POS;"Clean room, beautiful whirlpool, cheap price";price;cheap;cheap;pricing;1,00
@@ -6370,7 +6370,7 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 337861;167540;Adriano jr;27/07/2013 3:06:51;POS;"Very clean friendly staff";staff;Very,clean,friendly;friendly;staff;8,00
 337861;167540;Adriano jr;27/07/2013 3:06:51;POS;"Very clean friendly staff";staff;Very,clean,friendly;staff;staff;8,00
 337866;169275;:/;27/07/2013 4:45:38;POS;"Location was  very good, right next to hyde park and two tube stations";Location;very,good;Location;location;4,00
-337871;189749;JJ;27/07/2013 6:38:25;POS;"Cheap at £25";£25;Cheap;Cheap;pricing;1,00
+337871;189749;JJ;27/07/2013 6:38:25;POS;"Cheap at ¬£25";¬£25;Cheap;Cheap;pricing;1,00
 337871;189749;JJ;27/07/2013 6:38:25;POS;"Room fine.";Room;fine;fine;quality;2,00
 337871;189749;JJ;27/07/2013 6:38:25;POS;"Room fine.";Room;fine;Room;room;2,00
 337871;189749;JJ;27/07/2013 6:38:25;POS;"Staff polite.";Staff;polite;polite;staff;3,00
@@ -6670,7 +6670,7 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 338178;117617;KT;30/07/2013 3:18:22;POS;"The staff were very attentive and helpful.";staff;very,attentive,helpful;attentive;staff;8,00
 338178;117617;KT;30/07/2013 3:18:22;POS;"The staff were very attentive and helpful.";staff;very,attentive,helpful;helpful;staff;8,00
 338178;117617;KT;30/07/2013 3:18:22;POS;"The staff were very attentive and helpful.";staff;very,attentive,helpful;staff;staff;8,00
-338197;156249;Emma;30/07/2013 9:09:24;NEG;"So a croissant, small bowl of cereal and a slice of toast cost me £10!!!";croissant,cereal;small;small;size;-0,50
+338197;156249;Emma;30/07/2013 9:09:24;NEG;"So a croissant, small bowl of cereal and a slice of toast cost me ¬£10!!!";croissant,cereal;small;small;size;-0,50
 338206;131867;Anonymous;30/07/2013 9:20:57;NEG;"About 8-10 minutes walk to the BTS but still acceptable.";BTS;acceptable;acceptable;quality;1,00
 338206;131867;Anonymous;30/07/2013 9:20:57;POS;"The bathroom is excellent.";bathroom;excellent;bathroom;bathroom;3,00
 338206;131867;Anonymous;30/07/2013 9:20:57;POS;"The bathroom is excellent.";bathroom;excellent;excellent;quality;3,00
@@ -6804,8 +6804,8 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 338375;9328;Poppy 21;30/07/2013 7:52:01;POS;"The location and parking facilities were also superb.";location,parking,facilities;superb;parking;features;4,00
 338381;1417;Dorothy Parker;30/07/2013 8:45:57;POS;"super friendly staff!";staff;super,friendly;friendly;staff;5,00
 338381;1417;Dorothy Parker;30/07/2013 8:45:57;POS;"super friendly staff!";staff;super,friendly;staff;staff;5,00
-338392;86730;;30/07/2013 10:05:16;NEG;"Dinning room was more of a greasy spoon cafÈ.";room,spoon,cafÈ;more;cafÈ;food and drinks;1,00
-338392;86730;;30/07/2013 10:05:16;NEG;"Dinning room was more of a greasy spoon cafÈ.";room,spoon,cafÈ;more;room;room;1,00
+338392;86730;;30/07/2013 10:05:16;NEG;"Dinning room was more of a greasy spoon caf√©.";room,spoon,caf√©;more;caf√©;food and drinks;1,00
+338392;86730;;30/07/2013 10:05:16;NEG;"Dinning room was more of a greasy spoon caf√©.";room,spoon,caf√©;more;room;room;1,00
 338392;86730;;30/07/2013 10:05:16;NEG;"The Grand Hotel requires a serious refurbishment/update, the rooms are a mis-match of furniture, the bed did not match the headboard.";match,furniture,bed,headboard;not;bed;room;-1,00
 338392;86730;;30/07/2013 10:05:16;NEG;"The Grand Hotel requires a serious refurbishment/update, the rooms are a mis-match of furniture, the bed did not match the headboard.";match,furniture,bed,headboard;not;furniture;room;-1,00
 338392;86730;;30/07/2013 10:05:16;POS;"Close to town centre.";town,centre;Close;Close;location;1,00
@@ -7114,8 +7114,8 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 338789;180050;;03/08/2013 4:05:38;POS;"Clean.";;Clean;Clean;condition;2,00
 338789;180050;;03/08/2013 4:05:38;POS;"Satisfactory breakfast.";breakfast;Satisfactory;breakfast;food and drinks;2,00
 338790;120483;MOMO;03/08/2013 7:33:48;POS;"A great stay at a very nice hotel.";stay;great;great;quality;4,00
-338792;6587;;03/08/2013 8:11:05;NEG;"Charging £13 a night for parking in a hotel on the outskirts of town is extortionate.";night,parking,hotel,outskirts,town;extortionate;extortionate;pricing;-4,00
-338792;6587;;03/08/2013 8:11:05;NEG;"Charging £13 a night for parking in a hotel on the outskirts of town is extortionate.";night,parking,hotel,outskirts,town;extortionate;parking;features;-4,00
+338792;6587;;03/08/2013 8:11:05;NEG;"Charging ¬£13 a night for parking in a hotel on the outskirts of town is extortionate.";night,parking,hotel,outskirts,town;extortionate;extortionate;pricing;-4,00
+338792;6587;;03/08/2013 8:11:05;NEG;"Charging ¬£13 a night for parking in a hotel on the outskirts of town is extortionate.";night,parking,hotel,outskirts,town;extortionate;parking;features;-4,00
 338792;6587;;03/08/2013 8:11:05;NEG;"Staff at reception during check in/out were both cold and curt.";reception,check in;cold;check in;staff;-2,00
 338792;6587;;03/08/2013 8:11:05;NEG;"Staff at reception during check in/out were both cold and curt.";reception,check in;cold;cold;temperature;-2,00
 338792;6587;;03/08/2013 8:11:05;NEG;"Staff at reception during check in/out were both cold and curt.";reception,check in;cold;reception;staff;-2,00
@@ -7195,8 +7195,8 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 338868;184989;larry;03/08/2013 8:05:34;POS;"The hotel was excellent";hotel;excellent;excellent;quality;3,00
 338875;110913;;03/08/2013 9:55:31;POS;"Great staff";staff;Great;Great;quality;4,00
 338875;110913;;03/08/2013 9:55:31;POS;"Great staff";staff;Great;staff;staff;4,00
-338879;13655;LMMobile;03/08/2013 11:56:15;NEG;"A curtain behind the wash could have solved the ìproblemî";curtain,wash;problem;curtain;room;-1,00
-338879;13655;LMMobile;03/08/2013 11:56:15;NEG;"This makes the room ìdarkî.";room;dark;room;room;-1,00
+338879;13655;LMMobile;03/08/2013 11:56:15;NEG;"A curtain behind the wash could have solved the ‚Äúproblem‚Äù";curtain,wash;problem;curtain;room;-1,00
+338879;13655;LMMobile;03/08/2013 11:56:15;NEG;"This makes the room ‚Äúdark‚Äù.";room;dark;room;room;-1,00
 338884;121167;Very happy.;04/08/2013 4:10:39;POS;"Ground are stunning and the food was fantastic.";food;fantastic;food;food and drinks;4,00
 338884;121167;Very happy.;04/08/2013 4:10:39;POS;"The staff could not do enough for us.";staff;not;staff;staff;-1,00
 338886;135647;;04/08/2013 7:03:08;NEG;"no cold water in shower,after hot day need refresh in cold shower not in hot water";water;no,cold;cold;temperature;2,00
@@ -7472,9 +7472,9 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 339254;57488;MFS;06/08/2013 11:25:51;POS;"Breakfast had a great choice of food";Breakfast,choice,food;great;great;quality;4,00
 339256;54285;di;06/08/2013 11:30:50;POS;"Nice bathroom.";bathroom;Nice;bathroom;bathroom;2,00
 339262;189821;Theyoung;06/08/2013 11:46:14;NEG;"The serving of the food is for the kid not international.";serving,food,kid;not;food;food and drinks;-1,00
-339263;107554;tomita;06/08/2013 11:49:08;NEG;"paid £109 midweek, no breakfast complete rip off for what is just above budget hotel, duty manager, tall bloke blond hair, arrogant and aloof.";breakfast;complete;breakfast;food and drinks;2,00
-339263;107554;tomita;06/08/2013 11:49:08;NEG;"paid £109 midweek, no breakfast complete rip off for what is just above budget hotel, duty manager, tall bloke blond hair, arrogant and aloof.";breakfast;no;breakfast;food and drinks;-1,00
-339263;107554;tomita;06/08/2013 11:49:08;NEG;"paid £109 midweek, no breakfast complete rip off for what is just above budget hotel, duty manager, tall bloke blond hair, arrogant and aloof.";breakfast;complete;complete;food and drinks;2,00
+339263;107554;tomita;06/08/2013 11:49:08;NEG;"paid ¬£109 midweek, no breakfast complete rip off for what is just above budget hotel, duty manager, tall bloke blond hair, arrogant and aloof.";breakfast;complete;breakfast;food and drinks;2,00
+339263;107554;tomita;06/08/2013 11:49:08;NEG;"paid ¬£109 midweek, no breakfast complete rip off for what is just above budget hotel, duty manager, tall bloke blond hair, arrogant and aloof.";breakfast;no;breakfast;food and drinks;-1,00
+339263;107554;tomita;06/08/2013 11:49:08;NEG;"paid ¬£109 midweek, no breakfast complete rip off for what is just above budget hotel, duty manager, tall bloke blond hair, arrogant and aloof.";breakfast;complete;complete;food and drinks;2,00
 339275;567;;06/08/2013 0:26:00;NEG;"The staff was not very helpfull";staff,helpfull;not;staff;staff;-1,00
 339279;140678;Rickard;06/08/2013 0:41:36;NEG;"Had a nice view over neighbor sitting on the toilet, :-)";view;nice;view;location;2,00
 339279;140678;Rickard;06/08/2013 0:41:36;POS;"Close to Disneyland";Disneyland;Close;Close;location;1,00
@@ -7751,8 +7751,8 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 339502;157325;;07/08/2013 10:59:19;POS;"Friendly, courteous hotel staff, comfortable environment.";hotel,staff;Friendly;Friendly;staff;2,00
 339502;157325;;07/08/2013 10:59:19;POS;"Friendly, courteous hotel staff, comfortable environment.";hotel,staff;courteous;staff;staff;2,00
 339502;157325;;07/08/2013 10:59:19;POS;"Friendly, courteous hotel staff, comfortable environment.";hotel,staff;Friendly;staff;staff;2,00
-339519;185361;Joholland;08/08/2013 9:08:21;POS;"Close to the beach and centre /M·laga";beach;Close;beach;location;1,00
-339519;185361;Joholland;08/08/2013 9:08:21;POS;"Close to the beach and centre /M·laga";beach;Close;Close;location;1,00
+339519;185361;Joholland;08/08/2013 9:08:21;POS;"Close to the beach and centre /M√°laga";beach;Close;beach;location;1,00
+339519;185361;Joholland;08/08/2013 9:08:21;POS;"Close to the beach and centre /M√°laga";beach;Close;Close;location;1,00
 339520;90880;Orri;08/08/2013 9:12:35;NEG;"And the breakfast was incredibly disappointing.";breakfast;was,disappointing;breakfast;food and drinks;-3,00
 339520;90880;Orri;08/08/2013 9:12:35;NEG;"The bathroom and shower was very unpleasant.";bathroom,shower;very,unpleasant;bathroom;bathroom;-4,00
 339520;90880;Orri;08/08/2013 9:12:35;NEG;"The bathroom and shower was very unpleasant.";bathroom,shower;very,unpleasant;shower;bathroom;-4,00
@@ -7852,8 +7852,8 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 339627;90479;;08/08/2013 10:12:20;NEG;"Food was adequate ,buffet style often lukewarm.";Food;adequate;Food;food and drinks;1,00
 339627;90479;;08/08/2013 10:12:20;NEG;"Food was adequate ,buffet style often lukewarm.";Food;lukewarm;Food;food and drinks;-0,50
 339627;90479;;08/08/2013 10:12:20;NEG;"Food was adequate ,buffet style often lukewarm.";Food;lukewarm;lukewarm;temperature;-0,50
-339627;90479;;08/08/2013 10:12:20;POS;"pool area excellent with a well run cafÈ/bar.";cafÈ;well run;cafÈ;food and drinks;1,00
-339627;90479;;08/08/2013 10:12:20;POS;"pool area excellent with a well run cafÈ/bar.";pool area;excellent;excellent;quality;3,00
+339627;90479;;08/08/2013 10:12:20;POS;"pool area excellent with a well run caf√©/bar.";caf√©;well run;caf√©;food and drinks;1,00
+339627;90479;;08/08/2013 10:12:20;POS;"pool area excellent with a well run caf√©/bar.";pool area;excellent;excellent;quality;3,00
 339627;90479;;08/08/2013 10:12:20;POS;"staff were efficient and very obliging to answer any queries.";staff;efficient,very,obliging;staff;staff;9,00
 339627;90479;;08/08/2013 10:12:20;POS;"very clean with regular bedding and towel changes.";;very,clean;clean;condition;4,00
 339631;172871;;08/08/2013 10:59:14;NEG;"Breakfast was organised but there were frenetic amounts of activity from the waiting staff that made it difficult to relax and eat calmly.";staff;difficult;difficult;comfort;-2,00
@@ -8419,8 +8419,8 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 340190;63281;;13/08/2013 2:30:04;POS;"The staff was really friendly and willing to make our stay as comfortable as possible.";;comfortable;comfortable;comfort;2,00
 340190;63281;;13/08/2013 2:30:04;POS;"The staff was really friendly and willing to make our stay as comfortable as possible.";staff;really,friendly;friendly;staff;4,00
 340190;63281;;13/08/2013 2:30:04;POS;"The staff was really friendly and willing to make our stay as comfortable as possible.";staff;really,friendly;staff;staff;4,00
-340191;70419;;13/08/2013 2:30:05;NEG;"Limited buffet at relatively high price ( Ä 10 s/b no more then Ä 7,50)";buffet;Limited;buffet;food and drinks;-0,50
-340191;70419;;13/08/2013 2:30:05;NEG;"Limited buffet at relatively high price ( Ä 10 s/b no more then Ä 7,50)";price,(,Ä 10;relatively,high;price;pricing;0,90
+340191;70419;;13/08/2013 2:30:05;NEG;"Limited buffet at relatively high price ( ‚Ç¨ 10 s/b no more then ‚Ç¨ 7,50)";buffet;Limited;buffet;food and drinks;-0,50
+340191;70419;;13/08/2013 2:30:05;NEG;"Limited buffet at relatively high price ( ‚Ç¨ 10 s/b no more then ‚Ç¨ 7,50)";price,(,‚Ç¨ 10;relatively,high;price;pricing;0,90
 340191;70419;;13/08/2013 2:30:05;NEG;"Noise from adjacent rooms.";;Noise;Noise;noise;-3,00
 340191;70419;;13/08/2013 2:30:05;NEG;"Thin walls.";walls;Thin;Thin;room;-1,00
 340191;70419;;13/08/2013 2:30:05;NEG;"Thin walls.";walls;Thin;walls;room;-1,00
@@ -8467,7 +8467,7 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 340238;22509;Wilma;13/08/2013 4:52:23;POS;"The room was very clean with all the usuals- shower room, tea/coffee, hair dryer etc.";room;very,clean;clean;condition;4,00
 340238;22509;Wilma;13/08/2013 4:52:23;POS;"The room was very clean with all the usuals- shower room, tea/coffee, hair dryer etc.";room;very,clean;room;room;4,00
 340239;156249;Yasmin;13/08/2013 4:52:28;POS;"But 25 mins by DLR which is very close.";DLR;very,close;close;location;2,00
-340239;156249;Yasmin;13/08/2013 4:52:28;POS;"Hotel is abit far from Stratford cost £15 my taxi.";Hotel,abit;far;far;location;-0,50
+340239;156249;Yasmin;13/08/2013 4:52:28;POS;"Hotel is abit far from Stratford cost ¬£15 my taxi.";Hotel,abit;far;far;location;-0,50
 340239;156249;Yasmin;13/08/2013 4:52:28;POS;"The sauna, pool and steam room was amazing.";sauna,pool,steam,room;amazing;amazing;quality;4,00
 340239;156249;Yasmin;13/08/2013 4:52:28;POS;"The sauna, pool and steam room was amazing.";sauna,pool,steam,room;amazing;pool;hotel;4,00
 340239;156249;Yasmin;13/08/2013 4:52:28;POS;"The sauna, pool and steam room was amazing.";sauna,pool,steam,room;amazing;room;room;4,00
@@ -8532,12 +8532,12 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 340322;89910;andrew;14/08/2013 3:46:59;POS;"very close to center of surfers paradise , plenty of cafe's and places to eat nearby.";center,surfers,paradise;very,close;close;location;2,00
 340323;145075;wang47;14/08/2013 4:57:08;POS;"nice service";service;nice;service;staff;2,00
 340324;74030;Peter;14/08/2013 5:25:23;NEG;"And guests may make the tables more messier, in the process there may be spill overs to the floor, broken cookware, etc.";cookware;broken;broken;condition;-3,00
-340324;74030;Peter;14/08/2013 5:25:23;POS;"Ambience, Climate, location, setting, dÈcor, space, room furnishings, jim Thompson terrace are all a very memorable experience.";Ambience,Climate,location,setting,dÈcor,space,room,furnishings,jim,Thompson,terrace,experience;very,memorable;Ambience;atmosphere;6,00
-340324;74030;Peter;14/08/2013 5:25:23;POS;"Ambience, Climate, location, setting, dÈcor, space, room furnishings, jim Thompson terrace are all a very memorable experience.";Ambience,Climate,location,setting,dÈcor,space,room,furnishings,jim,Thompson,terrace,experience;very,memorable;experience;comfort;6,00
-340324;74030;Peter;14/08/2013 5:25:23;POS;"Ambience, Climate, location, setting, dÈcor, space, room furnishings, jim Thompson terrace are all a very memorable experience.";Ambience,Climate,location,setting,dÈcor,space,room,furnishings,jim,Thompson,terrace,experience;very,memorable;location;location;6,00
-340324;74030;Peter;14/08/2013 5:25:23;POS;"Ambience, Climate, location, setting, dÈcor, space, room furnishings, jim Thompson terrace are all a very memorable experience.";Ambience,Climate,location,setting,dÈcor,space,room,furnishings,jim,Thompson,terrace,experience;very,memorable;room;room;6,00
-340324;74030;Peter;14/08/2013 5:25:23;POS;"Ambience, Climate, location, setting, dÈcor, space, room furnishings, jim Thompson terrace are all a very memorable experience.";Ambience,Climate,location,setting,dÈcor,space,room,furnishings,jim,Thompson,terrace,experience;very,memorable;setting;location;6,00
-340324;74030;Peter;14/08/2013 5:25:23;POS;"Ambience, Climate, location, setting, dÈcor, space, room furnishings, jim Thompson terrace are all a very memorable experience.";Ambience,Climate,location,setting,dÈcor,space,room,furnishings,jim,Thompson,terrace,experience;very,memorable;terrace;room;6,00
+340324;74030;Peter;14/08/2013 5:25:23;POS;"Ambience, Climate, location, setting, d√©cor, space, room furnishings, jim Thompson terrace are all a very memorable experience.";Ambience,Climate,location,setting,d√©cor,space,room,furnishings,jim,Thompson,terrace,experience;very,memorable;Ambience;atmosphere;6,00
+340324;74030;Peter;14/08/2013 5:25:23;POS;"Ambience, Climate, location, setting, d√©cor, space, room furnishings, jim Thompson terrace are all a very memorable experience.";Ambience,Climate,location,setting,d√©cor,space,room,furnishings,jim,Thompson,terrace,experience;very,memorable;experience;comfort;6,00
+340324;74030;Peter;14/08/2013 5:25:23;POS;"Ambience, Climate, location, setting, d√©cor, space, room furnishings, jim Thompson terrace are all a very memorable experience.";Ambience,Climate,location,setting,d√©cor,space,room,furnishings,jim,Thompson,terrace,experience;very,memorable;location;location;6,00
+340324;74030;Peter;14/08/2013 5:25:23;POS;"Ambience, Climate, location, setting, d√©cor, space, room furnishings, jim Thompson terrace are all a very memorable experience.";Ambience,Climate,location,setting,d√©cor,space,room,furnishings,jim,Thompson,terrace,experience;very,memorable;room;room;6,00
+340324;74030;Peter;14/08/2013 5:25:23;POS;"Ambience, Climate, location, setting, d√©cor, space, room furnishings, jim Thompson terrace are all a very memorable experience.";Ambience,Climate,location,setting,d√©cor,space,room,furnishings,jim,Thompson,terrace,experience;very,memorable;setting;location;6,00
+340324;74030;Peter;14/08/2013 5:25:23;POS;"Ambience, Climate, location, setting, d√©cor, space, room furnishings, jim Thompson terrace are all a very memorable experience.";Ambience,Climate,location,setting,d√©cor,space,room,furnishings,jim,Thompson,terrace,experience;very,memorable;terrace;room;6,00
 340332;115681;stevenenco;14/08/2013 8:41:20;NEG;"The running water out of the tap in the shower was not working.";shower;was,not,working;shower;bathroom;-1,00
 340332;115681;stevenenco;14/08/2013 8:41:20;NEG;"The running water out of the tap in the shower was not working.";shower;was,not,working;working;condition;-1,00
 340332;115681;stevenenco;14/08/2013 8:41:20;POS;"Rooms were clean";Rooms;clean;clean;condition;2,00
@@ -8625,7 +8625,7 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 340428;145542;;14/08/2013 3:09:24;POS;"Good size 3-bed room.";size;Good;size;size;2,00
 340428;145542;;14/08/2013 3:09:24;POS;"Good value for the money";value;Good;value;pricing;2,00
 340428;145542;;14/08/2013 3:09:24;POS;"Very close to the trainstation, 2 min walk.";trainstation;Very,close;close;location;2,00
-340428;145542;;14/08/2013 3:09:24;POS;"Very good breakfast buffÈ.";breakfast,buffÈ;Very,good;breakfast;food and drinks;4,00
+340428;145542;;14/08/2013 3:09:24;POS;"Very good breakfast buff√©.";breakfast,buff√©;Very,good;breakfast;food and drinks;4,00
 340432;141013;MA prast;14/08/2013 3:58:52;NEG;"Room is too small";Room,ENG;too,small;Room;room;-0,90
 340432;141013;MA prast;14/08/2013 3:58:52;NEG;"Room is too small";Room,ENG;too,small;small;size;-0,90
 340432;141013;MA prast;14/08/2013 3:58:52;POS;"Good location, clean.";location;clean;clean;condition;2,00
@@ -8837,7 +8837,7 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 340653;72019;David;16/08/2013 2:02:07;POS;"Excellent place to stay.";place;Excellent;Excellent;quality;3,00
 340653;72019;David;16/08/2013 2:02:07;POS;"Room was lovely.";Room;lovely;Room;room;3,00
 340658;164381;;16/08/2013 2:48:29;POS;"Good price, for a decent hotel.";price;Good;price;pricing;2,00
-340660;169278;be open minded as Basic;16/08/2013 2:51:05;NEG;"no parking so again bring change as parking £5 11 hours.";parking;no;parking;features;-1,00
+340660;169278;be open minded as Basic;16/08/2013 2:51:05;NEG;"no parking so again bring change as parking ¬£5 11 hours.";parking;no;parking;features;-1,00
 340660;169278;be open minded as Basic;16/08/2013 2:51:05;POS;"Be open minded as has basic some rooms have a Sea view, walking distance of beach,which has lovely little hut shops to look at.";walking distance,beach,hut,shops;lovely,little;beach;location;3,50
 340660;169278;be open minded as Basic;16/08/2013 2:51:05;POS;"Be open minded as has basic some rooms have a Sea view, walking distance of beach,which has lovely little hut shops to look at.";walking distance,beach,hut,shops;lovely,little;little;size;3,50
 340660;169278;be open minded as Basic;16/08/2013 2:51:05;POS;"range of young travellers, close to amenities, good buses, felt safe.";range,travellers;close;close;location;1,00
@@ -8912,7 +8912,7 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 340778;300;;17/08/2013 0:38:24;POS;"At least 4th floor !";floor;least;floor;room;-0,50
 340778;300;;17/08/2013 0:38:24;POS;"At least 4th floor !";floor;least;least;size;-0,50
 340782;54473;Barmyday;17/08/2013 1:09:45;POS;"Excellent cabaret in the evening.";cabaret;Excellent;Excellent;quality;3,00
-340782;54473;Barmyday;17/08/2013 1:09:45;POS;"Reasonable cost of £3.00 per night.";cost,£300;Reasonable;Reasonable;quality;2,00
+340782;54473;Barmyday;17/08/2013 1:09:45;POS;"Reasonable cost of ¬£3.00 per night.";cost,¬£300;Reasonable;Reasonable;quality;2,00
 340782;54473;Barmyday;17/08/2013 1:09:45;POS;"The breakfast was quite good with a reasonable choice of food.";breakfast;quite,good;breakfast;food and drinks;3,00
 340782;54473;Barmyday;17/08/2013 1:09:45;POS;"The breakfast was quite good with a reasonable choice of food.";choice;reasonable;reasonable;quality;2,00
 340782;54473;Barmyday;17/08/2013 1:09:45;POS;"The car parking is very good with plenty of parking spaces.";car parking;very,good;car parking;hotel;4,00
@@ -9037,9 +9037,9 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 340916;53638;Salvador;18/08/2013 4:00:32;POS;"The price for value is great, the room Was spacious and clean.";price for value;great;great;quality;4,00
 340916;53638;Salvador;18/08/2013 4:00:32;POS;"The price for value is great, the room Was spacious and clean.";room;spacious,clean;room;room;4,00
 340916;53638;Salvador;18/08/2013 4:00:32;POS;"The price for value is great, the room Was spacious and clean.";room;spacious,clean;spacious;size;4,00
-340916;53638;Salvador;18/08/2013 4:00:32;POS;"The staff, specialy MarÌa, the front desl receptionist, Was charming and very helpful.";staff,specialy,MarÌa,desl,receptionist;charming,very,helpful;helpful;staff;7,00
-340916;53638;Salvador;18/08/2013 4:00:32;POS;"The staff, specialy MarÌa, the front desl receptionist, Was charming and very helpful.";staff,specialy,MarÌa,desl,receptionist;charming,very,helpful;receptionist;staff;7,00
-340916;53638;Salvador;18/08/2013 4:00:32;POS;"The staff, specialy MarÌa, the front desl receptionist, Was charming and very helpful.";staff,specialy,MarÌa,desl,receptionist;charming,very,helpful;staff;staff;7,00
+340916;53638;Salvador;18/08/2013 4:00:32;POS;"The staff, specialy Mar√≠a, the front desl receptionist, Was charming and very helpful.";staff,specialy,Mar√≠a,desl,receptionist;charming,very,helpful;helpful;staff;7,00
+340916;53638;Salvador;18/08/2013 4:00:32;POS;"The staff, specialy Mar√≠a, the front desl receptionist, Was charming and very helpful.";staff,specialy,Mar√≠a,desl,receptionist;charming,very,helpful;receptionist;staff;7,00
+340916;53638;Salvador;18/08/2013 4:00:32;POS;"The staff, specialy Mar√≠a, the front desl receptionist, Was charming and very helpful.";staff,specialy,Mar√≠a,desl,receptionist;charming,very,helpful;staff;staff;7,00
 340920;16249;;18/08/2013 4:10:11;NEG;"drinks etc a little expensive";drinks,etc;a little,expensive;drinks;food and drinks;-2,50
 340920;16249;;18/08/2013 4:10:11;NEG;"drinks etc a little expensive";drinks,etc;a little,expensive;expensive;pricing;-2,50
 340930;195812;;18/08/2013 6:11:56;NEG;"But gozo as an island is great and food at local restarants is fantastic!";food,restarants;fantastic;food;food and drinks;4,00
@@ -9133,11 +9133,11 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 341039;52247;cjmom2010;19/08/2013 10:52:52;POS;"Modern decor.";decor;Modern;decor;look and feel;1,00
 341039;52247;cjmom2010;19/08/2013 10:52:52;POS;"The room was great for my purpose just wanted to relax time alone.";room;great;great;quality;4,00
 341039;52247;cjmom2010;19/08/2013 10:52:52;POS;"The room was great for my purpose just wanted to relax time alone.";room;great;room;room;4,00
-341040;114508;FranÁois;19/08/2013 10:58:46;POS;"Rooms are quite big and clean and there is a free car park.";Rooms;quite,big,clean;big;size;3,50
-341040;114508;FranÁois;19/08/2013 10:58:46;POS;"Rooms are quite big and clean and there is a free car park.";car park;free;car park;hotel;1,00
-341040;114508;FranÁois;19/08/2013 10:58:46;POS;"Rooms are quite big and clean and there is a free car park.";Rooms;quite,big,clean;clean;condition;3,50
-341040;114508;FranÁois;19/08/2013 10:58:46;POS;"Rooms are quite big and clean and there is a free car park.";car park;free;free;features;1,00
-341040;114508;FranÁois;19/08/2013 10:58:46;POS;"Rooms are quite big and clean and there is a free car park.";Rooms;quite,big,clean;Rooms;room;3,50
+341040;114508;Fran√ßois;19/08/2013 10:58:46;POS;"Rooms are quite big and clean and there is a free car park.";Rooms;quite,big,clean;big;size;3,50
+341040;114508;Fran√ßois;19/08/2013 10:58:46;POS;"Rooms are quite big and clean and there is a free car park.";car park;free;car park;hotel;1,00
+341040;114508;Fran√ßois;19/08/2013 10:58:46;POS;"Rooms are quite big and clean and there is a free car park.";Rooms;quite,big,clean;clean;condition;3,50
+341040;114508;Fran√ßois;19/08/2013 10:58:46;POS;"Rooms are quite big and clean and there is a free car park.";car park;free;free;features;1,00
+341040;114508;Fran√ßois;19/08/2013 10:58:46;POS;"Rooms are quite big and clean and there is a free car park.";Rooms;quite,big,clean;Rooms;room;3,50
 341041;74318;;19/08/2013 11:02:55;NEG;"Staff was not friendly and didn't smile once.";Staff;not,friendly;friendly;staff;-2,00
 341041;74318;;19/08/2013 11:02:55;NEG;"Staff was not friendly and didn't smile once.";Staff;not;Staff;staff;-1,00
 341041;74318;;19/08/2013 11:02:55;NEG;"Staff was not friendly and didn't smile once.";Staff;not,friendly;Staff;staff;-2,00
@@ -9345,7 +9345,7 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 341345;16671;doctor boost;20/08/2013 4:33:47;POS;"Friendly staff that were happy to help :)";staff;Friendly;Friendly;staff;2,00
 341345;16671;doctor boost;20/08/2013 4:33:47;POS;"Friendly staff that were happy to help :)";staff;Friendly;staff;staff;2,00
 341345;16671;doctor boost;20/08/2013 4:33:47;POS;"Friendly staff that were happy to help :)";staff;happy;staff;staff;2,00
-341351;136730;Pareja MadrileÒa;20/08/2013 5:17:45;POS;"The apartments have a very good emplacement in the Kamari Beach.";apartments,emplacement;very,good;apartments;room;4,00
+341351;136730;Pareja Madrile√±a;20/08/2013 5:17:45;POS;"The apartments have a very good emplacement in the Kamari Beach.";apartments,emplacement;very,good;apartments;room;4,00
 341359;124720;;20/08/2013 5:59:04;POS;"Clean ,simple , Value for money";;Clean;Clean;condition;2,00
 341359;124720;;20/08/2013 5:59:04;POS;"Clean ,simple , Value for money";Value,money;simple;Value;pricing;0,50
 341360;188754;Ken;20/08/2013 5:59:47;NEG;"- Double Bed was literally two beds aligned, as oppose to a King-sized bed.";bed;sized;Bed;room;1,00
@@ -9391,12 +9391,12 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 341406;821;;21/08/2013 0:13:46;NEG;"Bar prices  over the top.";Bar,prices;top;Bar;food and drinks;0,50
 341406;821;;21/08/2013 0:13:46;NEG;"Bar prices  over the top.";Bar,prices;top;prices;pricing;0,50
 341407;157129;;21/08/2013 0:24:59;NEG;"glitter tattoos - good, pool side dancing - bad.";pool,side;bad;pool;hotel;-2,00
-341408;137039;C.Pav„o;21/08/2013 0:25:28;NEG;"Be careful with the fish of the day dish :)";fish,day,dish,__SMILEY_LAUGH__,ENG;careful;dish;food and drinks;1,00
-341408;137039;C.Pav„o;21/08/2013 0:25:28;NEG;"Desserts are all good.";Desserts;good;Desserts;food and drinks;2,00
-341408;137039;C.Pav„o;21/08/2013 0:25:28;NEG;"Dinner ‡ l· carte with several options that varies from very good to bad.";Dinner,‡,l·,carte,options;bad;Dinner;food and drinks;-2,00
-341408;137039;C.Pav„o;21/08/2013 0:25:28;NEG;"Dinner ‡ l· carte with several options that varies from very good to bad.";Dinner,‡,l·,carte,options;very,good;Dinner;food and drinks;4,00
-341408;137039;C.Pav„o;21/08/2013 0:25:28;NEG;"Spa has no ambiance but good massages.";Spa,ambiance;no;ambiance;atmosphere;-1,00
-341408;137039;C.Pav„o;21/08/2013 0:25:28;NEG;"Spa has no ambiance but good massages.";Spa,ambiance;no;Spa;features;-1,00
+341408;137039;C.Pav√£o;21/08/2013 0:25:28;NEG;"Be careful with the fish of the day dish :)";fish,day,dish,__SMILEY_LAUGH__,ENG;careful;dish;food and drinks;1,00
+341408;137039;C.Pav√£o;21/08/2013 0:25:28;NEG;"Desserts are all good.";Desserts;good;Desserts;food and drinks;2,00
+341408;137039;C.Pav√£o;21/08/2013 0:25:28;NEG;"Dinner √† l√° carte with several options that varies from very good to bad.";Dinner,√†,l√°,carte,options;bad;Dinner;food and drinks;-2,00
+341408;137039;C.Pav√£o;21/08/2013 0:25:28;NEG;"Dinner √† l√° carte with several options that varies from very good to bad.";Dinner,√†,l√°,carte,options;very,good;Dinner;food and drinks;4,00
+341408;137039;C.Pav√£o;21/08/2013 0:25:28;NEG;"Spa has no ambiance but good massages.";Spa,ambiance;no;ambiance;atmosphere;-1,00
+341408;137039;C.Pav√£o;21/08/2013 0:25:28;NEG;"Spa has no ambiance but good massages.";Spa,ambiance;no;Spa;features;-1,00
 341409;139839;;21/08/2013 0:38:06;POS;"Loved the view of the airport and our children loved the swimming pool.";view,airport;Loved;airport;location;3,00
 341409;139839;;21/08/2013 0:38:06;POS;"Loved the view of the airport and our children loved the swimming pool.";children,swimming pool;loved;swimming pool;hotel;3,00
 341409;139839;;21/08/2013 0:38:06;POS;"Loved the view of the airport and our children loved the swimming pool.";view,airport;Loved;view;location;3,00
@@ -9662,8 +9662,8 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 341880;54977;;24/08/2013 0:01:05;POS;"great bus service to parks,comfortable beds";beds;comfortable;comfortable;comfort;2,00
 341880;54977;;24/08/2013 0:01:05;POS;"great bus service to parks,comfortable beds";bus,service;great;great;quality;4,00
 341880;54977;;24/08/2013 0:01:05;POS;"great bus service to parks,comfortable beds";bus,service;great;service;staff;4,00
-341883;6082;Alan;24/08/2013 0:58:01;NEG;"Underground Car parking was expensive at Ä20 per day.";Car parking;expensive;Car parking;hotel;-2,00
-341883;6082;Alan;24/08/2013 0:58:01;NEG;"Underground Car parking was expensive at Ä20 per day.";Car parking;expensive;expensive;pricing;-2,00
+341883;6082;Alan;24/08/2013 0:58:01;NEG;"Underground Car parking was expensive at ‚Ç¨20 per day.";Car parking;expensive;Car parking;hotel;-2,00
+341883;6082;Alan;24/08/2013 0:58:01;NEG;"Underground Car parking was expensive at ‚Ç¨20 per day.";Car parking;expensive;expensive;pricing;-2,00
 341883;6082;Alan;24/08/2013 0:58:01;POS;"Really helpful, pleasant reception staff.";reception,staff;Really,helpful;helpful;staff;4,00
 341883;6082;Alan;24/08/2013 0:58:01;POS;"Really helpful, pleasant reception staff.";reception,staff;pleasant;reception;staff;3,00
 341883;6082;Alan;24/08/2013 0:58:01;POS;"Really helpful, pleasant reception staff.";reception,staff;Really,helpful;reception;staff;4,00
@@ -9727,7 +9727,7 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 341958;68081;Qarout;24/08/2013 5:15:46;NEG;"The room was a little bit small.";room;a little bit,small;small;size;-0,25
 341960;84498;Liji;24/08/2013 5:40:03;NEG;"A very bad experience with this hotel.";experience;very,bad;experience;comfort;-4,00
 341960;84498;Liji;24/08/2013 5:40:03;NEG;"Breakfast was also not very nice.";Breakfast;not,very,nice;Breakfast;food and drinks;-4,00
-341961;281;;24/08/2013 5:47:27;NEG;"The stuff wasn¥t always so friendly.";stuff;not,so,friendly;friendly;staff;-5,00
+341961;281;;24/08/2013 5:47:27;NEG;"The stuff wasn¬¥t always so friendly.";stuff;not,so,friendly;friendly;staff;-5,00
 341961;281;;24/08/2013 5:47:27;POS;"Great hotel with great facilities, the breakfast was very good!";breakfast;very,good;breakfast;food and drinks;4,00
 341961;281;;24/08/2013 5:47:27;POS;"Great hotel with great facilities, the breakfast was very good!";facilities;great;facilities;features;4,00
 341961;281;;24/08/2013 5:47:27;POS;"Great hotel with great facilities, the breakfast was very good!";facilities;great;great;quality;4,00
@@ -10785,7 +10785,7 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 343823;152223;JAVI;03/09/2013 11:50:58;NEG;"Esta un poco apartado de la estacion central y de las zonas de compras,pero esta bien si solo se duerme en el para hacer una escala.";Esta,un,poco,apartado,la,estacion,y;central;central;location;1,00
 343823;152223;JAVI;03/09/2013 11:50:58;POS;"se puede ir andando a la estacion central aunque se camina por un camino solitario y entre un nudo de carreteras.";se,puede,ir,andando,la,estacion;central;central;location;1,00
 343826;196094;;03/09/2013 11:54:07;NEG;"Breakfast wasn't to good";Breakfast,ENG;not,good;Breakfast;food and drinks;-2,00
-343835;100445;Jozef;03/09/2013 0:16:02;NEG;"Only one bar at hotel ¥s pool area, very busy.";bar,hotel,pool area;very,busy;bar;food and drinks;-4,00
+343835;100445;Jozef;03/09/2013 0:16:02;NEG;"Only one bar at hotel ¬¥s pool area, very busy.";bar,hotel,pool area;very,busy;bar;food and drinks;-4,00
 343835;100445;Jozef;03/09/2013 0:16:02;NEG;"Worst internet connection almost not possible to use.";internet,connection;Worst;internet;features;-4,00
 343835;100445;Jozef;03/09/2013 0:16:02;POS;"Close to the beach.";beach;Close;beach;location;1,00
 343835;100445;Jozef;03/09/2013 0:16:02;POS;"Close to the beach.";beach;Close;Close;location;1,00
@@ -11114,7 +11114,7 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 344248;130261;Flare;06/09/2013 10:53:47;NEG;"Bed was broken (looked liked someone took a big bite on it), the view on the backside looked like a junkyard.";Bed,(;liked;Bed;room;2,00
 344248;130261;Flare;06/09/2013 10:53:47;NEG;"Bed was broken (looked liked someone took a big bite on it), the view on the backside looked like a junkyard.";bite;big;big;size;1,00
 344248;130261;Flare;06/09/2013 10:53:47;NEG;"Bed was broken (looked liked someone took a big bite on it), the view on the backside looked like a junkyard.";Bed,(;broken;broken;condition;-3,00
-344248;130261;Flare;06/09/2013 10:53:47;POS;"One of the hotel¥s employees had nice attributes.";hotel,',employees,attributes;nice;employees;staff;2,00
+344248;130261;Flare;06/09/2013 10:53:47;POS;"One of the hotel¬¥s employees had nice attributes.";hotel,',employees,attributes;nice;employees;staff;2,00
 344251;7593;;06/09/2013 11:07:51;POS;"Great value for money.";value for money;Great;Great;quality;4,00
 344253;68322;;06/09/2013 11:35:42;NEG;"No shampoo  Shower head broken leaking all over the place  Outside of bath";Shower;broken;broken;condition;-3,00
 344253;68322;;06/09/2013 11:35:42;NEG;"No shampoo  Shower head broken leaking all over the place  Outside of bath";Shower;broken;Shower;bathroom;-3,00
@@ -11210,13 +11210,13 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 344346;26999;sub1010;07/09/2013 0:32:26;POS;"Very friendly staff, great location near the waterfront";location;great;great;quality;4,00
 344346;26999;sub1010;07/09/2013 0:32:26;POS;"Very friendly staff, great location near the waterfront";location;great;location;location;4,00
 344346;26999;sub1010;07/09/2013 0:32:26;POS;"Very friendly staff, great location near the waterfront";staff;Very,friendly;staff;staff;4,00
-344351;62522;Per ÷man;07/09/2013 1:16:51;NEG;"Far from the city, but very cheap with a taxi.";city;very,cheap;cheap;pricing;2,00
-344351;62522;Per ÷man;07/09/2013 1:16:51;NEG;"Far from the city, but very cheap with a taxi.";city;Far;Far;location;-0,50
-344351;62522;Per ÷man;07/09/2013 1:16:51;POS;"Nice pool, nice staff, clean, quiet";staff;clean;clean;condition;2,00
-344351;62522;Per ÷man;07/09/2013 1:16:51;POS;"Nice pool, nice staff, clean, quiet";pool;Nice;pool;hotel;2,00
-344351;62522;Per ÷man;07/09/2013 1:16:51;POS;"Nice pool, nice staff, clean, quiet";staff;clean;staff;staff;2,00
-344351;62522;Per ÷man;07/09/2013 1:16:51;POS;"Nice pool, nice staff, clean, quiet";staff;nice;staff;staff;2,00
-344351;62522;Per ÷man;07/09/2013 1:16:51;POS;"Nice pool, nice staff, clean, quiet";staff;quiet;staff;staff;3,00
+344351;62522;Per √ñman;07/09/2013 1:16:51;NEG;"Far from the city, but very cheap with a taxi.";city;very,cheap;cheap;pricing;2,00
+344351;62522;Per √ñman;07/09/2013 1:16:51;NEG;"Far from the city, but very cheap with a taxi.";city;Far;Far;location;-0,50
+344351;62522;Per √ñman;07/09/2013 1:16:51;POS;"Nice pool, nice staff, clean, quiet";staff;clean;clean;condition;2,00
+344351;62522;Per √ñman;07/09/2013 1:16:51;POS;"Nice pool, nice staff, clean, quiet";pool;Nice;pool;hotel;2,00
+344351;62522;Per √ñman;07/09/2013 1:16:51;POS;"Nice pool, nice staff, clean, quiet";staff;clean;staff;staff;2,00
+344351;62522;Per √ñman;07/09/2013 1:16:51;POS;"Nice pool, nice staff, clean, quiet";staff;nice;staff;staff;2,00
+344351;62522;Per √ñman;07/09/2013 1:16:51;POS;"Nice pool, nice staff, clean, quiet";staff;quiet;staff;staff;3,00
 344355;153866;ann;07/09/2013 2:05:53;POS;"Staff very good";Staff;very,good;Staff;staff;4,00
 344355;153866;ann;07/09/2013 2:05:53;POS;"Value for money, Did not bother with the breakfast, Very big rooms ideal for families.";rooms;Very,big,ideal;big;size;6,00
 344355;153866;ann;07/09/2013 2:05:53;POS;"Value for money, Did not bother with the breakfast, Very big rooms ideal for families.";Value,money,breakfast;not;breakfast;food and drinks;-1,00
@@ -11384,13 +11384,13 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 344587;96017;;09/09/2013 1:12:10;POS;"The hotel location is excellent, right around the corner from Checkpoint Charlie, and twenty minutes walk up Wilhelmstrasse to the Brandenburg gate, with alot of the museums/memorials along that route and then shopping on Friedrichstrasse.";hotel,location;excellent;excellent;quality;3,00
 344587;96017;;09/09/2013 1:12:10;POS;"The hotel location is excellent, right around the corner from Checkpoint Charlie, and twenty minutes walk up Wilhelmstrasse to the Brandenburg gate, with alot of the museums/memorials along that route and then shopping on Friedrichstrasse.";hotel,location;excellent;location;location;3,00
 344587;96017;;09/09/2013 1:12:10;POS;"The room was a very good size, compared to continental standards.";size;very,good;size;size;4,00
-344591;6653;;09/09/2013 1:35:26;NEG;"My phone didn¥t even work down there!";phone;did,not,work,down;work;condition;-1,00
+344591;6653;;09/09/2013 1:35:26;NEG;"My phone didn¬¥t even work down there!";phone;did,not,work,down;work;condition;-1,00
 344591;6653;;09/09/2013 1:35:26;NEG;"The breakfast was a very limited choice and the coffee was awful, a cup full of coffee grinds.";breakfast,choice;very,limited;breakfast;food and drinks;-1,00
 344591;6653;;09/09/2013 1:35:26;NEG;"The breakfast was a very limited choice and the coffee was awful, a cup full of coffee grinds.";coffee;awful;coffee;food and drinks;-4,00
 344591;6653;;09/09/2013 1:35:26;NEG;"The staff were impatient and not very friendly, took some persuasion to get them to show me exactly where the room was after having wandered around the maze-like basement.";staff;not,very,friendly;friendly;staff;-4,00
 344591;6653;;09/09/2013 1:35:26;NEG;"The staff were impatient and not very friendly, took some persuasion to get them to show me exactly where the room was after having wandered around the maze-like basement.";staff;not,very,friendly;staff;staff;-4,00
-344591;6653;;09/09/2013 1:35:26;NEG;"There was a tv on the wall, but it didn¥t work.";wall;did,not,work;wall;room;-1,00
-344591;6653;;09/09/2013 1:35:26;NEG;"There was a tv on the wall, but it didn¥t work.";wall;did,not,work;work;condition;-1,00
+344591;6653;;09/09/2013 1:35:26;NEG;"There was a tv on the wall, but it didn¬¥t work.";wall;did,not,work;wall;room;-1,00
+344591;6653;;09/09/2013 1:35:26;NEG;"There was a tv on the wall, but it didn¬¥t work.";wall;did,not,work;work;condition;-1,00
 344592;125177;Turk;09/09/2013 1:50:10;NEG;"Cheap hotel cheap quality";hotel;Cheap;Cheap;pricing;1,00
 344592;125177;Turk;09/09/2013 1:50:10;NEG;"Cheap hotel cheap quality";quality;cheap;Cheap;pricing;1,00
 344592;125177;Turk;09/09/2013 1:50:10;NEG;"Cheap hotel cheap quality";quality;cheap;quality;quality;1,00
@@ -12769,7 +12769,7 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 346254;61480;;21/09/2013 8:49:03;NEG;"Car parking is free with the voucher provided by the hotel, but the public car park is difficult to find and is rather scruffy.";public,car park;difficult;difficult;comfort;-2,00
 346254;61480;;21/09/2013 8:49:03;NEG;"Restaurant looks plush, but food was disappointing.";Restaurant,looks,plush,food;was,disappointing;food;food and drinks;-3,00
 346254;61480;;21/09/2013 8:49:03;NEG;"Restaurant looks plush, but food was disappointing.";Restaurant,looks,plush,food;was,disappointing;Restaurant;food and drinks;-3,00
-346257;17394;;21/09/2013 9:27:38;NEG;"Shared bathroom for 63 £ - unbelievably expensive !";63 £;expensive;expensive;pricing;-2,00
+346257;17394;;21/09/2013 9:27:38;NEG;"Shared bathroom for 63 ¬£ - unbelievably expensive !";63 ¬£;expensive;expensive;pricing;-2,00
 346257;17394;;21/09/2013 9:27:38;POS;"Good breakfast";breakfast;Good;breakfast;food and drinks;2,00
 346279;147293;Serdar;22/09/2013 10:08:14;POS;"Excellent";;Excellent;Excellent;quality;3,00
 346285;138011;;22/09/2013 11:23:11;POS;"stayed 2 nights in 2 bed apartment then had to move to studio basic but clean would definately pay the extra for apartment otherwise was ok";apartment;ok;apartment;room;0,30
@@ -12804,8 +12804,8 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 346309;6177;;22/09/2013 3:59:00;NEG;"The bahaviour of the front desk worker is just terrible, rude and not professional.";bahaviour,front desk,worker;rude,not,professional;rude;staff;-5,00
 346318;71683;;22/09/2013 6:36:03;NEG;"The hotel is big and full of guests but without sufficient service:  1.";hotel,guests;big;big;size;1,00
 346318;71683;;22/09/2013 6:36:03;NEG;"The hotel is big and full of guests but without sufficient service:  1.";service,,;sufficient;service;staff;0,30
-346355;6580;;23/09/2013 8:56:18;NEG;"which doesnt bode well with othr guests being charged £140 room only for a tiny room on the 8th floor!";room;tiny;room;room;-1,00
-346355;6580;;23/09/2013 8:56:18;NEG;"which doesnt bode well with othr guests being charged £140 room only for a tiny room on the 8th floor!";room;tiny;tiny;size;-1,00
+346355;6580;;23/09/2013 8:56:18;NEG;"which doesnt bode well with othr guests being charged ¬£140 room only for a tiny room on the 8th floor!";room;tiny;room;room;-1,00
+346355;6580;;23/09/2013 8:56:18;NEG;"which doesnt bode well with othr guests being charged ¬£140 room only for a tiny room on the 8th floor!";room;tiny;tiny;size;-1,00
 346362;7467;;23/09/2013 9:25:47;POS;"Very nice staff at the front desk";staff;Very,nice;staff;staff;4,00
 346365;184328;;23/09/2013 9:27:56;POS;"Food in the resort is amazing, even room service.";Food,resort;amazing;amazing;quality;4,00
 346365;184328;;23/09/2013 9:27:56;POS;"Food in the resort is amazing, even room service.";Food,resort;amazing;Food;food and drinks;4,00
@@ -12970,8 +12970,8 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 346618;14586;;24/09/2013 1:07:00;POS;"All the staff were very polite, helpful and courteous.";staff;helpful,courteous;staff;staff;4,00
 346618;14586;;24/09/2013 1:07:00;POS;"All the staff were very polite, helpful and courteous.";staff;very,polite;staff;staff;6,00
 346618;14586;;24/09/2013 1:07:00;POS;"Hotel is very nice, if a little dated and a little split up with bar";bar;a little,dated,a little;bar;food and drinks;-2,00
-346633;115073;paulmason03;24/09/2013 3:11:56;NEG;"No free parking, costs £10 or £11 for 12 hours with no option to extend";parking;No,free;free;features;-1,00
-346633;115073;paulmason03;24/09/2013 3:11:56;NEG;"No free parking, costs £10 or £11 for 12 hours with no option to extend";parking;No,free;parking;features;-1,00
+346633;115073;paulmason03;24/09/2013 3:11:56;NEG;"No free parking, costs ¬£10 or ¬£11 for 12 hours with no option to extend";parking;No,free;free;features;-1,00
+346633;115073;paulmason03;24/09/2013 3:11:56;NEG;"No free parking, costs ¬£10 or ¬£11 for 12 hours with no option to extend";parking;No,free;parking;features;-1,00
 346633;115073;paulmason03;24/09/2013 3:11:56;POS;", good location";location;good;location;location;2,00
 346636;169905;;24/09/2013 3:28:32;POS;"Clean rooms, great location, staff really friiendly";rooms;Clean;Clean;condition;2,00
 346636;169905;;24/09/2013 3:28:32;POS;"Clean rooms, great location, staff really friiendly";location;great;great;quality;4,00
@@ -13380,8 +13380,8 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 347130;18252;Anne;29/09/2013 11:23:08;POS;"Breakfast was excellent with a huge choice.";choice;huge;huge;size;1,00
 347130;18252;Anne;29/09/2013 11:23:08;POS;"Hotel staff were very helpful and all spoke good English.";Hotel,staff;very,helpful;helpful;staff;4,00
 347130;18252;Anne;29/09/2013 11:23:08;POS;"Hotel staff were very helpful and all spoke good English.";Hotel,staff;very,helpful;staff;staff;4,00
-347130;18252;Anne;29/09/2013 11:23:08;POS;"Return to the centre was about  £10 and the trip to auchwitz was £55 and there were 3 of us so the prices were great and the service was great.";prices;great;great;quality;4,00
-347130;18252;Anne;29/09/2013 11:23:08;POS;"Return to the centre was about  £10 and the trip to auchwitz was £55 and there were 3 of us so the prices were great and the service was great.";service;great;great;quality;4,00
+347130;18252;Anne;29/09/2013 11:23:08;POS;"Return to the centre was about  ¬£10 and the trip to auchwitz was ¬£55 and there were 3 of us so the prices were great and the service was great.";prices;great;great;quality;4,00
+347130;18252;Anne;29/09/2013 11:23:08;POS;"Return to the centre was about  ¬£10 and the trip to auchwitz was ¬£55 and there were 3 of us so the prices were great and the service was great.";service;great;great;quality;4,00
 347134;143512;Belgian Business man;29/09/2013 11:42:28;NEG;"Old bed and extremely hard mattress  Restaurants are very expensive.";bed;Old;bed;room;-1,00
 347134;143512;Belgian Business man;29/09/2013 11:42:28;NEG;"Old bed and extremely hard mattress  Restaurants are very expensive.";Restaurants;very,expensive;expensive;pricing;-4,00
 347134;143512;Belgian Business man;29/09/2013 11:42:28;NEG;"Old bed and extremely hard mattress  Restaurants are very expensive.";mattress;extremely,hard;mattress;room;-3,50
@@ -14323,10 +14323,10 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 348015;141488;Ockie;07/10/2013 2:58:35;NEG;"Dinner was awful and breakfast was terrible.";Dinner;awful;Dinner;food and drinks;-4,00
 348015;141488;Ockie;07/10/2013 2:58:35;NEG;"Thr receptionist was as unfriendly and unco-operative as you can get.";Thr,receptionist;unfriendly;receptionist;staff;-2,00
 348015;141488;Ockie;07/10/2013 2:58:35;NEG;"Thr receptionist was as unfriendly and unco-operative as you can get.";Thr,receptionist;unfriendly;unfriendly;staff;-2,00
-348016;102412;;07/10/2013 3:02:17;POS;"A butler assigned to each room is always available to assist the hotelís residents.";room;available;room;room;2,00
-348016;102412;;07/10/2013 3:02:17;POS;"The hotelís pools and beachside area are comfortable and clean, and its spa includes many services, a beautiful gym, sauna and steam room.";hotel,',pools,beachside,area;comfortable,clean;clean;condition;4,00
-348016;102412;;07/10/2013 3:02:17;POS;"The hotelís pools and beachside area are comfortable and clean, and its spa includes many services, a beautiful gym, sauna and steam room.";hotel,',pools,beachside,area;comfortable,clean;comfortable;comfort;4,00
-348016;102412;;07/10/2013 3:02:17;POS;"The hotelís pools and beachside area are comfortable and clean, and its spa includes many services, a beautiful gym, sauna and steam room.";hotel,',pools,beachside,area;comfortable,clean;pools;hotel;4,00
+348016;102412;;07/10/2013 3:02:17;POS;"A butler assigned to each room is always available to assist the hotel‚Äôs residents.";room;available;room;room;2,00
+348016;102412;;07/10/2013 3:02:17;POS;"The hotel‚Äôs pools and beachside area are comfortable and clean, and its spa includes many services, a beautiful gym, sauna and steam room.";hotel,',pools,beachside,area;comfortable,clean;clean;condition;4,00
+348016;102412;;07/10/2013 3:02:17;POS;"The hotel‚Äôs pools and beachside area are comfortable and clean, and its spa includes many services, a beautiful gym, sauna and steam room.";hotel,',pools,beachside,area;comfortable,clean;comfortable;comfort;4,00
+348016;102412;;07/10/2013 3:02:17;POS;"The hotel‚Äôs pools and beachside area are comfortable and clean, and its spa includes many services, a beautiful gym, sauna and steam room.";hotel,',pools,beachside,area;comfortable,clean;pools;hotel;4,00
 348016;102412;;07/10/2013 3:02:17;POS;"The staff are friendly, courteous and always available when needed.";staff;courteous,available;courteous;staff;4,00
 348016;102412;;07/10/2013 3:02:17;POS;"The staff are friendly, courteous and always available when needed.";staff;friendly;friendly;staff;2,00
 348016;102412;;07/10/2013 3:02:17;POS;"The staff are friendly, courteous and always available when needed.";staff;courteous,available;staff;staff;4,00
@@ -14405,7 +14405,7 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 348109;183409;;08/10/2013 9:53:48;NEG;"The front office staff can only speak Spanish.";office,staff;can,speak;speak;staff;1,00
 348109;183409;;08/10/2013 9:53:48;NEG;"The front office staff can only speak Spanish.";office,staff;can,speak;staff;staff;1,00
 348109;183409;;08/10/2013 9:53:48;POS;"Public transportation, nice restaurants, bars and a Carrefour Express very nearby.";restaurants;nice;restaurants;food and drinks;2,00
-348112;156383;;08/10/2013 10:00:55;NEG;"The cheeky £5 parking charge was a bit of a surprise.";£5,parking,charge,surprise;a bit of;parking;features;0,50
+348112;156383;;08/10/2013 10:00:55;NEG;"The cheeky ¬£5 parking charge was a bit of a surprise.";¬£5,parking,charge,surprise;a bit of;parking;features;0,50
 348118;165378;karen;08/10/2013 10:13:59;POS;"Bed was comfortable and sheets looked white and clean.";Bed;comfortable;Bed;room;2,00
 348118;165378;karen;08/10/2013 10:13:59;POS;"Bed was comfortable and sheets looked white and clean.";sheets;clean;clean;condition;2,00
 348118;165378;karen;08/10/2013 10:13:59;POS;"Bed was comfortable and sheets looked white and clean.";Bed;comfortable;comfortable;comfort;2,00
@@ -14751,7 +14751,7 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 348521;107955;G S;11/10/2013 9:14:04;NEG;"The hotel did move us three days later when another room became  available  .";room;available;room;room;2,00
 348523;9477;;11/10/2013 9:23:13;POS;"Lovely room, lovely meal at college!";meal;lovely;meal;food and drinks;3,00
 348523;9477;;11/10/2013 9:23:13;POS;"Lovely room, lovely meal at college!";room;Lovely;room;room;3,00
-348528;133705;;11/10/2013 11:02:14;NEG;"Bit pricey, Ä109 a night without breakfast";Bit;pricey;pricey;pricing;-2,00
+348528;133705;;11/10/2013 11:02:14;NEG;"Bit pricey, ‚Ç¨109 a night without breakfast";Bit;pricey;pricey;pricing;-2,00
 348528;133705;;11/10/2013 11:02:14;POS;"Great location, minutes walk from Potsdamer Platz.";location;Great;Great;quality;4,00
 348528;133705;;11/10/2013 11:02:14;POS;"Great location, minutes walk from Potsdamer Platz.";location;Great;location;location;4,00
 348528;133705;;11/10/2013 11:02:14;POS;"Lovely pristine room";room;Lovely;room;room;3,00
@@ -15204,8 +15204,8 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 349108;140086;Happy Nomad;17/10/2013 7:10:40;POS;"2 computers are free to use in the small libary.";libary;small;small;size;-0,50
 349108;140086;Happy Nomad;17/10/2013 7:10:40;POS;"Free 2-way Songtheow shuttle service is also provided for guests to get into town.";way;Free;Free;features;1,00
 349108;140086;Happy Nomad;17/10/2013 7:10:40;POS;"Rather good value considering all the facilities provided.";value;good;value;pricing;2,00
-349112;26616;Anne SpÂngberg;17/10/2013 9:13:18;NEG;"The Water in the pool was cold, 18 celcius";Water,pool;cold;cold;temperature;-2,00
-349112;26616;Anne SpÂngberg;17/10/2013 9:13:18;NEG;"The Water in the pool was cold, 18 celcius";Water,pool;cold;pool;hotel;-2,00
+349112;26616;Anne Sp√•ngberg;17/10/2013 9:13:18;NEG;"The Water in the pool was cold, 18 celcius";Water,pool;cold;cold;temperature;-2,00
+349112;26616;Anne Sp√•ngberg;17/10/2013 9:13:18;NEG;"The Water in the pool was cold, 18 celcius";Water,pool;cold;pool;hotel;-2,00
 349118;151733;;17/10/2013 9:22:12;POS;"Overall very good value -  would happily use the hotel again in future!.";value;very,good;value;pricing;4,00
 349118;151733;;17/10/2013 9:22:12;POS;"Staff were helpful and friendly.";Staff;helpful,friendly;friendly;staff;4,00
 349118;151733;;17/10/2013 9:22:12;POS;"Staff were helpful and friendly.";Staff;helpful,friendly;helpful;staff;4,00
@@ -15406,8 +15406,8 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 349281;164414;;19/10/2013 9:59:48;POS;"Great value, Lovely staff!";staff;Lovely;staff;staff;3,00
 349281;164414;;19/10/2013 9:59:48;POS;"Great value, Lovely staff!";value;Great;value;pricing;4,00
 349295;9240;Phil;19/10/2013 11:17:16;NEG;"The corridors leading up to our room were a bit 'Tatty' and require redecorating.";room;a bit;room;room;0,50
-349295;9240;Phil;19/10/2013 11:17:16;NEG;"Were charged £8:50 for parking which should be free parking for residents.";parking;free;free;features;1,00
-349295;9240;Phil;19/10/2013 11:17:16;NEG;"Were charged £8:50 for parking which should be free parking for residents.";parking;free;parking;features;1,00
+349295;9240;Phil;19/10/2013 11:17:16;NEG;"Were charged ¬£8:50 for parking which should be free parking for residents.";parking;free;free;features;1,00
+349295;9240;Phil;19/10/2013 11:17:16;NEG;"Were charged ¬£8:50 for parking which should be free parking for residents.";parking;free;parking;features;1,00
 349295;9240;Phil;19/10/2013 11:17:16;POS;"Staff were pleasant and helpful and our evening meal in the restaurant was lovely although a little  overpriced.";Staff;pleasant,helpful;helpful;staff;5,00
 349295;9240;Phil;19/10/2013 11:17:16;POS;"Staff were pleasant and helpful and our evening meal in the restaurant was lovely although a little  overpriced.";evening,meal,restaurant;a little;meal;food and drinks;0,50
 349295;9240;Phil;19/10/2013 11:17:16;POS;"Staff were pleasant and helpful and our evening meal in the restaurant was lovely although a little  overpriced.";evening,meal,restaurant;lovely;meal;food and drinks;3,00
@@ -15611,7 +15611,7 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 349570;15419;;21/10/2013 10:59:10;POS;"Lovely staff.";staff;Lovely;staff;staff;3,00
 349571;188092;gary;21/10/2013 11:07:07;POS;"Excellent for access to Nec.";access,Nec;Excellent;access;features;3,00
 349571;188092;gary;21/10/2013 11:07:07;POS;"Excellent for access to Nec.";access,Nec;Excellent;Excellent;quality;3,00
-349573;1882;MARIO;22/10/2013 0:47:03;POS;"Me ofrecieron una habitaciÛn superior sin coste adicional.";ofrecieron,una,habitaciÛn,sin,coste,adicional;superior;superior;quality;1,00
+349573;1882;MARIO;22/10/2013 0:47:03;POS;"Me ofrecieron una habitaci√≥n superior sin coste adicional.";ofrecieron,una,habitaci√≥n,sin,coste,adicional;superior;superior;quality;1,00
 349575;63167;;22/10/2013 1:24:14;NEG;"No internet";internet;No;internet;features;-1,00
 349575;63167;;22/10/2013 1:24:14;POS;"Good location and super huge room in term of value!";room,value;super,huge;huge;size;4,00
 349575;63167;;22/10/2013 1:24:14;POS;"Good location and super huge room in term of value!";location;Good;location;location;2,00
@@ -16358,7 +16358,7 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 350444;16031;;29/10/2013 9:47:46;POS;"Very good location.";location;Very,good;location;location;4,00
 350453;187677;;29/10/2013 10:01:04;NEG;"Difficult to find transportation from hotel area.";transportation;Difficult;Difficult;comfort;-2,00
 350453;187677;;29/10/2013 10:01:04;NEG;"Lots of constructing work all around the hotel";work;Lots of;work;condition;-3,00
-350457;79516;EspaÒoles por el mundo;29/10/2013 10:14:24;NEG;"Bad quality-price ratio.";quality;Bad;quality;quality;-2,00
+350457;79516;Espa√±oles por el mundo;29/10/2013 10:14:24;NEG;"Bad quality-price ratio.";quality;Bad;quality;quality;-2,00
 350461;6634;;29/10/2013 10:23:51;POS;"staff were polite, room clean breakfast was great.";room,breakfast;clean,great;breakfast;food and drinks;6,00
 350461;6634;;29/10/2013 10:23:51;POS;"staff were polite, room clean breakfast was great.";room,breakfast;clean,great;clean;condition;6,00
 350461;6634;;29/10/2013 10:23:51;POS;"staff were polite, room clean breakfast was great.";room,breakfast;clean,great;great;quality;6,00
@@ -16600,7 +16600,7 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 350695;9240;Heather from liverpool;30/10/2013 11:52:52;NEG;"Breakfast expensive 3 different prices online, ask staff, on board, a bit noisy with a party that was going on in hotel";Breakfast;expensive;expensive;pricing;-2,00
 350695;9240;Heather from liverpool;30/10/2013 11:52:52;NEG;"Breakfast expensive 3 different prices online, ask staff, on board, a bit noisy with a party that was going on in hotel";board;a bit,noisy;noisy;noise;-1,50
 350695;9240;Heather from liverpool;30/10/2013 11:52:52;NEG;"Breakfast expensive 3 different prices online, ask staff, on board, a bit noisy with a party that was going on in hotel";prices;different;prices;pricing;-1,00
-350697;169905;shocking 126;31/10/2013 2:03:12;NEG;"The only negative thing is the cost of the parking of your car for £10";thing,cost,parking,car;negative;parking;features;-1,00
+350697;169905;shocking 126;31/10/2013 2:03:12;NEG;"The only negative thing is the cost of the parking of your car for ¬£10";thing,cost,parking,car;negative;parking;features;-1,00
 350697;169905;shocking 126;31/10/2013 2:03:12;POS;"Great breakfast in the morning as well.";breakfast;Great;breakfast;food and drinks;4,00
 350697;169905;shocking 126;31/10/2013 2:03:12;POS;"Great breakfast in the morning as well.";breakfast;Great;Great;quality;4,00
 350697;169905;shocking 126;31/10/2013 2:03:12;POS;"Great hotel well placed in the middle of broad st.";hotel;Great,well,placed;Great;quality;6,00
@@ -17260,7 +17260,7 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 351559;199055;Rachel;06/11/2013 8:10:36;NEG;"This meant the room wasnt properly dark, but didnt cause a real issue.";room;not,dark;room;room;1,00
 351559;199055;Rachel;06/11/2013 8:10:36;NEG;"Windowless room, gets very hot and stuffy.";room;very,hot;hot;temperature;1,00
 351559;199055;Rachel;06/11/2013 8:10:36;NEG;"Windowless room, gets very hot and stuffy.";room;very,hot;room;room;1,00
-351559;199055;Rachel;06/11/2013 8:10:36;POS;"Could leave luggage there before official check in for £2, which was a great help.";help;great;great;quality;4,00
+351559;199055;Rachel;06/11/2013 8:10:36;POS;"Could leave luggage there before official check in for ¬£2, which was a great help.";help;great;great;quality;4,00
 351574;55308;;06/11/2013 11:10:23;POS;"The food was great.";food;great;food;food and drinks;4,00
 351574;55308;;06/11/2013 11:10:23;POS;"The food was great.";food;great;great;quality;4,00
 351574;55308;;06/11/2013 11:10:23;POS;"The hotel's located in a very quiet environment surrounded by nature making it ideal as a getaway from busy city life.";environment;very,quiet;environment;atmosphere;6,00
@@ -17736,8 +17736,8 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 352173;18539;;13/11/2013 3:00:02;POS;"Attention by staff excellent at all times.";staff;excellent;staff;staff;3,00
 352180;169905;Plytanachi;13/11/2013 4:35:26;POS;"Quick check in/out process.";check in;Quick;check in;staff;2,00
 352180;169905;Plytanachi;13/11/2013 4:35:26;POS;"Quiet room despite being in the middle of Broad Street.";room;Quiet;room;room;3,00
-352181;55173;degsy;13/11/2013 4:45:30;POS;"warm and friendly on arrival, helped with all my needs, nice to have car parking provision, even at £5.00 per night was money well spent";car parking,provision;nice;car parking;hotel;2,00
-352181;55173;degsy;13/11/2013 4:45:30;POS;"warm and friendly on arrival, helped with all my needs, nice to have car parking provision, even at £5.00 per night was money well spent";arrival;friendly;friendly;staff;2,00
+352181;55173;degsy;13/11/2013 4:45:30;POS;"warm and friendly on arrival, helped with all my needs, nice to have car parking provision, even at ¬£5.00 per night was money well spent";car parking,provision;nice;car parking;hotel;2,00
+352181;55173;degsy;13/11/2013 4:45:30;POS;"warm and friendly on arrival, helped with all my needs, nice to have car parking provision, even at ¬£5.00 per night was money well spent";arrival;friendly;friendly;staff;2,00
 352201;6589;Remis;14/11/2013 4:21:54;POS;"Hotel located 20 minutes from Airport on 285 bus from T3.";Hotel,minutes;located;located;location;1,00
 352213;25198;;14/11/2013 10:20:52;NEG;"At breaklfast the tea/coffee service was slow , NOT the fault of the restaurant staff , perhaps leave a pot on the table for the guest .";coffee,service;slow;coffee;food and drinks;-3,00
 352213;25198;;14/11/2013 10:20:52;NEG;"At breaklfast the tea/coffee service was slow , NOT the fault of the restaurant staff , perhaps leave a pot on the table for the guest .";coffee,service;slow;service;staff;-3,00
@@ -17889,10 +17889,10 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 352335;8134;Rachel;16/11/2013 2:59:17;POS;"Nice hotel, very helpful and friendly staff, right next to the beach with lovely views, good value for money";staff;very,helpful,friendly;helpful;staff;6,00
 352335;8134;Rachel;16/11/2013 2:59:17;POS;"Nice hotel, very helpful and friendly staff, right next to the beach with lovely views, good value for money";staff;very,helpful,friendly;staff;staff;6,00
 352335;8134;Rachel;16/11/2013 2:59:17;POS;"Nice hotel, very helpful and friendly staff, right next to the beach with lovely views, good value for money";views;lovely;views;location;3,00
-352336;18291;Jo„o Lopes;16/11/2013 3:21:40;POS;"But close to everything.";everything;close;close;location;1,00
-352336;18291;Jo„o Lopes;16/11/2013 3:21:40;POS;"Friendly staff, good breakfast.";breakfast;good;breakfast;food and drinks;2,00
-352336;18291;Jo„o Lopes;16/11/2013 3:21:40;POS;"Friendly staff, good breakfast.";staff;Friendly;Friendly;staff;2,00
-352336;18291;Jo„o Lopes;16/11/2013 3:21:40;POS;"Friendly staff, good breakfast.";staff;Friendly;staff;staff;2,00
+352336;18291;Jo√£o Lopes;16/11/2013 3:21:40;POS;"But close to everything.";everything;close;close;location;1,00
+352336;18291;Jo√£o Lopes;16/11/2013 3:21:40;POS;"Friendly staff, good breakfast.";breakfast;good;breakfast;food and drinks;2,00
+352336;18291;Jo√£o Lopes;16/11/2013 3:21:40;POS;"Friendly staff, good breakfast.";staff;Friendly;Friendly;staff;2,00
+352336;18291;Jo√£o Lopes;16/11/2013 3:21:40;POS;"Friendly staff, good breakfast.";staff;Friendly;staff;staff;2,00
 352338;359;GlodneYeti;16/11/2013 3:42:18;NEG;"No WiFi in the room in this day and age is a complete failure.";failure;complete;complete;food and drinks;2,00
 352338;359;GlodneYeti;16/11/2013 3:42:18;NEG;"No WiFi in the room in this day and age is a complete failure.";failure;complete;failure;condition;2,00
 352338;359;GlodneYeti;16/11/2013 3:42:18;NEG;"No WiFi in the room in this day and age is a complete failure.";WiFi;No;WiFi;features;-1,00
@@ -18099,8 +18099,8 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 352558;33600;;20/11/2013 11:36:02;POS;"Great location.";location;Great;location;location;4,00
 352558;33600;;20/11/2013 11:36:02;POS;"Great Staff.";Staff;Great;Great;quality;4,00
 352558;33600;;20/11/2013 11:36:02;POS;"Great Staff.";Staff;Great;Staff;staff;4,00
-352561;179612;SBee;20/11/2013 11:41:25;POS;"Charged for parking but £7 for over 24 hours was great value.";value;great;great;quality;4,00
-352561;179612;SBee;20/11/2013 11:41:25;POS;"Charged for parking but £7 for over 24 hours was great value.";value;great;value;pricing;4,00
+352561;179612;SBee;20/11/2013 11:41:25;POS;"Charged for parking but ¬£7 for over 24 hours was great value.";value;great;great;quality;4,00
+352561;179612;SBee;20/11/2013 11:41:25;POS;"Charged for parking but ¬£7 for over 24 hours was great value.";value;great;value;pricing;4,00
 352561;179612;SBee;20/11/2013 11:41:25;POS;"Excellent location.";location;Excellent;Excellent;quality;3,00
 352561;179612;SBee;20/11/2013 11:41:25;POS;"Excellent location.";location;Excellent;location;location;3,00
 352561;179612;SBee;20/11/2013 11:41:25;POS;"Staff were very friendly and helpful.";Staff;very,friendly,helpful;friendly;staff;6,00
@@ -18238,7 +18238,7 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 352794;193291;smoker;21/11/2013 11:25:51;POS;"Free WiFi and TV Channels from many countries with different languages.";WiFi;Free;WiFi;features;1,00
 352796;122804;;22/11/2013 5:08:43;POS;"The rooms were neat and tidy.";rooms;neat,tidy;rooms;room;4,00
 352802;173196;;22/11/2013 9:18:50;POS;"great value for money, given the location and ease of getting to and from Sheremetyevo airport";value for money;great;great;quality;4,00
-352821;9240;;22/11/2013 11:07:06;NEG;"The breakfast was not good and very over priced at £17.95.";breakfast;not,good,very,over priced;breakfast;food and drinks;-8,00
+352821;9240;;22/11/2013 11:07:06;NEG;"The breakfast was not good and very over priced at ¬£17.95.";breakfast;not,good,very,over priced;breakfast;food and drinks;-8,00
 352821;9240;;22/11/2013 11:07:06;NEG;"The free shuttle bus to the airport was also a bit of a disaster.";shuttle,bus;free;free;features;1,00
 352821;9240;;22/11/2013 11:07:06;NEG;"The free shuttle bus to the airport was also a bit of a disaster.";shuttle,bus;free;shuttle;features;1,00
 352821;9240;;22/11/2013 11:07:06;POS;"The food is expensive but very very good.";food;expensive;expensive;pricing;-2,00
@@ -18925,7 +18925,7 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 353729;21306;;03/12/2013 5:58:48;POS;"Staff is great";Staff;great;great;quality;4,00
 353729;21306;;03/12/2013 5:58:48;POS;"Staff is great";Staff;great;Staff;staff;4,00
 353731;5262;;03/12/2013 6:34:15;NEG;"cold in winter, there was no heater in the room.";winter;cold;cold;temperature;-2,00
-353735;9020;Bloggs;03/12/2013 6:59:31;POS;"Was able to make a last minute booking which made a saving of £23 on the night which made for fantastic value.";value;fantastic;value;pricing;4,00
+353735;9020;Bloggs;03/12/2013 6:59:31;POS;"Was able to make a last minute booking which made a saving of ¬£23 on the night which made for fantastic value.";value;fantastic;value;pricing;4,00
 353742;5203;;03/12/2013 7:48:20;POS;"Easy to reach from the airport with the hotel shuttle bus";airport;Easy;airport;location;2,00
 353742;5203;;03/12/2013 7:48:20;POS;"Easy to reach from the airport with the hotel shuttle bus";airport;Easy;Easy;comfort;2,00
 353745;5203;;03/12/2013 8:01:15;POS;"Helpful nice driver";driver;Helpful,nice;Helpful;staff;4,00
@@ -19110,7 +19110,7 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 353953;71662;;06/12/2013 6:46:48;POS;"Great staff.";staff;Great;staff;staff;4,00
 353953;71662;;06/12/2013 6:46:48;POS;"Meals very good.";Meals;very,good;Meals;food and drinks;4,00
 353956;2577;mickey cha;06/12/2013 7:53:28;POS;"hotel very clean";hotel;very,clean;clean;condition;4,00
-353961;5899;;06/12/2013 9:36:29;POS;"Fine,rene rom, im¯tekommende og hyggelig betjening.";rene,rom,im¯tekommende,og,hyggelig,betjening;Fine;Fine;quality;2,00
+353961;5899;;06/12/2013 9:36:29;POS;"Fine,rene rom, im√∏tekommende og hyggelig betjening.";rene,rom,im√∏tekommende,og,hyggelig,betjening;Fine;Fine;quality;2,00
 353965;188211;Kraayenbrink;07/12/2013 3:06:39;POS;"Easy to walk to from central railway station and close to the monorail.";railway,station;central;central;location;1,00
 353965;188211;Kraayenbrink;07/12/2013 3:06:39;POS;"Easy to walk to from central railway station and close to the monorail.";walk;Easy;Easy;comfort;2,00
 353969;176690;;07/12/2013 9:26:39;POS;"close to station.";station;close;close;location;1,00
@@ -20104,8 +20104,8 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 355365;23596;Mika;28/12/2013 9:20:46;NEG;"No sauna";sauna;No;sauna;features;-1,00
 355367;164632;wilfred;28/12/2013 9:38:10;NEG;"Leaking toilet,can't flush,cold water";water;cold;cold;temperature;-2,00
 355373;5895;;28/12/2013 11:36:44;NEG;"Not worth your money";money;Not,worth;worth;pricing;-2,00
-355373;5895;;28/12/2013 11:36:44;POS;"Only the food was good but again too pricy, bloody 13.50Ä for a bowl off salad is a joke and 3.50Ä for 200ml drink is a joke too";food;good;food;food and drinks;2,00
-355373;5895;;28/12/2013 11:36:44;POS;"Only the food was good but again too pricy, bloody 13.50Ä for a bowl off salad is a joke and 3.50Ä for 200ml drink is a joke too";food;too,pricy;food;food and drinks;-3,60
+355373;5895;;28/12/2013 11:36:44;POS;"Only the food was good but again too pricy, bloody 13.50‚Ç¨ for a bowl off salad is a joke and 3.50‚Ç¨ for 200ml drink is a joke too";food;good;food;food and drinks;2,00
+355373;5895;;28/12/2013 11:36:44;POS;"Only the food was good but again too pricy, bloody 13.50‚Ç¨ for a bowl off salad is a joke and 3.50‚Ç¨ for 200ml drink is a joke too";food;too,pricy;food;food and drinks;-3,60
 355377;19837;;28/12/2013 1:57:50;POS;"service is good, clean, comfortable, location very good!";service;clean;clean;condition;2,00
 355377;19837;;28/12/2013 1:57:50;POS;"service is good, clean, comfortable, location very good!";service;comfortable;comfortable;comfort;2,00
 355377;19837;;28/12/2013 1:57:50;POS;"service is good, clean, comfortable, location very good!";location;very,good;location;location;4,00
@@ -20450,7 +20450,7 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 355742;191024;;03/01/2014 10:22:54;NEG;"Room was very dark";Room,ENG;very,dark;Room;room;-2,00
 355742;191024;;03/01/2014 10:22:54;POS;"And the hotel is directly on a very nice part of the beach!";hotel,part,beach;very,nice;beach;location;4,00
 355742;191024;;03/01/2014 10:22:54;POS;"But for this price it's totally fair.";';fair;fair;quality;2,00
-355748;63167;Jeanette;04/01/2014 0:09:14;NEG;"The personnel wasn¥t very helpful.";personnel;not,very,helpful;helpful;staff;-4,00
+355748;63167;Jeanette;04/01/2014 0:09:14;NEG;"The personnel wasn¬¥t very helpful.";personnel;not,very,helpful;helpful;staff;-4,00
 355748;63167;Jeanette;04/01/2014 0:09:14;POS;"Good location.";location;Good;location;location;2,00
 355751;148611;vigri;04/01/2014 8:53:19;POS;"good location, helpful staff";staff;helpful;helpful;staff;2,00
 355751;148611;vigri;04/01/2014 8:53:19;POS;"good location, helpful staff";location;good;location;location;2,00
@@ -20772,9 +20772,9 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 356029;50430;Annie Travels;08/01/2014 2:01:19;POS;"The hotel was clean, well kept and maintained inside and out and tastefully furnished.";hotel;well kept,maintained,furnished;furnished;room;4,00
 356031;183388;;08/01/2014 3:05:26;NEG;"Stairs a bit tricky with big suitcase but doable";suitcase;big;big;size;1,00
 356031;183388;;08/01/2014 3:05:26;POS;"Location is fantastic.";Location;fantastic;Location;location;4,00
-356031;183388;;08/01/2014 3:05:26;POS;"Very close to south beach and various cafÈs, pharmacy food and bottle store and so near to bus on Washington that's costs 25 cents to go the length of south beach.";south,beach;so,near;beach;location;2,50
-356031;183388;;08/01/2014 3:05:26;POS;"Very close to south beach and various cafÈs, pharmacy food and bottle store and so near to bus on Washington that's costs 25 cents to go the length of south beach.";south,beach;Very,close;beach;location;2,00
-356031;183388;;08/01/2014 3:05:26;POS;"Very close to south beach and various cafÈs, pharmacy food and bottle store and so near to bus on Washington that's costs 25 cents to go the length of south beach.";south,beach;Very,close;close;location;2,00
+356031;183388;;08/01/2014 3:05:26;POS;"Very close to south beach and various caf√©s, pharmacy food and bottle store and so near to bus on Washington that's costs 25 cents to go the length of south beach.";south,beach;so,near;beach;location;2,50
+356031;183388;;08/01/2014 3:05:26;POS;"Very close to south beach and various caf√©s, pharmacy food and bottle store and so near to bus on Washington that's costs 25 cents to go the length of south beach.";south,beach;Very,close;beach;location;2,00
+356031;183388;;08/01/2014 3:05:26;POS;"Very close to south beach and various caf√©s, pharmacy food and bottle store and so near to bus on Washington that's costs 25 cents to go the length of south beach.";south,beach;Very,close;close;location;2,00
 356032;88403;;08/01/2014 3:27:40;NEG;"A room on the first floor without a balcony= no view at all, dark room.";room,first floor,balcony,view;no;balcony;room;-1,00
 356032;88403;;08/01/2014 3:27:40;NEG;"A room on the first floor without a balcony= no view at all, dark room.";room;dark;room;room;-1,00
 356032;88403;;08/01/2014 3:27:40;NEG;"A room on the first floor without a balcony= no view at all, dark room.";room,first floor,balcony,view;no;room;room;-1,00
@@ -21115,16 +21115,16 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 356273;63413;Anonymous;16/01/2014 7:15:11;NEG;"Hair drier didn't work.";Hair;did,not,work;work;condition;-1,00
 356273;63413;Anonymous;16/01/2014 7:15:11;NEG;"Rooms - shower wasn't warm at all.";shower;not,warm;shower;bathroom;-1,00
 356273;63413;Anonymous;16/01/2014 7:15:11;NEG;"Rooms - shower wasn't warm at all.";shower;not,warm;warm;temperature;-1,00
-356273;63413;Anonymous;16/01/2014 7:15:11;NEG;"staff were lovely on the first day, but after that, not helpful at all!!!!!!! abrupt and rude - in the cafÈ area in the waiting area - bar.";day;not,helpful;helpful;staff;-2,00
-356273;63413;Anonymous;16/01/2014 7:15:11;NEG;"staff were lovely on the first day, but after that, not helpful at all!!!!!!! abrupt and rude - in the cafÈ area in the waiting area - bar.";day;rude;rude;staff;-3,00
-356273;63413;Anonymous;16/01/2014 7:15:11;NEG;"staff were lovely on the first day, but after that, not helpful at all!!!!!!! abrupt and rude - in the cafÈ area in the waiting area - bar.";staff;lovely;staff;staff;3,00
+356273;63413;Anonymous;16/01/2014 7:15:11;NEG;"staff were lovely on the first day, but after that, not helpful at all!!!!!!! abrupt and rude - in the caf√© area in the waiting area - bar.";day;not,helpful;helpful;staff;-2,00
+356273;63413;Anonymous;16/01/2014 7:15:11;NEG;"staff were lovely on the first day, but after that, not helpful at all!!!!!!! abrupt and rude - in the caf√© area in the waiting area - bar.";day;rude;rude;staff;-3,00
+356273;63413;Anonymous;16/01/2014 7:15:11;NEG;"staff were lovely on the first day, but after that, not helpful at all!!!!!!! abrupt and rude - in the caf√© area in the waiting area - bar.";staff;lovely;staff;staff;3,00
 356273;63413;Anonymous;16/01/2014 7:15:11;POS;"The breakfast in the morning was a great arrangement and the staff in there were quite friendly for breakfast and for dinner was great service.";breakfast,morning,arrangement;great;arrangement;room;4,00
 356273;63413;Anonymous;16/01/2014 7:15:11;POS;"The breakfast in the morning was a great arrangement and the staff in there were quite friendly for breakfast and for dinner was great service.";breakfast,morning,arrangement;great;breakfast;food and drinks;4,00
 356273;63413;Anonymous;16/01/2014 7:15:11;POS;"The breakfast in the morning was a great arrangement and the staff in there were quite friendly for breakfast and for dinner was great service.";staff;quite,friendly;friendly;staff;3,00
 356273;63413;Anonymous;16/01/2014 7:15:11;POS;"The breakfast in the morning was a great arrangement and the staff in there were quite friendly for breakfast and for dinner was great service.";breakfast,morning,arrangement;great;great;quality;4,00
 356273;63413;Anonymous;16/01/2014 7:15:11;POS;"The breakfast in the morning was a great arrangement and the staff in there were quite friendly for breakfast and for dinner was great service.";service;great;great;quality;4,00
 356273;63413;Anonymous;16/01/2014 7:15:11;POS;"The breakfast in the morning was a great arrangement and the staff in there were quite friendly for breakfast and for dinner was great service.";staff;quite,friendly;staff;staff;3,00
-356273;63413;Anonymous;16/01/2014 7:15:11;POS;"The cafÈ at the front in the waiting area - bar was quite good.";bar;quite,good;bar;food and drinks;3,00
+356273;63413;Anonymous;16/01/2014 7:15:11;POS;"The caf√© at the front in the waiting area - bar was quite good.";bar;quite,good;bar;food and drinks;3,00
 356275;525;Anonymous;16/01/2014 8:33:16;POS;"Room was very comfortable.";Room;very,comfortable;comfortable;comfort;4,00
 356275;525;Anonymous;16/01/2014 8:33:16;POS;"Room was very comfortable.";Room;very,comfortable;Room;room;4,00
 356277;24222;Anonymous;16/01/2014 11:32:49;NEG;"pool opening times and towels, 3 mornings pool was not open at 7 as indicated in hotel information and no towels were available, which was a shame.";pool,opening,times,towels,mornings,pool;not;pool;hotel;-1,00
@@ -21447,8 +21447,8 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 356601;8777;NINOS;28/01/2014 9:15:54;POS;"Central location.";location;Central;location;location;1,00
 356601;8777;NINOS;28/01/2014 9:15:54;POS;"Easy access to all places";access;Easy;access;features;2,00
 356601;8777;NINOS;28/01/2014 9:15:54;POS;"Easy access to all places";access;Easy;Easy;comfort;2,00
-356609;51695;Anonymous;28/01/2014 9:31:08;POS;"£10 breakfast good value.";£10,breakfast,value;good;breakfast;food and drinks;2,00
-356609;51695;Anonymous;28/01/2014 9:31:08;POS;"£10 breakfast good value.";£10,breakfast,value;good;value;pricing;2,00
+356609;51695;Anonymous;28/01/2014 9:31:08;POS;"¬£10 breakfast good value.";¬£10,breakfast,value;good;breakfast;food and drinks;2,00
+356609;51695;Anonymous;28/01/2014 9:31:08;POS;"¬£10 breakfast good value.";¬£10,breakfast,value;good;value;pricing;2,00
 356616;501;Julian S;28/01/2014 9:45:14;NEG;"Spanish hotels should awake for the competition - every single hotel in Greece offers free wifi to its clients.";single,hotel,Greece,offers,wifi;free;free;features;1,00
 356616;501;Julian S;28/01/2014 9:45:14;NEG;"Spanish hotels should awake for the competition - every single hotel in Greece offers free wifi to its clients.";single,hotel,Greece,offers,wifi;free;wifi;features;1,00
 356616;501;Julian S;28/01/2014 9:45:14;NEG;"The "heated" swimming pool was actually quite cold.";swimming pool;heated,quite,cold;cold;temperature;-2,00
@@ -21468,8 +21468,8 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 356630;6609;marky;28/01/2014 10:29:13;POS;"Excellent friendly service- very polite  Food reasonably priced for London";Food;priced;Food;food and drinks;1,00
 356630;6609;marky;28/01/2014 10:29:13;POS;"Excellent friendly service- very polite  Food reasonably priced for London";service-;Excellent,friendly,very,polite;friendly;staff;11,00
 356630;6609;marky;28/01/2014 10:29:13;POS;"Excellent friendly service- very polite  Food reasonably priced for London";service-;Excellent,friendly,very,polite;polite;staff;11,00
-356641;181753;?????µ?;28/01/2014 11:08:42;POS;"Great hotel, great stay!";hotel;Great;Great;quality;4,00
-356641;181753;?????µ?;28/01/2014 11:08:42;POS;"Great hotel, great stay!";stay;great;great;quality;4,00
+356641;181753;?????¬µ?;28/01/2014 11:08:42;POS;"Great hotel, great stay!";hotel;Great;Great;quality;4,00
+356641;181753;?????¬µ?;28/01/2014 11:08:42;POS;"Great hotel, great stay!";stay;great;great;quality;4,00
 356674;18196;Anonymous;28/01/2014 8:31:44;NEG;"The insolation of the rooms are not very god.";insolation,rooms,god;not;rooms;room;-1,00
 356674;18196;Anonymous;28/01/2014 8:31:44;POS;"the rooms inspide of being very small is perfect for a smal stay.";rooms,inspide;very,small,perfect;rooms;room;3,00
 356674;18196;Anonymous;28/01/2014 8:31:44;POS;"the rooms inspide of being very small is perfect for a smal stay.";rooms,inspide;very,small,perfect;small;size;3,00
@@ -21939,7 +21939,7 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 357262;105053;Simon;10/02/2014 9:49:19;POS;"Friendly staff.";staff;Friendly;staff;staff;2,00
 357262;105053;Simon;10/02/2014 9:49:19;POS;"Very clean accomodation.";accomodation;Very,clean;clean;condition;4,00
 357267;2614;Anonymous;10/02/2014 10:25:12;POS;"Very clean and well looked after.";;Very,clean,well looked after;clean;condition;7,00
-357272;3453;Bjˆrn Eklund;10/02/2014 11:04:42;POS;"Great!";;Great;Great;quality;4,00
+357272;3453;Bj√∂rn Eklund;10/02/2014 11:04:42;POS;"Great!";;Great;Great;quality;4,00
 357275;71684;Anonymous;10/02/2014 11:33:50;NEG;"A little broken faciliy.";faciliy;little,broken;broken;condition;-3,50
 357275;71684;Anonymous;10/02/2014 11:33:50;NEG;"A little broken faciliy.";faciliy;little,broken;little;size;-3,50
 357275;71684;Anonymous;10/02/2014 11:33:50;POS;"Good view .";view;Good;view;location;2,00
@@ -22016,8 +22016,8 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 357359;7573;Anonymous;11/02/2014 2:11:54;POS;"Friendly staff, clean pleasant room, great breakfast, very handy for public transport and close to the sights of London";staff;Friendly;staff;staff;2,00
 357362;74080;Mas;11/02/2014 2:51:15;NEG;"Bottled water in the fridge was not changed because the bottles have been opened & left in the fridge.";fridge;not;fridge;room;-1,00
 357362;74080;Mas;11/02/2014 2:51:15;NEG;"To include small toothpaste in the toiletries.";toothpaste;small;small;size;-0,50
-357363;36777;vinny.      Preston;11/02/2014 2:58:32;POS;"ìVery helpful,  staff .";staff;Very,helpful;helpful;staff;4,00
-357363;36777;vinny.      Preston;11/02/2014 2:58:32;POS;"ìVery helpful,  staff .";staff;Very,helpful;staff;staff;4,00
+357363;36777;vinny.      Preston;11/02/2014 2:58:32;POS;"‚ÄúVery helpful,  staff .";staff;Very,helpful;helpful;staff;4,00
+357363;36777;vinny.      Preston;11/02/2014 2:58:32;POS;"‚ÄúVery helpful,  staff .";staff;Very,helpful;staff;staff;4,00
 357363;36777;vinny.      Preston;11/02/2014 2:58:32;POS;"Breakfast were excellent.";Breakfast;excellent;Breakfast;food and drinks;3,00
 357363;36777;vinny.      Preston;11/02/2014 2:58:32;POS;"Breakfast were excellent.";Breakfast;excellent;excellent;quality;3,00
 357364;16803;jeff;11/02/2014 4:02:32;POS;"entertainment was good";entertainment;good;entertainment;animation;2,00
@@ -22365,7 +22365,7 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 357896;138774;bebop80;19/02/2014 5:05:39;POS;"Great staff, great cleaning everywhere and very friendly everybody.";cleaning;great;great;quality;4,00
 357896;138774;bebop80;19/02/2014 5:05:39;POS;"Great staff, great cleaning everywhere and very friendly everybody.";staff;Great;Great;quality;4,00
 357896;138774;bebop80;19/02/2014 5:05:39;POS;"Great staff, great cleaning everywhere and very friendly everybody.";staff;Great;staff;staff;4,00
-357909;8406;Anonymous;19/02/2014 11:06:29;NEG;"Needs attention to dÈcor in places, but this did not spoil any part of our stay.";Needs;attention;attention;staff;1,00
+357909;8406;Anonymous;19/02/2014 11:06:29;NEG;"Needs attention to d√©cor in places, but this did not spoil any part of our stay.";Needs;attention;attention;staff;1,00
 357930;25060;Anonymous;20/02/2014 11:48:55;NEG;"The decor of the rooms was terrible and was in urgent need of modernizing.";decor,rooms;terrible;decor;look and feel;-4,00
 357930;25060;Anonymous;20/02/2014 11:48:55;NEG;"The decor of the rooms was terrible and was in urgent need of modernizing.";decor,rooms;terrible;rooms;room;-4,00
 357938;169905;Zanyangel;20/02/2014 0:57:22;POS;"Check in was efficient.";Check in;efficient;Check in;staff;3,00
@@ -22709,10 +22709,10 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 358419;125419;Sal;27/02/2014 5:50:54;POS;"Great location, friendly staff, spotless and very modern interior.";location;Great;location;location;4,00
 358419;125419;Sal;27/02/2014 5:50:54;POS;"Great location, friendly staff, spotless and very modern interior.";interior;spotless,very,modern;spotless;condition;5,00
 358419;125419;Sal;27/02/2014 5:50:54;POS;"Great location, friendly staff, spotless and very modern interior.";staff;friendly;staff;staff;2,00
-358422;1984;Kristj·n ﬁÛr Karlsson;27/02/2014 8:18:17;NEG;"In the bathroom new showercurtains, and a new shower head.";shower;new;new;condition;1,00
-358422;1984;Kristj·n ﬁÛr Karlsson;27/02/2014 8:18:17;NEG;"In the bathroom new showercurtains, and a new shower head.";showercurtains;new;new;condition;1,00
-358422;1984;Kristj·n ﬁÛr Karlsson;27/02/2014 8:18:17;NEG;"In the bathroom new showercurtains, and a new shower head.";shower;new;shower;bathroom;1,00
-358422;1984;Kristj·n ﬁÛr Karlsson;27/02/2014 8:18:17;NEG;"This apartment is not in a state to be rented out.";apartment,state;not;apartment;room;-1,00
+358422;1984;Kristj√°n √û√≥r Karlsson;27/02/2014 8:18:17;NEG;"In the bathroom new showercurtains, and a new shower head.";shower;new;new;condition;1,00
+358422;1984;Kristj√°n √û√≥r Karlsson;27/02/2014 8:18:17;NEG;"In the bathroom new showercurtains, and a new shower head.";showercurtains;new;new;condition;1,00
+358422;1984;Kristj√°n √û√≥r Karlsson;27/02/2014 8:18:17;NEG;"In the bathroom new showercurtains, and a new shower head.";shower;new;shower;bathroom;1,00
+358422;1984;Kristj√°n √û√≥r Karlsson;27/02/2014 8:18:17;NEG;"This apartment is not in a state to be rented out.";apartment,state;not;apartment;room;-1,00
 358424;164351;Scottish visitors;27/02/2014 9:10:00;NEG;"Good value for fair price.";price;fair;fair;quality;2,00
 358424;164351;Scottish visitors;27/02/2014 9:10:00;NEG;"Good value for fair price.";price;fair;price;pricing;2,00
 358424;164351;Scottish visitors;27/02/2014 9:10:00;NEG;"Good value for fair price.";value;Good;value;pricing;2,00
@@ -22891,12 +22891,12 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 358599;27819;Anonymous;02/03/2014 2:17:52;POS;"Excellent in all aspects.";aspects;Excellent;aspects;look and feel;3,00
 358599;27819;Anonymous;02/03/2014 2:17:52;POS;"Excellent in all aspects.";aspects;Excellent;Excellent;quality;3,00
 358599;27819;Anonymous;02/03/2014 2:17:52;POS;"The location is possibly one of the best on the island.";location;best;location;location;4,00
-358603;6851;StÈphanie;02/03/2014 3:46:42;NEG;"The only option for breakfast was a buffet which was way too expensive for us.";option,breakfast,buffet;too,expensive;breakfast;food and drinks;-3,60
-358603;6851;StÈphanie;02/03/2014 3:46:42;NEG;"The only option for breakfast was a buffet which was way too expensive for us.";option,breakfast,buffet;too,expensive;buffet;food and drinks;-3,60
-358603;6851;StÈphanie;02/03/2014 3:46:42;NEG;"The only option for breakfast was a buffet which was way too expensive for us.";option,breakfast,buffet;too,expensive;expensive;pricing;-3,60
-358603;6851;StÈphanie;02/03/2014 3:46:42;POS;"Great place to relax, good shower, nice pool.";place;Great;Great;quality;4,00
-358603;6851;StÈphanie;02/03/2014 3:46:42;POS;"Great place to relax, good shower, nice pool.";pool;nice;pool;hotel;2,00
-358603;6851;StÈphanie;02/03/2014 3:46:42;POS;"Great place to relax, good shower, nice pool.";shower;good;shower;bathroom;2,00
+358603;6851;St√©phanie;02/03/2014 3:46:42;NEG;"The only option for breakfast was a buffet which was way too expensive for us.";option,breakfast,buffet;too,expensive;breakfast;food and drinks;-3,60
+358603;6851;St√©phanie;02/03/2014 3:46:42;NEG;"The only option for breakfast was a buffet which was way too expensive for us.";option,breakfast,buffet;too,expensive;buffet;food and drinks;-3,60
+358603;6851;St√©phanie;02/03/2014 3:46:42;NEG;"The only option for breakfast was a buffet which was way too expensive for us.";option,breakfast,buffet;too,expensive;expensive;pricing;-3,60
+358603;6851;St√©phanie;02/03/2014 3:46:42;POS;"Great place to relax, good shower, nice pool.";place;Great;Great;quality;4,00
+358603;6851;St√©phanie;02/03/2014 3:46:42;POS;"Great place to relax, good shower, nice pool.";pool;nice;pool;hotel;2,00
+358603;6851;St√©phanie;02/03/2014 3:46:42;POS;"Great place to relax, good shower, nice pool.";shower;good;shower;bathroom;2,00
 358609;6851;Richard from London UK;02/03/2014 8:22:53;POS;"Great relaxing pool.";pool;Great,relaxing;Great;quality;6,00
 358609;6851;Richard from London UK;02/03/2014 8:22:53;POS;"Great relaxing pool.";pool;Great,relaxing;pool;hotel;6,00
 358614;18554;Anonymous;02/03/2014 9:24:07;NEG;"Surly staff , poor undercooked breakfast , no parking";undercooked,breakfast;poor;breakfast;food and drinks;-2,00
@@ -22996,7 +22996,7 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 358757;81610;Anonymous;04/03/2014 10:15:30;NEG;"renovations going on  bar not very inviting  no windows in the rooms   very hot";bar;not,very,inviting;bar;food and drinks;-4,00
 358757;81610;Anonymous;04/03/2014 10:15:30;NEG;"renovations going on  bar not very inviting  no windows in the rooms   very hot";ENG;very,hot;hot;temperature;1,00
 358757;81610;Anonymous;04/03/2014 10:15:30;NEG;"renovations going on  bar not very inviting  no windows in the rooms   very hot";windows;no;windows;room;-1,00
-358772;172872;jokepin;04/03/2014 10:51:33;POS;"Good bus service into Oxford outside the hotel for £3.30 return, or taxi £10 standard from the hotel and approx £6.00 back.";bus,service;Good;service;staff;2,00
+358772;172872;jokepin;04/03/2014 10:51:33;POS;"Good bus service into Oxford outside the hotel for ¬£3.30 return, or taxi ¬£10 standard from the hotel and approx ¬£6.00 back.";bus,service;Good;service;staff;2,00
 358772;172872;jokepin;04/03/2014 10:51:33;POS;"Good, modern, clean Corporate style hotel.";style,hotel;clean;clean;condition;2,00
 358773;125361;Anonymous;04/03/2014 10:51:36;NEG;"lipstick marks on the screen door , dirty cupboard door.";cupboard,door;dirty;dirty;condition;-2,00
 358773;125361;Anonymous;04/03/2014 10:51:36;NEG;"lipstick marks on the screen door , dirty cupboard door.";cupboard,door;dirty;door;room;-2,00
@@ -23181,9 +23181,9 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 359218;8935;Anonymous;10/03/2014 11:30:19;POS;"The cellar bar was great and cocktails were very reasonable and mixed by nice friendly bar staff.";cocktails;very,reasonable;reasonable;quality;4,00
 359218;8935;Anonymous;10/03/2014 11:30:19;POS;"The cellar bar was great and cocktails were very reasonable and mixed by nice friendly bar staff.";bar,staff;nice,friendly;staff;staff;4,00
 359225;144203;Anonymous;10/03/2014 0:05:30;POS;"Nice staff";staff;Nice;staff;staff;2,00
-359233;164911;Asiakasko aina oikeassa?;10/03/2014 2:24:16;NEG;"H‰n sai meid‰t n‰ytt‰m‰‰n rikollisilta kielitaidottomilta pettureilta, vaikka voucherissamme luki selke‰sti "Price includes free use of Spa"!";H‰n,sai,meid‰t,n‰ytt‰m‰‰n,rikollisilta,kielitaidottomilta,pettureilta,vaikka,voucherissamme,luki,selke‰sti,Price,use,Spa;free;free;features;1,00
-359233;164911;Asiakasko aina oikeassa?;10/03/2014 2:24:16;NEG;"H‰n sai meid‰t n‰ytt‰m‰‰n rikollisilta kielitaidottomilta pettureilta, vaikka voucherissamme luki selke‰sti "Price includes free use of Spa"!";H‰n,sai,meid‰t,n‰ytt‰m‰‰n,rikollisilta,kielitaidottomilta,pettureilta,vaikka,voucherissamme,luki,selke‰sti,Price,use,Spa;free;Price;pricing;1,00
-359233;164911;Asiakasko aina oikeassa?;10/03/2014 2:24:16;NEG;"H‰n sai meid‰t n‰ytt‰m‰‰n rikollisilta kielitaidottomilta pettureilta, vaikka voucherissamme luki selke‰sti "Price includes free use of Spa"!";H‰n,sai,meid‰t,n‰ytt‰m‰‰n,rikollisilta,kielitaidottomilta,pettureilta,vaikka,voucherissamme,luki,selke‰sti,Price,use,Spa;free;Spa;features;1,00
+359233;164911;Asiakasko aina oikeassa?;10/03/2014 2:24:16;NEG;"H√§n sai meid√§t n√§ytt√§m√§√§n rikollisilta kielitaidottomilta pettureilta, vaikka voucherissamme luki selke√§sti "Price includes free use of Spa"!";H√§n,sai,meid√§t,n√§ytt√§m√§√§n,rikollisilta,kielitaidottomilta,pettureilta,vaikka,voucherissamme,luki,selke√§sti,Price,use,Spa;free;free;features;1,00
+359233;164911;Asiakasko aina oikeassa?;10/03/2014 2:24:16;NEG;"H√§n sai meid√§t n√§ytt√§m√§√§n rikollisilta kielitaidottomilta pettureilta, vaikka voucherissamme luki selke√§sti "Price includes free use of Spa"!";H√§n,sai,meid√§t,n√§ytt√§m√§√§n,rikollisilta,kielitaidottomilta,pettureilta,vaikka,voucherissamme,luki,selke√§sti,Price,use,Spa;free;Price;pricing;1,00
+359233;164911;Asiakasko aina oikeassa?;10/03/2014 2:24:16;NEG;"H√§n sai meid√§t n√§ytt√§m√§√§n rikollisilta kielitaidottomilta pettureilta, vaikka voucherissamme luki selke√§sti "Price includes free use of Spa"!";H√§n,sai,meid√§t,n√§ytt√§m√§√§n,rikollisilta,kielitaidottomilta,pettureilta,vaikka,voucherissamme,luki,selke√§sti,Price,use,Spa;free;Spa;features;1,00
 359242;13227;Cliff;10/03/2014 5:17:30;NEG;"No internally situated bar for when the weather is bad.";bar;No,situated;bar;food and drinks;-1,00
 359245;423;Anonymous;10/03/2014 6:09:57;NEG;"Request a rear high floor room if noise will be an issue for you.";Request,rear,high floor,room,issue;noise;noise;noise;-3,00
 359245;423;Anonymous;10/03/2014 6:09:57;NEG;"Request a rear high floor room if noise will be an issue for you.";Request,rear,high floor,room,issue;noise;room;room;-3,00
@@ -23218,17 +23218,17 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 359266;186222;ollie;11/03/2014 3:04:07;POS;"Apart from staff everything else was great";everything;great;great;quality;4,00
 359274;170176;Anonymous;11/03/2014 9:16:05;POS;"Convenient location near the city centre  Friendly staff  Plenty of car parking";city,centre;Friendly;Friendly;staff;2,00
 359274;170176;Anonymous;11/03/2014 9:16:05;POS;"Convenient location near the city centre  Friendly staff  Plenty of car parking";location;Convenient,near;location;location;3,00
-359326;142665;ChloÈ;11/03/2014 10:31:52;NEG;"Small size "cabins" (rooms) but that's the idea with this hotel!";size,cabins,(,rooms,);Small;rooms;room;-0,50
-359326;142665;ChloÈ;11/03/2014 10:31:52;NEG;"Small size "cabins" (rooms) but that's the idea with this hotel!";size,cabins,(,rooms,);Small;size;size;-0,50
-359326;142665;ChloÈ;11/03/2014 10:31:52;NEG;"Small size "cabins" (rooms) but that's the idea with this hotel!";size,cabins,(,rooms,);Small;Small;size;-0,50
-359326;142665;ChloÈ;11/03/2014 10:31:52;POS;"The staff are very helpful!";staff;very,helpful;helpful;staff;4,00
-359326;142665;ChloÈ;11/03/2014 10:31:52;POS;"The staff are very helpful!";staff;very,helpful;staff;staff;4,00
-359326;142665;ChloÈ;11/03/2014 10:31:52;POS;"There is also the option to pay for a full breakfast which also looked lovely.";breakfast;lovely;breakfast;food and drinks;3,00
-359330;169905;baddogg;11/03/2014 10:48:48;POS;"excellent friendly staff ,easy parking ,good choice for breakfast and good access to NIA and lots of dining options nearby, rooms clean and comfortable ,very good value @£53 rate per room paid";parking;easy;easy;comfort;2,00
-359330;169905;baddogg;11/03/2014 10:48:48;POS;"excellent friendly staff ,easy parking ,good choice for breakfast and good access to NIA and lots of dining options nearby, rooms clean and comfortable ,very good value @£53 rate per room paid";staff;excellent,friendly;excellent;quality;5,00
-359330;169905;baddogg;11/03/2014 10:48:48;POS;"excellent friendly staff ,easy parking ,good choice for breakfast and good access to NIA and lots of dining options nearby, rooms clean and comfortable ,very good value @£53 rate per room paid";staff;excellent,friendly;friendly;staff;5,00
-359330;169905;baddogg;11/03/2014 10:48:48;POS;"excellent friendly staff ,easy parking ,good choice for breakfast and good access to NIA and lots of dining options nearby, rooms clean and comfortable ,very good value @£53 rate per room paid";parking;easy;parking;features;2,00
-359330;169905;baddogg;11/03/2014 10:48:48;POS;"excellent friendly staff ,easy parking ,good choice for breakfast and good access to NIA and lots of dining options nearby, rooms clean and comfortable ,very good value @£53 rate per room paid";staff;excellent,friendly;staff;staff;5,00
+359326;142665;Chlo√©;11/03/2014 10:31:52;NEG;"Small size "cabins" (rooms) but that's the idea with this hotel!";size,cabins,(,rooms,);Small;rooms;room;-0,50
+359326;142665;Chlo√©;11/03/2014 10:31:52;NEG;"Small size "cabins" (rooms) but that's the idea with this hotel!";size,cabins,(,rooms,);Small;size;size;-0,50
+359326;142665;Chlo√©;11/03/2014 10:31:52;NEG;"Small size "cabins" (rooms) but that's the idea with this hotel!";size,cabins,(,rooms,);Small;Small;size;-0,50
+359326;142665;Chlo√©;11/03/2014 10:31:52;POS;"The staff are very helpful!";staff;very,helpful;helpful;staff;4,00
+359326;142665;Chlo√©;11/03/2014 10:31:52;POS;"The staff are very helpful!";staff;very,helpful;staff;staff;4,00
+359326;142665;Chlo√©;11/03/2014 10:31:52;POS;"There is also the option to pay for a full breakfast which also looked lovely.";breakfast;lovely;breakfast;food and drinks;3,00
+359330;169905;baddogg;11/03/2014 10:48:48;POS;"excellent friendly staff ,easy parking ,good choice for breakfast and good access to NIA and lots of dining options nearby, rooms clean and comfortable ,very good value @¬£53 rate per room paid";parking;easy;easy;comfort;2,00
+359330;169905;baddogg;11/03/2014 10:48:48;POS;"excellent friendly staff ,easy parking ,good choice for breakfast and good access to NIA and lots of dining options nearby, rooms clean and comfortable ,very good value @¬£53 rate per room paid";staff;excellent,friendly;excellent;quality;5,00
+359330;169905;baddogg;11/03/2014 10:48:48;POS;"excellent friendly staff ,easy parking ,good choice for breakfast and good access to NIA and lots of dining options nearby, rooms clean and comfortable ,very good value @¬£53 rate per room paid";staff;excellent,friendly;friendly;staff;5,00
+359330;169905;baddogg;11/03/2014 10:48:48;POS;"excellent friendly staff ,easy parking ,good choice for breakfast and good access to NIA and lots of dining options nearby, rooms clean and comfortable ,very good value @¬£53 rate per room paid";parking;easy;parking;features;2,00
+359330;169905;baddogg;11/03/2014 10:48:48;POS;"excellent friendly staff ,easy parking ,good choice for breakfast and good access to NIA and lots of dining options nearby, rooms clean and comfortable ,very good value @¬£53 rate per room paid";staff;excellent,friendly;staff;staff;5,00
 359343;163388;yi;11/03/2014 11:17:37;NEG;"bed is small";bed,ENG;small;bed;room;-0,50
 359343;163388;yi;11/03/2014 11:17:37;NEG;"bed is small";bed,ENG;small;small;size;-0,50
 359343;163388;yi;11/03/2014 11:17:37;POS;"breakfast is simple, but good to me.";breakfast;good;breakfast;food and drinks;2,00
@@ -23468,8 +23468,8 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 359719;183069;Anonymous;17/03/2014 7:44:11;POS;"Staff were very friendly and helpful.";Staff;very,friendly,helpful;friendly;staff;6,00
 359719;183069;Anonymous;17/03/2014 7:44:11;POS;"Staff were very friendly and helpful.";Staff;very,friendly,helpful;helpful;staff;6,00
 359719;183069;Anonymous;17/03/2014 7:44:11;POS;"Staff were very friendly and helpful.";Staff;very,friendly,helpful;Staff;staff;6,00
-359726;8540;?????µ?;17/03/2014 11:09:47;POS;"Perfect location  Perfect beach";beach;Perfect;beach;location;4,00
-359726;8540;?????µ?;17/03/2014 11:09:47;POS;"Perfect location  Perfect beach";location;Perfect;location;location;4,00
+359726;8540;?????¬µ?;17/03/2014 11:09:47;POS;"Perfect location  Perfect beach";beach;Perfect;beach;location;4,00
+359726;8540;?????¬µ?;17/03/2014 11:09:47;POS;"Perfect location  Perfect beach";location;Perfect;location;location;4,00
 359729;180527;Anonymous;18/03/2014 3:29:45;NEG;"carpets a little worn & dirtly but all else seemed good.";carpets,dirtly;a little,worn;carpets;room;-3,50
 359729;180527;Anonymous;18/03/2014 3:29:45;NEG;"carpets a little worn & dirtly but all else seemed good.";carpets,dirtly;a little,worn;worn;condition;-3,50
 359729;180527;Anonymous;18/03/2014 3:29:45;POS;"hotel staff was awesome!! wifi was down so very frustrating for all but staff was very understanding & helpful";wifi,staff;awesome;awesome;quality;4,00
@@ -23530,7 +23530,7 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 359788;16211;Anonymous;18/03/2014 11:23:32;POS;"Good breakfast";breakfast;Good;breakfast;food and drinks;2,00
 359790;121364;Artzlina;18/03/2014 11:34:01;NEG;"#NAME?";bathtub;No;bathtub;bathroom;-1,00
 359790;121364;Artzlina;18/03/2014 11:34:01;NEG;"#NAME?";hotel;Very,old;old;location;-2,00
-359790;121364;Artzlina;18/03/2014 11:34:01;NEG;"Didnt get the full 180∞ view.";180∫,view;not;view;location;-1,00
+359790;121364;Artzlina;18/03/2014 11:34:01;NEG;"Didnt get the full 180¬∞ view.";180¬∫,view;not;view;location;-1,00
 359790;121364;Artzlina;18/03/2014 11:34:01;POS;"#NAME?";Gd,breakfast,display;Attentive;Attentive;staff;3,00
 359790;121364;Artzlina;18/03/2014 11:34:01;POS;"#NAME?";pool;Big;Big;size;1,00
 359790;121364;Artzlina;18/03/2014 11:34:01;POS;"#NAME?";room;Big;Big;size;1,00
@@ -23764,8 +23764,8 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 360149;156009;Allan;24/03/2014 4:02:03;POS;"Staffs are very helpful n friendly.";Staffs,n;friendly;Staffs;staff;2,00
 360149;156009;Allan;24/03/2014 4:02:03;POS;"Staffs are very helpful n friendly.";Staffs,n;very,helpful;Staffs;staff;4,00
 360166;191033;Anonymous;24/03/2014 9:39:05;NEG;"Many facilities cannot be offered due to the shortage of everything in Cuba.";facilities,shortage,everything;not;facilities;features;1,00
-360166;191033;Anonymous;24/03/2014 9:39:05;NEG;"Wifi is a utopia (everywhere in  Cuba), the internet cafÈ is not finished etc.";Cuba,),internet,cafÈ,etc;not;cafÈ;food and drinks;-1,00
-360166;191033;Anonymous;24/03/2014 9:39:05;NEG;"Wifi is a utopia (everywhere in  Cuba), the internet cafÈ is not finished etc.";Cuba,),internet,cafÈ,etc;not;internet;features;-1,00
+360166;191033;Anonymous;24/03/2014 9:39:05;NEG;"Wifi is a utopia (everywhere in  Cuba), the internet caf√© is not finished etc.";Cuba,),internet,caf√©,etc;not;caf√©;food and drinks;-1,00
+360166;191033;Anonymous;24/03/2014 9:39:05;NEG;"Wifi is a utopia (everywhere in  Cuba), the internet caf√© is not finished etc.";Cuba,),internet,caf√©,etc;not;internet;features;-1,00
 360177;49724;Anonymous;24/03/2014 10:28:16;POS;"Satisfying breakfast  Excellent hotel location";breakfast;Satisfying;breakfast;food and drinks;3,00
 360177;49724;Anonymous;24/03/2014 10:28:16;POS;"Satisfying breakfast  Excellent hotel location";hotel,location;Excellent;Excellent;quality;3,00
 360177;49724;Anonymous;24/03/2014 10:28:16;POS;"Satisfying breakfast  Excellent hotel location";hotel,location;Excellent;location;location;3,00
@@ -24597,11 +24597,11 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 361566;41106;Anonymous;13/04/2014 11:09:18;POS;"Amazing room.";room;Amazing;room;room;4,00
 361566;41106;Anonymous;13/04/2014 11:09:18;POS;"Bed was very comfortable.";Bed;very,comfortable;Bed;room;4,00
 361566;41106;Anonymous;13/04/2014 11:09:18;POS;"Bed was very comfortable.";Bed;very,comfortable;comfortable;comfort;4,00
-361566;41106;Anonymous;13/04/2014 11:09:18;POS;"Got the room for myself, for £60 a night, was an amazing value for what the room was, felt like the room was at least worth full normal price.";value;amazing;amazing;quality;4,00
-361566;41106;Anonymous;13/04/2014 11:09:18;POS;"Got the room for myself, for £60 a night, was an amazing value for what the room was, felt like the room was at least worth full normal price.";room,price;worth,normal;price;pricing;1,50
-361566;41106;Anonymous;13/04/2014 11:09:18;POS;"Got the room for myself, for £60 a night, was an amazing value for what the room was, felt like the room was at least worth full normal price.";room,price;worth,normal;room;room;1,50
-361566;41106;Anonymous;13/04/2014 11:09:18;POS;"Got the room for myself, for £60 a night, was an amazing value for what the room was, felt like the room was at least worth full normal price.";value;amazing;value;pricing;4,00
-361566;41106;Anonymous;13/04/2014 11:09:18;POS;"Got the room for myself, for £60 a night, was an amazing value for what the room was, felt like the room was at least worth full normal price.";room,price;worth,normal;worth;pricing;1,50
+361566;41106;Anonymous;13/04/2014 11:09:18;POS;"Got the room for myself, for ¬£60 a night, was an amazing value for what the room was, felt like the room was at least worth full normal price.";value;amazing;amazing;quality;4,00
+361566;41106;Anonymous;13/04/2014 11:09:18;POS;"Got the room for myself, for ¬£60 a night, was an amazing value for what the room was, felt like the room was at least worth full normal price.";room,price;worth,normal;price;pricing;1,50
+361566;41106;Anonymous;13/04/2014 11:09:18;POS;"Got the room for myself, for ¬£60 a night, was an amazing value for what the room was, felt like the room was at least worth full normal price.";room,price;worth,normal;room;room;1,50
+361566;41106;Anonymous;13/04/2014 11:09:18;POS;"Got the room for myself, for ¬£60 a night, was an amazing value for what the room was, felt like the room was at least worth full normal price.";value;amazing;value;pricing;4,00
+361566;41106;Anonymous;13/04/2014 11:09:18;POS;"Got the room for myself, for ¬£60 a night, was an amazing value for what the room was, felt like the room was at least worth full normal price.";room,price;worth,normal;worth;pricing;1,50
 361566;41106;Anonymous;13/04/2014 11:09:18;POS;"Helpful.";;Helpful;Helpful;staff;2,00
 361566;41106;Anonymous;13/04/2014 11:09:18;POS;"Very fast (around 10mins), convenient, free bus to Disney Land.";bus;free;free;features;1,00
 361566;41106;Anonymous;13/04/2014 11:09:18;POS;"Very professional staff.";staff;Very,professional;professional;staff;4,00
@@ -25303,9 +25303,9 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 362943;198931;Anonymous;23/04/2014 6:24:52;NEG;"Cooker didnt work in the apartment.";Cooker,apartment;did,not,work,in;work;condition;-1,00
 362943;198931;Anonymous;23/04/2014 6:24:52;NEG;"Outside sitting space by the apartment was in a car park, too close to vehicles.";car park;too,close;car park;hotel;1,80
 362943;198931;Anonymous;23/04/2014 6:24:52;NEG;"Outside sitting space by the apartment was in a car park, too close to vehicles.";car park;too,close;close;location;1,80
-362943;198931;Anonymous;23/04/2014 6:24:52;POS;"Evening Meal was excellent in the restaurant and at £9.99 for three courses, great value too.";Evening Meal;excellent;excellent;quality;3,00
-362943;198931;Anonymous;23/04/2014 6:24:52;POS;"Evening Meal was excellent in the restaurant and at £9.99 for three courses, great value too.";value;great;great;quality;4,00
-362943;198931;Anonymous;23/04/2014 6:24:52;POS;"Evening Meal was excellent in the restaurant and at £9.99 for three courses, great value too.";value;great;value;pricing;4,00
+362943;198931;Anonymous;23/04/2014 6:24:52;POS;"Evening Meal was excellent in the restaurant and at ¬£9.99 for three courses, great value too.";Evening Meal;excellent;excellent;quality;3,00
+362943;198931;Anonymous;23/04/2014 6:24:52;POS;"Evening Meal was excellent in the restaurant and at ¬£9.99 for three courses, great value too.";value;great;great;quality;4,00
+362943;198931;Anonymous;23/04/2014 6:24:52;POS;"Evening Meal was excellent in the restaurant and at ¬£9.99 for three courses, great value too.";value;great;value;pricing;4,00
 362946;154547;Anonymous;23/04/2014 6:45:10;POS;"Very spacious room - king sized bed very comfortable sleep.";sleep;very,comfortable;comfortable;comfort;4,00
 362946;154547;Anonymous;23/04/2014 6:45:10;POS;"Very spacious room - king sized bed very comfortable sleep.";room;Very,spacious;room;room;4,00
 362946;154547;Anonymous;23/04/2014 6:45:10;POS;"Very spacious room - king sized bed very comfortable sleep.";room;Very,spacious;spacious;size;4,00
@@ -25352,7 +25352,7 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 363022;124880;Anonymous;24/04/2014 10:49:36;POS;"Staff were great, very friendly and very helpful, could not fault them.";Staff;not;Staff;staff;-1,00
 363022;124880;Anonymous;24/04/2014 10:49:36;POS;"Staff were great, very friendly and very helpful, could not fault them.";Staff;very,friendly;Staff;staff;4,00
 363022;124880;Anonymous;24/04/2014 10:49:36;POS;"Staff were great, very friendly and very helpful, could not fault them.";Staff;very,helpful;Staff;staff;4,00
-363026;67522;Gˆran KjellÈn;24/04/2014 11:04:51;POS;"Mycket trevlig personal, anst‰ndiga rum, wifi ok,";wifi;ok;wifi;features;0,30
+363026;67522;G√∂ran Kjell√©n;24/04/2014 11:04:51;POS;"Mycket trevlig personal, anst√§ndiga rum, wifi ok,";wifi;ok;wifi;features;0,30
 363029;162651;Anonymous;24/04/2014 11:37:34;POS;"Excellent customer service";customer,service;Excellent;Excellent;quality;3,00
 363029;162651;Anonymous;24/04/2014 11:37:34;POS;"Excellent customer service";customer,service;Excellent;service;staff;3,00
 363037;174831;Anonymous;24/04/2014 0:49:48;NEG;"Expensive wifi unless you sit in the lobby.";wifi;Expensive;Expensive;pricing;-2,00
@@ -25817,8 +25817,8 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 363802;811;Nick;01/05/2014 3:27:26;POS;"The single bed was very comfortable.";bed;very,comfortable;comfortable;comfort;4,00
 363802;811;Nick;01/05/2014 3:27:26;POS;"The staff were pleasant and helpful.";staff;pleasant,helpful;helpful;staff;5,00
 363802;811;Nick;01/05/2014 3:27:26;POS;"The staff were pleasant and helpful.";staff;pleasant,helpful;staff;staff;5,00
-363806;115073;Anonymous;01/05/2014 5:09:27;NEG;"£95 a night was pretty expensive without including breakfast.";£95,night,breakfast;pretty,expensive;breakfast;food and drinks;1,00
-363806;115073;Anonymous;01/05/2014 5:09:27;NEG;"£95 a night was pretty expensive without including breakfast.";£95,night,breakfast;pretty,expensive;expensive;pricing;1,00
+363806;115073;Anonymous;01/05/2014 5:09:27;NEG;"¬£95 a night was pretty expensive without including breakfast.";¬£95,night,breakfast;pretty,expensive;breakfast;food and drinks;1,00
+363806;115073;Anonymous;01/05/2014 5:09:27;NEG;"¬£95 a night was pretty expensive without including breakfast.";¬£95,night,breakfast;pretty,expensive;expensive;pricing;1,00
 363806;115073;Anonymous;01/05/2014 5:09:27;POS;"Everything was excellent, room was lovely with big bed and breakfast was lovely too.";bed;big;bed;room;1,00
 363806;115073;Anonymous;01/05/2014 5:09:27;POS;"Everything was excellent, room was lovely with big bed and breakfast was lovely too.";bed;big;big;size;1,00
 363806;115073;Anonymous;01/05/2014 5:09:27;POS;"Everything was excellent, room was lovely with big bed and breakfast was lovely too.";breakfast;lovely;breakfast;food and drinks;3,00
@@ -26088,7 +26088,7 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 364488;196588;TIMI;06/05/2014 4:19:11;NEG;"Room is so small";Room,ENG;so,small;Room;room;-1,25
 364488;196588;TIMI;06/05/2014 4:19:11;NEG;"Room is so small";Room,ENG;so,small;small;size;-1,25
 364516;14542;Anonymous;06/05/2014 6:18:20;POS;"the Food is very good";Food;very,good;Food;food and drinks;4,00
-364522;8820;Kiler;06/05/2014 6:48:45;POS;"Fine rom, svÊrt rolig og sentral beliggenhet.";rom;Fine;Fine;quality;2,00
+364522;8820;Kiler;06/05/2014 6:48:45;POS;"Fine rom, sv√¶rt rolig og sentral beliggenhet.";rom;Fine;Fine;quality;2,00
 364533;88481;KKK;06/05/2014 8:33:02;NEG;"The spare bed was of really bad quality.";bed,quality;really,bad;bed;room;-4,00
 364533;88481;KKK;06/05/2014 8:33:02;NEG;"The spare bed was of really bad quality.";bed,quality;really,bad;quality;quality;-4,00
 364559;7227;Alejandro;06/05/2014 11:02:51;POS;"Good for the people who work on this hotel";hotel;work;work;condition;1,00
@@ -26178,15 +26178,15 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 364748;193141;Anonymous;08/05/2014 5:54:35;POS;"The staff were very helpful and friendly.";staff;very,helpful,friendly;staff;staff;6,00
 364748;193141;Anonymous;08/05/2014 5:54:35;POS;"Tranquil surroundings and well laid out gardens.";gardens;well;gardens;hotel;1,00
 364748;193141;Anonymous;08/05/2014 5:54:35;POS;"very nice setting up on the mountain side.";setting;very,nice;setting;location;4,00
-364753;3728;Nimetˆn;08/05/2014 7:03:28;POS;"Breakfast gave a lot of alternatives...";Breakfast,alternatives;a lot;Breakfast;food and drinks;1,50
-364753;3728;Nimetˆn;08/05/2014 7:03:28;POS;"Karim`s drinks in lobbybar were really great!";Karim,',drinks,lobbybar;really,great;drinks;food and drinks;8,00
-364753;3728;Nimetˆn;08/05/2014 7:03:28;POS;"Karim`s drinks in lobbybar were really great!";Karim,',drinks,lobbybar;really,great;great;quality;8,00
-364753;3728;Nimetˆn;08/05/2014 7:03:28;POS;"Lobby staff was friendly and helpful.";Lobby,staff;friendly,helpful;friendly;staff;4,00
-364753;3728;Nimetˆn;08/05/2014 7:03:28;POS;"Lobby staff was friendly and helpful.";Lobby,staff;friendly,helpful;helpful;staff;4,00
-364753;3728;Nimetˆn;08/05/2014 7:03:28;POS;"Lobby staff was friendly and helpful.";Lobby,staff;friendly,helpful;Lobby;hotel;4,00
-364753;3728;Nimetˆn;08/05/2014 7:03:28;POS;"Lobby staff was friendly and helpful.";Lobby,staff;friendly,helpful;staff;staff;4,00
-364753;3728;Nimetˆn;08/05/2014 7:03:28;POS;"Poolarea large enough and so easy to go and play golf!";Poolarea;enough,so,easy;easy;comfort;9,00
-364753;3728;Nimetˆn;08/05/2014 7:03:28;POS;"Poolarea large enough and so easy to go and play golf!";Poolarea;large;large;size;1,00
+364753;3728;Nimet√∂n;08/05/2014 7:03:28;POS;"Breakfast gave a lot of alternatives...";Breakfast,alternatives;a lot;Breakfast;food and drinks;1,50
+364753;3728;Nimet√∂n;08/05/2014 7:03:28;POS;"Karim`s drinks in lobbybar were really great!";Karim,',drinks,lobbybar;really,great;drinks;food and drinks;8,00
+364753;3728;Nimet√∂n;08/05/2014 7:03:28;POS;"Karim`s drinks in lobbybar were really great!";Karim,',drinks,lobbybar;really,great;great;quality;8,00
+364753;3728;Nimet√∂n;08/05/2014 7:03:28;POS;"Lobby staff was friendly and helpful.";Lobby,staff;friendly,helpful;friendly;staff;4,00
+364753;3728;Nimet√∂n;08/05/2014 7:03:28;POS;"Lobby staff was friendly and helpful.";Lobby,staff;friendly,helpful;helpful;staff;4,00
+364753;3728;Nimet√∂n;08/05/2014 7:03:28;POS;"Lobby staff was friendly and helpful.";Lobby,staff;friendly,helpful;Lobby;hotel;4,00
+364753;3728;Nimet√∂n;08/05/2014 7:03:28;POS;"Lobby staff was friendly and helpful.";Lobby,staff;friendly,helpful;staff;staff;4,00
+364753;3728;Nimet√∂n;08/05/2014 7:03:28;POS;"Poolarea large enough and so easy to go and play golf!";Poolarea;enough,so,easy;easy;comfort;9,00
+364753;3728;Nimet√∂n;08/05/2014 7:03:28;POS;"Poolarea large enough and so easy to go and play golf!";Poolarea;large;large;size;1,00
 364757;763;Anonymous;08/05/2014 8:02:41;NEG;"Noisy neighbours with loud TV but that isn't the fault of the hotel.";neighbours;Noisy;Noisy;noise;-3,00
 364757;763;Anonymous;08/05/2014 8:02:41;NEG;"Noisy neighbours with loud TV but that isn't the fault of the hotel.";TV;loud;TV;features;-2,00
 364757;763;Anonymous;08/05/2014 8:02:41;NEG;"Rooms are OK but not 4 star and beds are quite hard.";Rooms;OK;Rooms;room;0,30
@@ -26239,7 +26239,7 @@ commentId;hotelSequence;userAlias;date;section;text;sentimentTopic;sentimentText
 364818;68522;Job;09/05/2014 6:58:35;NEG;"Ground floor room are not nice as the one upstair, good for 1-2 days of stay or ask to transfer upstair with availability.";Ground,floor,room;not,nice;room;room;-2,00
 364818;68522;Job;09/05/2014 6:58:35;POS;"in this area are old so this is no exception but its well maintained and clean.";exception;well,maintained,clean;clean;condition;4,00
 364818;68522;Job;09/05/2014 6:58:35;POS;"in this area are old so this is no exception but its well maintained and clean.";area;old;old;location;-1,00
-364818;68522;Job;09/05/2014 6:58:35;POS;"Travel 101 donít attract attention, keep your profile low and leave your valuable at home, and donít stay late alone.";Travel,attention;not;attention;staff;-1,00
+364818;68522;Job;09/05/2014 6:58:35;POS;"Travel 101 don‚Äôt attract attention, keep your profile low and leave your valuable at home, and don‚Äôt stay late alone.";Travel,attention;not;attention;staff;-1,00
 364825;133144;Anonymous;09/05/2014 10:21:18;POS;"Amazing pool!";pool;Amazing;Amazing;quality;4,00
 364825;133144;Anonymous;09/05/2014 10:21:18;POS;"Amazing pool!";pool;Amazing;pool;hotel;4,00
 364827;16891;Anonymous;10/05/2014 0:05:38;NEG;"Customer service not great (no reply to email before stay ).";Customer,service;not,great;great;quality;-4,00
