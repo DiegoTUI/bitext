@@ -3,6 +3,7 @@ import json
 import time
 import os.path
 import unittest
+from trace import Trace
 
 class Elasticsearch(object):
 	"A class to handle a connection to Elasticsearch"
@@ -56,6 +57,7 @@ class Elasticsearch(object):
 			del document[type_key]
 			del document[id_key]
 			upserted = self.upsert_document(_index, _type, _id, document)
+			Trace.info("upserted: " + json.dumps(upserted))
 			if (upserted["_id"] == _id):
 				docs_upserted += 1
 		return docs_upserted
