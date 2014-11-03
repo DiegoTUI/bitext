@@ -43,7 +43,7 @@ class _Main(object):
 		# hotels first
 		# self.build_hotels_index()
 		# then comments
-		self.build_comments_index()
+		# self.build_comments_index()
 		# then the rest
 		self.build_bitext_indexes()
 
@@ -92,6 +92,7 @@ class _Main(object):
 			# upsert element
 			bitext_type = bitext_item["section"]
 			del bitext_item["section"]
+            Trace.info("upserting bitext " + str(_id))
 			self.elasticsearch.upsert_document(self.bitext_index, bitext_type, str(_id), bitext_item)
 			# update bitext_unique_posneg index
 			previous_average_score = 0
@@ -137,9 +138,6 @@ class _Main(object):
 				bitext_unique_upsert_doc["averageWebScore"] = comment["_source"]["averageWebScore"]
 			# upsert
 			self.elasticsearch.upsert_document(self.bitext_unique_index, bitext_item["hotelSequence"], bitext_unique_id, bitext_unique_upsert_doc)
-
-
-
 
 ###############################################
 ################ UNIT TESTS ###################
