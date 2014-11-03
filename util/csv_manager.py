@@ -1,6 +1,5 @@
 import csv
 import os.path
-import codecs
 from trace import Trace
 import unittest
 
@@ -20,7 +19,7 @@ class CsvManager(object):
         
         if not os.path.isfile(filename): return None
 
-        with codecs.open(filename, "rU", "utf-8") as csv_file:
+        with open(filename, "rU") as csv_file:
             reader = csv.reader(csv_file, delimiter=delimiter)
             #read keys
             keys = reader.next()
