@@ -137,11 +137,11 @@ class _Main(object):
 			if "found" in comment and comment["found"]:
 				# add found comment averageWebScore to bitext unique item
 				bitext_unique_upsert_doc["averageWebScore"] = comment["_source"]["averageWebScore"]
-                bitext_unique_upsert_doc["scoresDiff"] = bitext_unique_upsert_doc["averageScore"] - bitext_unique_upsert_doc["averageWebScore"]
-                bitext_unique_upsert_doc["scoresAbsDiff"] = math.fabs(bitext_unique_upsert_doc["scoresDiff"])
+                		bitext_unique_upsert_doc["scoresDiff"] = bitext_unique_upsert_doc["averageScore"] - bitext_unique_upsert_doc["averageWebScore"]
+                		bitext_unique_upsert_doc["scoresAbsDiff"] = math.fabs(bitext_unique_upsert_doc["scoresDiff"])
 
 			# upsert
-            self.elasticsearch.upsert_document(self.bitext_unique_index, bitext_item["hotelSequence"], bitext_unique_id, bitext_unique_upsert_doc)
+			self.elasticsearch.upsert_document(self.bitext_unique_index, bitext_item["hotelSequence"], bitext_unique_id, bitext_unique_upsert_doc)
 
 ###############################################
 ################ UNIT TESTS ###################
