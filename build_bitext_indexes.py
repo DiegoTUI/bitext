@@ -4,6 +4,7 @@ from util.csv_manager import CsvManager
 import os.path
 import sys
 import json
+import math
 import unittest
 
 class _Main(object):
@@ -136,6 +137,9 @@ class _Main(object):
 			if "found" in comment and comment["found"]:
 				# add found comment averageWebScore to bitext unique item
 				bitext_unique_upsert_doc["averageWebScore"] = comment["_source"]["averageWebScore"]
+                bitext_unique_upsert_doc["scoresDiff"] = bitext_unique_upsert_doc["averageScore"] - bitext_unique_upsert_doc["averageWebScore"]
+                bitext_unique_upsert_doc["scoresAbsDiff"] = math.fabs(bitext_unique_upsert_doc["scoresDiff"])
+
 			# upsert
 			self.elasticsearch.upsert_document(self.bitext_unique_index, bitext_item["hotelSequence"], bitext_unique_id, bitext_unique_upsert_doc)
 
@@ -171,6 +175,9 @@ class _MainTests(unittest.TestCase):
     	bitext330956 = self.elasticsearch.read_document("test_bitext_unique", "69559", "330956")
     	self.assertTrue(bitext330956["found"])
     	self.assertEquals(bitext330956["_source"]["averageScore"], 2.0)
+        self.assertEquals(bitext330956["_source"]["averageWebScore"], 5)
+        self.assertEquals(bitext330956["_source"]["scoresDiff"], -3.0)
+        self.assertEquals(bitext330956["_source"]["scoresAbsDiff"], 3.0)
 
     def tearDown(self):
     	# delete indexes
