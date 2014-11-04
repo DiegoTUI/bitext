@@ -141,7 +141,7 @@ class _Main(object):
                 bitext_unique_upsert_doc["scoresAbsDiff"] = math.fabs(bitext_unique_upsert_doc["scoresDiff"])
 
 			# upsert
-			self.elasticsearch.upsert_document(self.bitext_unique_index, bitext_item["hotelSequence"], bitext_unique_id, bitext_unique_upsert_doc)
+            self.elasticsearch.upsert_document(self.bitext_unique_index, bitext_item["hotelSequence"], bitext_unique_id, bitext_unique_upsert_doc)
 
 ###############################################
 ################ UNIT TESTS ###################
