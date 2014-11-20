@@ -51,32 +51,37 @@ class _Main(object):
 
         # go through them and feed elasticsearch
         for package in packages:
-            # grab npmjs registry information
             package_name = package["id"]
             Trace.info("processing package: " + package_name)
-            npm_registry_info = json.loads(requests.get("http://registry.npmjs.org/" + package_name).text) 
-            # grab npm-stat_info
-            today = date.today()
-            month_ago = today - timedelta(30)
-            npm_stat_info = json.loads(requests.get("http://npm-stat.com/downloads/range/" + date.strftime(month_ago, "%Y-%m-%d") + ":" + date.strftime(today, "%Y-%m-%d") + "/" + package_name).text)
-            # build the doc and feed elasticsearch
-            # _type first. _type will be the repo of the package. "no_repo" in case there is no repo.
-            _type = "no_repo"
-            if ("repository" in npm_registry_info and "type" in npm_registry_info["repository"]):
-                _type = npm_registry_info["repository"]["type"]
-            # init document with versions
-            document = {
-                "versions": 0
-            }
-            if "versions" in npm_registry_info:
-                document["versions"] = len(npm_registry_info["versions"].keys())
-            # calculate downloads
-            downloads = [0]
-            if "downloads" in npm_stat_info and len(npm_stat_info["downloads"]) > 0:
-                downloads = [item["downloads"] for item in npm_stat_info["downloads"]]
-            document["average_downloads"] = reduce(lambda x, y: x + y, downloads) / len(downloads)
-            # insert document
-            self.elasticsearch.upsert_document(self._index, _type, package_name, document)
+            self.process_package(package_name)
+            
+
+    def process_package(self, package_name):
+        # grab npmjs registry information
+        npm_registry_info = json.loads(requests.get("http://registry.npmjs.org/" + package_name).text) 
+        # grab npm-stat_info
+        today = date.today()
+        month_ago = today - timedelta(30)
+        npm_stat_info = json.loads(requests.get("http://npm-stat.com/downloads/range/" + date.strftime(month_ago, "%Y-%m-%d") + ":" + date.strftime(today, "%Y-%m-%d") + "/" + package_name).text)
+        # build the doc and feed elasticsearch
+        # _type first. _type will be the repo of the package. "no_repo" in case there is no repo.
+        _type = "no_repo"
+        if ("repository" in npm_registry_info and "type" in npm_registry_info["repository"]):
+            _type = npm_registry_info["repository"]["type"]
+        # init document with versions
+        document = {
+            "versions": 0
+        }
+        if "versions" in npm_registry_info:
+            document["versions"] = len(npm_registry_info["versions"].keys())
+        # calculate downloads
+        downloads = [0]
+        if "downloads" in npm_stat_info and len(npm_stat_info["downloads"]) > 0:
+            downloads = [item["downloads"] for item in npm_stat_info["downloads"]]
+        document["average_downloads"] = reduce(lambda x, y: x + y, downloads) / len(downloads)
+        # insert document
+        self.elasticsearch.upsert_document(self._index, _type, package_name, document)
+
 
 ###############################################
 ################ UNIT TESTS ###################
