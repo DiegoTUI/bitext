@@ -37,11 +37,11 @@ class _Main(object):
         # get all the docs
         Trace.info("grabbing all packages from npm registry...")
         packages = json.loads(requests.get("https://skimdb.npmjs.com/registry/_all_docs").text)["rows"]
-        Trace.info(len(packages) + " total packages grabbed")
+        Trace.info(str(len(packages)) + " total packages grabbed")
         # check if testing
         if test_packages != None and len(test_packages) > 0:
             packages = filter(lambda package: package["id"] in test_packages, packages)
-            Trace.info("Testing. Packages reduced to: " + len(packages))
+            Trace.info("Testing. Packages reduced to: " + str(len(packages)))
 
         # go through them and feed elasticsearch
         for package in packages:
