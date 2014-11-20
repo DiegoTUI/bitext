@@ -91,13 +91,12 @@ class _MainTests(unittest.TestCase):
     def test_script(self):
         global test_packages
         _Main(test = True)
-        # count documents
-        self.assertEquals(len(test_packages), self.elasticsearch.count_documents("test_npm_packages"))
+        # iterate documents
+        self.assertTrue(self.elasticsearch.count_documents("test_npm_packages") >= len(test_packages))
 
     def tearDown(self):
         # delete indexes
-        # self.elasticsearch.remove_index("test_npm_packages")
-        pass
+        self.elasticsearch.remove_index("test_npm_packages")
 
 if __name__ == '__main__':
     #unittest.main()
