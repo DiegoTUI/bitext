@@ -27,6 +27,7 @@ class _Main(object):
             test_packages_file = os.path.join(self.filedir,"./data/test_npm_package_names")
             test_packages = [item["test_package_name"] for item in CsvManager.read(test_packages_file)]
             self._index = "test_npm_packages"
+            Trace.info("test_packages: " + test_packages)
         
         # build npm_packages_index
         self.build_npm_packages_index()
@@ -56,7 +57,7 @@ class _Main(object):
             # build the doc and feed elasticsearch
             # _type first. _type will be the repo of the package. "no_repo" in case there is no repo.
             _type = "no_repo"
-            if ("repository" in npm_registry_info):
+            if ("repository" in npm_registry_info and "type" in npm_registry_info["repository"]):
                 _type = npm_registry_info["repository"]["type"]
             # init document with versions
             document = {
