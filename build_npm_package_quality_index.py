@@ -91,8 +91,11 @@ class _MainTests(unittest.TestCase):
     def test_script(self):
         global test_packages
         _Main(test = True)
-        # iterate documents
+        # count documents
         self.assertTrue(self.elasticsearch.count_documents("test_npm_packages") > 0)
+        # assert express
+        express_package = self.elasticsearch.read_document("test_npm_packages", "_all", "express")
+        self.assertTrue(express_package["found"])
 
     def tearDown(self):
         # delete indexes
