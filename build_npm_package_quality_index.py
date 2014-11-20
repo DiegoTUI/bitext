@@ -39,7 +39,7 @@ class _Main(object):
         Trace.info(len(packages) + " total packages grabbed")
         # check if testing
         if test_packages != None and len(test_packages) > 0:
-            packages = filter(lamda package: package["id"] in test_packages, packages)
+            packages = filter(lambda package: package["id"] in test_packages, packages)
             Trace.info("Testing. Packages reduced to: " + len(packages))
 
         # go through them and feed elasticsearch
