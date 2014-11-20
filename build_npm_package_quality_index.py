@@ -97,6 +97,7 @@ class _MainTests(unittest.TestCase):
     def tearDown(self):
         # delete indexes
         # self.elasticsearch.remove_index("test_npm_packages")
+        pass
 
 if __name__ == '__main__':
     #unittest.main()
