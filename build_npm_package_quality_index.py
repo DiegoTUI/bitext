@@ -7,6 +7,7 @@ import requests
 import json
 import sys
 import unittest
+import os
 
 test_packages = None
 
