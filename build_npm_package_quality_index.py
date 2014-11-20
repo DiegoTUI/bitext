@@ -57,6 +57,7 @@ class _Main(object):
             
 
     def process_package(self, package_name):
+        _id = package_name.replace("/","_")
         # grab npmjs registry information
         npm_registry_info = json.loads(requests.get("http://registry.npmjs.org/" + package_name).text) 
         # grab npm-stat_info
@@ -80,7 +81,7 @@ class _Main(object):
             downloads = [item["downloads"] for item in npm_stat_info["downloads"]]
         document["average_downloads"] = reduce(lambda x, y: x + y, downloads) / len(downloads)
         # insert document
-        self.elasticsearch.upsert_document(self._index, _type, package_name, document)
+        self.elasticsearch.upsert_document(self._index, _type, _id, document)
 
 
 ###############################################
