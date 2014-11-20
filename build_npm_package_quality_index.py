@@ -40,6 +40,9 @@ class _Main(object):
         packages = json.loads(requests.get("https://skimdb.npmjs.com/registry/_all_docs").text)["rows"]
         Trace.info(str(len(packages)) + " total packages grabbed")
         # check if testing
+        Trace.info("test_packages: " + json.dumps(test_packages))
+        Trace.info("test_packages is None: " + str(test_packages != None))
+        Trace.info("test_packages length: " + str(len(test_packages) > 0))
         if test_packages != None and len(test_packages) > 0:
             packages = filter(lambda package: package["id"] in test_packages, packages)
             Trace.info("Testing. Packages reduced to: " + str(len(packages)))
@@ -61,8 +64,10 @@ class _Main(object):
                 _type = npm_registry_info["repository"]["type"]
             # init document with versions
             document = {
-                "versions": len(npm_registry_info["versions"].keys())
+                "versions": 0
             }
+            if "versions" in npm_registry_info:
+                document["versions"] = len(npm_registry_info["versions"].keys())
             # calculate downloads
             downloads = [item["downloads"] for item in npm_stat_info["downloads"]]
             document["average_downloads"] = reduce(lambda x, y: x + y, downloads) / len(downloads)
