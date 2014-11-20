@@ -27,7 +27,7 @@ class _Main(object):
             test_packages_file = os.path.join(self.filedir,"./data/test_npm_package_names")
             test_packages = [item["test_package_name"] for item in CsvManager.read(test_packages_file)]
             self._index = "test_npm_packages"
-            Trace.info("test_packages: " + json.dump(test_packages))
+            Trace.info("test_packages: " + json.dumps(test_packages))
         
         # build npm_packages_index
         self.build_npm_packages_index()
