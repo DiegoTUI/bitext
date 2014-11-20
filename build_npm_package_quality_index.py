@@ -45,9 +45,6 @@ class _Main(object):
         packages = json.loads(requests.get("https://skimdb.npmjs.com/registry/_all_docs").text)["rows"]
         Trace.info(str(len(packages)) + " total packages grabbed")
         # check if testing
-        Trace.info("test_packages: " + json.dumps(test_packages))
-        Trace.info("test_packages is None: " + str(test_packages != None))
-        Trace.info("test_packages length: " + str(len(test_packages) > 0))
         if test_packages != None and len(test_packages) > 0:
             packages = filter(lambda package: package["id"] in test_packages, packages)
             Trace.info("Testing. Packages reduced to: " + str(len(packages)))
@@ -95,7 +92,6 @@ class _MainTests(unittest.TestCase):
         self.assertTrue(self.elasticsearch.count_documents("test_npm_packages") > 0)
         # assert express
         express_package = self.elasticsearch.read_document("test_npm_packages", "_all", "express")
-        print express_package
         self.assertTrue(express_package["found"])
 
     def tearDown(self):
