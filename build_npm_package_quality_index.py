@@ -21,6 +21,8 @@ class _Main(object):
     def __init__(self, test=False):
         "Inits the script"
 
+        global test_packages
+
         Trace.info("Starting" + (" ", " test")[test] +" script...")
         # change paths and indexes in case of test
         if test:
@@ -35,6 +37,9 @@ class _Main(object):
         Trace.info(("S", "Test s")[test] + "cript finished.")
 
     def build_npm_packages_index(self):
+
+        global test_packages
+
         # get all the docs
         Trace.info("grabbing all packages from npm registry...")
         packages = json.loads(requests.get("https://skimdb.npmjs.com/registry/_all_docs").text)["rows"]
@@ -84,6 +89,7 @@ class _MainTests(unittest.TestCase):
 
     @unittest.skipIf(not(elasticsearch.is_up()), "irrelevant test if there is no elasticsearch instance")
     def test_script(self):
+        global test_packages
         _Main(test = True)
         # count documents
         self.assertEquals(len(test_packages), self.elasticsearch.count_documents("test_npm_packages"))
