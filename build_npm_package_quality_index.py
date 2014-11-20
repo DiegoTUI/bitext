@@ -92,7 +92,7 @@ class _MainTests(unittest.TestCase):
         global test_packages
         _Main(test = True)
         # iterate documents
-        self.assertTrue(self.elasticsearch.count_documents("test_npm_packages") >= (len(test_packages) - 1))
+        self.assertTrue(self.elasticsearch.count_documents("test_npm_packages") > 0)
 
     def tearDown(self):
         # delete indexes
