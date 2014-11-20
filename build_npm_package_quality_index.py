@@ -36,7 +36,7 @@ class _Main(object):
     def build_npm_packages_index(self):
         # get all the docs
         Trace.info("grabbing all packages from npm registry...")
-        packages = json.loads(requests.get("https://skimdb.npmjs.com/registry/_all_docs"))["rows"]
+        packages = json.loads(requests.get("https://skimdb.npmjs.com/registry/_all_docs").text)["rows"]
         Trace.info(len(packages) + " total packages grabbed")
         # check if testing
         if test_packages != None and len(test_packages) > 0:
