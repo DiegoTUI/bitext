@@ -51,7 +51,7 @@ class _Main(object):
             # grab npm-stat_info
             today = date.today()
             month_ago = timedelta(30)
-            npm_stat_info = json.loads(request.get("http://npm-stat.com/downloads/range/" + date.strftime(month_ago, "%Y-%m-%d") + ":" + date.strftime(today, "%Y-%m-%d") + "/" + package_name).text)
+            npm_stat_info = json.loads(requests.get("http://npm-stat.com/downloads/range/" + date.strftime(month_ago, "%Y-%m-%d") + ":" + date.strftime(today, "%Y-%m-%d") + "/" + package_name).text)
             # build the doc and feed elasticsearch
             # _type first. _type will be the repo of the package. "no_repo" in case there is no repo.
             _type = "no_repo"
