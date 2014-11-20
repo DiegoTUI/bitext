@@ -47,6 +47,7 @@ class _Main(object):
         for package in packages:
             # grab npmjs registry information
             package_name = package["id"]
+            Trace.info("processing package: " package_name)
             npm_registry_info = json.loads(requests.get("http://registry.npmjs.org/" + package_name).text) 
             # grab npm-stat_info
             today = date.today()
