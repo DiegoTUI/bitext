@@ -24,7 +24,7 @@ class _Main(object):
         Trace.info("Starting" + (" ", " test")[test] +" script...")
         # change paths and indexes in case of test
         if test:
-            self.test_packages_file = os.path.join(self.filedir,"./data/test_npm_package_names")
+            test_packages_file = os.path.join(self.filedir,"./data/test_npm_package_names")
             test_packages = [item["test_package_name"] for item in CsvManager.read(test_packages_file)]
             self._index = "test_npm_packages"
         
