@@ -71,7 +71,9 @@ class _Main(object):
             if "versions" in npm_registry_info:
                 document["versions"] = len(npm_registry_info["versions"].keys())
             # calculate downloads
-            downloads = [item["downloads"] for item in npm_stat_info["downloads"]]
+            downloads = [0]
+            if "downloads" in npm_stat_info and len(npm_stat_info["downloads"]) > 0:
+                downloads = [item["downloads"] for item in npm_stat_info["downloads"]]
             document["average_downloads"] = reduce(lambda x, y: x + y, downloads) / len(downloads)
             # insert document
             self.elasticsearch.upsert_document(self._index, _type, package_name, document)
