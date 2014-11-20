@@ -65,7 +65,7 @@ class _Main(object):
             downloads = [item["downloads"] for item in npm_stat_info["downloads"]]
             document["average_downloads"] = reduce(lambda x, y: x + y, downloads) / len(downloads)
             # insert document
-            elasticsearch.upsert_document(_index, _type, package_name, document)
+            self.elasticsearch.upsert_document(_index, _type, package_name, document)
 
 ###############################################
 ################ UNIT TESTS ###################
