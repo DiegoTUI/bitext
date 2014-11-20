@@ -95,6 +95,7 @@ class _MainTests(unittest.TestCase):
         self.assertTrue(self.elasticsearch.count_documents("test_npm_packages") > 0)
         # assert express
         express_package = self.elasticsearch.read_document("test_npm_packages", "_all", "express")
+        print express_package
         self.assertTrue(express_package["found"])
 
     def tearDown(self):
