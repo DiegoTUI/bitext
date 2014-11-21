@@ -59,7 +59,11 @@ class _Main(object):
         for package in packages:
             package_name = package["id"]
             Trace.info("processing package: " + package_name)
-            self.process_package(package_name)
+            try:
+                self.process_package(package_name)
+            except:
+                print ("Error processing package: " + package_name + ": " + sys.exc_info()[0])
+                continue
             
 
     def process_package(self, package_name):
