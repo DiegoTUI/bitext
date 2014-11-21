@@ -43,21 +43,22 @@ class _Main(object):
     def build_npm_packages_index(self):
 
         global test_packages
-
-        # get all the docs
-        Trace.info("grabbing all packages from npm registry...")
-        packages = json.loads(requests.get("https://skimdb.npmjs.com/registry/_all_docs").text)["rows"]
-        Trace.info(str(len(packages)) + " total packages grabbed")
+        package_names = []
         # check if testing
         if test_packages != None and len(test_packages) > 0:
-            packages = filter(lambda package: package["id"] in test_packages, packages)
+            package_names = test_packages
             Trace.info("Testing. Packages reduced to: " + str(len(packages)))
+        else: #not testing
+            # get all the docs
+            Trace.info("grabbing all packages from npm registry...")
+            packages = json.loads(requests.get("https://skimdb.npmjs.com/registry/_all_docs").text)["rows"]
+            package_names = [item["id"] for item in packages]
+            Trace.info(str(len(package_names)) + " total packages grabbed")
         # apply offset
-        packages = packages[self._offset:]
-        Trace.info("Offset. Packages reduced to: " + str(len(packages)))
+        package_names = package_names[self._offset:]
+        Trace.info("Offset. Packages reduced to: " + str(len(package_names)))
         # go through them and feed elasticsearch
-        for package in packages:
-            package_name = package["id"]
+        for package_name in package_names:
             Trace.info("processing package: " + package_name)
             try:
                 self.process_package(package_name)
@@ -70,10 +71,12 @@ class _Main(object):
         _id = package_name.replace("/","_")
         # grab npmjs registry information
         npm_registry_info = json.loads(requests.get("http://registry.npmjs.org/" + package_name).text) 
+        Trace.info("npm_registry_info processed ok")
         # grab npm-stat_info
         today = date.today()
         month_ago = today - timedelta(30)
         npm_stat_info = json.loads(requests.get("http://npm-stat.com/downloads/range/" + date.strftime(month_ago, "%Y-%m-%d") + ":" + date.strftime(today, "%Y-%m-%d") + "/" + package_name).text)
+        Trace.info("npm_stat_info processed ok")
         # build the doc and feed elasticsearch
         # _type first. _type will be the repo of the package. "no_repo" in case there is no repo.
         _type = "no_repo"
