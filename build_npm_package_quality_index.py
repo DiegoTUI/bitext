@@ -81,7 +81,7 @@ class _Main(object):
         # _type first. _type will be the repo of the package. "no_repo" in case there is no repo.
         _type = "no_repo"
         if ("repository" in npm_registry_info and "type" in npm_registry_info["repository"]):
-            _type = npm_registry_info["repository"]["type"]
+            _type = npm_registry_info["repository"]["type"].replace("/","_")
         # init document with versions
         document = {
             "versions": 0
