@@ -15,10 +15,11 @@ class _Main(object):
     "Builds the npm_packages index"
 
     _index = "npm_packages"
+    _offset = 0
     filedir = os.path.dirname(os.path.realpath(__file__))
     elasticsearch = Elasticsearch("localhost", 9200)
 
-    def __init__(self, test=False):
+    def __init__(self, test=False, offset = 0):
         "Inits the script"
 
         global test_packages
@@ -34,6 +35,9 @@ class _Main(object):
         # build npm_packages_index
         self.build_npm_packages_index()
 
+        # set offset
+        self._offset = offset
+
         Trace.info(("S", "Test s")[test] + "cript finished.")
 
     def build_npm_packages_index(self):
@@ -48,7 +52,9 @@ class _Main(object):
         if test_packages != None and len(test_packages) > 0:
             packages = filter(lambda package: package["id"] in test_packages, packages)
             Trace.info("Testing. Packages reduced to: " + str(len(packages)))
-
+        # apply offset
+        packages = packages[self._offset:]
+        Trace.info("Offset. Packages reduced to: " + str(len(packages)))
         # go through them and feed elasticsearch
         for package in packages:
             package_name = package["id"]
@@ -111,6 +117,9 @@ if __name__ == '__main__':
     if len(sys.argv)>1 and sys.argv[1] == "test":
         Trace.info("test")
         unittest.main(argv=sys.argv[:1], exit=True)
+    else if len(sys.argv)>1 and isinstance(sys.argv[1], int): 
+        Trace.info("main with offset: " + str(sys.argv[1]))
+        _Main(offset = sys.argv[1])
     else:
         Trace.info("main")
         _Main()
