@@ -114,13 +114,14 @@ class _MainTests(unittest.TestCase):
 
 if __name__ == '__main__':
     #unittest.main()
-    if len(sys.argv)>1 and sys.argv[1] == "test":
+    if len(sys.argv) > 1 and sys.argv[1] == "test":
         Trace.info("test")
         unittest.main(argv=sys.argv[:1], exit=True)
     else: 
-        if len(sys.argv)>1 and isinstance(sys.argv[1], int): 
-            Trace.info("main with offset: " + str(sys.argv[1]))
-            _Main(offset = sys.argv[1])
-        else:
+        try:
+            offset = int(sys.argv[1])
+            Trace.info("main with offset: " + str(offset))
+            _Main(offset = offset)
+        except:
             Trace.info("main")
             _Main()
