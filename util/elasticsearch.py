@@ -44,7 +44,7 @@ class Elasticsearch(object):
             "doc_as_upsert":True
         }
         text = requests.post(self.url + "/" + _index + "/" + _type + "/" + _id + "/_update", data=json.dumps(query)).text
-        Trace.info("text: " + text)
+		Trace.info("text: " + text)
 		return json.loads(text)
 
 	def upsert_bulk(self, _index, type_key, id_key, bulk):
