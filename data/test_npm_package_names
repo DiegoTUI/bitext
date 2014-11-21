@@ -1,5 +1,6 @@
 test_package_name
 browserid-service-verify
+calterm
 async
 _design/app
 express
