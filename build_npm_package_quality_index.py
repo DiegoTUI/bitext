@@ -62,7 +62,7 @@ class _Main(object):
             try:
                 self.process_package(package_name)
             except:
-                print ("Error processing package: " + package_name + ": " + sys.exc_info()[0])
+                print ("Error processing package: " + package_name + ": " + str(sys.exc_info()[0]))
                 continue
             
 
