@@ -1,4 +1,5 @@
 test_package_name
+browserid-service-verify
 async
 _design/app
 express
