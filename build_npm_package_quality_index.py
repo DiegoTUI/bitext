@@ -121,11 +121,14 @@ if __name__ == '__main__':
     if len(sys.argv) > 1 and sys.argv[1] == "test":
         Trace.info("test")
         unittest.main(argv=sys.argv[:1], exit=True)
-    else: 
-        try:
-            offset = int(sys.argv[1])
-            Trace.info("main with offset: " + str(offset))
-            _Main(offset = offset)
-        except:
+    else:
+        if len(sys.argv) > 1:    
+            try:
+                offset = int(sys.argv[1])
+                Trace.info("main with offset: " + str(offset))
+                _Main(offset = offset)
+            except:
+                pass
+        else:
             Trace.info("main")
             _Main()
