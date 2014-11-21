@@ -43,7 +43,9 @@ class Elasticsearch(object):
             "doc":document,
             "doc_as_upsert":True
         }
-		return json.loads(requests.post(self.url + "/" + _index + "/" + _type + "/" + _id + "/_update", data=json.dumps(query)).text)
+        text = requests.post(self.url + "/" + _index + "/" + _type + "/" + _id + "/_update", data=json.dumps(query)).text
+        Trace.info("text: " + text)
+		return json.loads(text)
 
 	def upsert_bulk(self, _index, type_key, id_key, bulk):
 		"Updates a bulk of documents in the same index."
