@@ -47,7 +47,7 @@ class _Main(object):
         # check if testing
         if test_packages != None and len(test_packages) > 0:
             package_names = test_packages
-            Trace.info("Testing. Packages reduced to: " + str(len(packages)))
+            Trace.info("Testing. Packages reduced to: " + str(len(package_names)))
         else: #not testing
             # get all the docs
             Trace.info("grabbing all packages from npm registry...")
